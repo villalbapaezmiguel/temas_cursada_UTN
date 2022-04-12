@@ -1,0 +1,11 @@
+19:01:20 **** Incremental Build of configuration Debug for project Tema3(Funciones) 3-2 ****
+make all 
+Building target: Tema3(Funciones) 3-2
+Invoking: GCC C Linker
+gcc  -o "Tema3(Funciones) 3-2"  ./src/Tema3(Funciones)\ 3-2.o   
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:46: Tema3(Funciones) 3-2] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+19:01:21 Build Failed. 1 errors, 0 warnings. (took 514ms)
+

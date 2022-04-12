@@ -1,0 +1,15 @@
+/*
+ * Funciones.c
+ *
+ *  Created on: 5 abr. 2022
+ *      Author: miguel
+ */
+#include "Funciones.h"
+
+/*si es par devuelve 1 de lo contrario retorna -1*/
+int esPar(int numero )
+{
+	int estado = -1;
+
+	return estado ;
+}

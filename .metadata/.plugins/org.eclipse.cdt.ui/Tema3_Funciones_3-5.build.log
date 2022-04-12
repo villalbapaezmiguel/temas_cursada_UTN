@@ -1,0 +1,15 @@
+19:41:51 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+Building file: ../src/Tema3_Funciones_3-5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema3_Funciones_3-5.d" -MT"src/Tema3_Funciones_3-5.o" -o "src/Tema3_Funciones_3-5.o" "../src/Tema3_Funciones_3-5.c"
+Finished building: ../src/Tema3_Funciones_3-5.c
+ 
+Building target: Tema3_Funciones_3-5
+Invoking: GCC C Linker
+gcc  -o "Tema3_Funciones_3-5"  ./src/Menu.o ./src/Tema3_Funciones_3-5.o   
+Finished building target: Tema3_Funciones_3-5
+ 
+
+19:41:52 Build Finished. 0 errors, 0 warnings. (took 564ms)
+

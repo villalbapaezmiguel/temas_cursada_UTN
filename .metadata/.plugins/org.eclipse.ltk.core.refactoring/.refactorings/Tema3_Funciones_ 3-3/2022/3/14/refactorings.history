@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Tema3_Funciones_ 3-3/src/Tema3 3-2.c&apos; to &apos;Tema3_Funciones_ 3-3.c&apos;" description="Rename resource &apos;Tema3 3-2.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Tema3 3-2.c" name="Tema3_Funciones_ 3-3.c" stamp="1648591722965" updateReferences="true"/>
+</session>

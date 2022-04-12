@@ -1,0 +1,684 @@
+18:50:18 **** Clean-only build of configuration Debug for project Tema4_Biblioteca-Recursividad ****
+make clean 
+rm -rf  ./src/Tema4_Biblioteca-Recursividad.o  ./src/Tema4_Biblioteca-Recursividad.d  Tema4_Biblioteca-Recursividad
+ 
+18:51:06 **** Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+18:51:11 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+make: No se hace nada para 'all'.
+18:59:37 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+18:59:37 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:16:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   16 |   printf("\n1 . suma ");
+      |   ^~~~~~
+../src/Menu.c:16:3: warning: incompatible implicit declaration of built-in function ‘printf’
+../src/Menu.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | /*
+../src/Menu.c:22:3: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   22 |   scanf("%d", &opcion);
+      |   ^~~~~
+../src/Menu.c:22:3: warning: incompatible implicit declaration of built-in function ‘scanf’
+../src/Menu.c:22:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Tema3_Funciones_3-5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema3_Funciones_3-5.d" -MT"src/Tema3_Funciones_3-5.o" -o "src/Tema3_Funciones_3-5.o" "../src/Tema3_Funciones_3-5.c"
+Finished building: ../src/Tema3_Funciones_3-5.c
+ 
+Building target: Tema3_Funciones_3-5
+Invoking: GCC C Linker
+gcc  -o "Tema3_Funciones_3-5"  ./src/Menu.o ./src/Tema3_Funciones_3-5.o   
+Finished building target: Tema3_Funciones_3-5
+ 
+19:01:52 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+make: No se hace nada para 'all'.
+19:01:53 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+make: No se hace nada para 'all'.
+19:04:49 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+make: No se hace nada para 'all'.
+19:04:49 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:16:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   16 |   printf("\n1 . suma ");
+      |   ^~~~~~
+../src/Menu.c:16:3: warning: incompatible implicit declaration of built-in function ‘printf’
+../src/Menu.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | /*
+../src/Menu.c:22:3: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   22 |   scanf("%d", &opcion);
+      |   ^~~~~
+../src/Menu.c:22:3: warning: incompatible implicit declaration of built-in function ‘scanf’
+../src/Menu.c:22:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+Finished building: ../src/Menu.c
+ 
+Building target: Tema3_Funciones_3-5
+Invoking: GCC C Linker
+gcc  -o "Tema3_Funciones_3-5"  ./src/Menu.o ./src/Tema3_Funciones_3-5.o   
+Finished building target: Tema3_Funciones_3-5
+ 
+19:07:16 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+Building file: ../src/Tema3_Funciones_3-5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema3_Funciones_3-5.d" -MT"src/Tema3_Funciones_3-5.o" -o "src/Tema3_Funciones_3-5.o" "../src/Tema3_Funciones_3-5.c"
+Finished building: ../src/Tema3_Funciones_3-5.c
+ 
+Building target: Tema3_Funciones_3-5
+Invoking: GCC C Linker
+gcc  -o "Tema3_Funciones_3-5"  ./src/Menu.o ./src/Tema3_Funciones_3-5.o   
+Finished building target: Tema3_Funciones_3-5
+ 
+19:07:21 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+make: No se hace nada para 'all'.
+19:07:26 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+make: No se hace nada para 'all'.
+19:07:43 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+make: No se hace nada para 'all'.
+19:07:45 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+make: No se hace nada para 'all'.
+19:41:51 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+Building file: ../src/Tema3_Funciones_3-5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema3_Funciones_3-5.d" -MT"src/Tema3_Funciones_3-5.o" -o "src/Tema3_Funciones_3-5.o" "../src/Tema3_Funciones_3-5.c"
+Finished building: ../src/Tema3_Funciones_3-5.c
+ 
+Building target: Tema3_Funciones_3-5
+Invoking: GCC C Linker
+gcc  -o "Tema3_Funciones_3-5"  ./src/Menu.o ./src/Tema3_Funciones_3-5.o   
+Finished building target: Tema3_Funciones_3-5
+ 
+19:45:29 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-1.d" -MT"src/Tema5_VectoresYFunciones_5-1.o" -o "src/Tema5_VectoresYFunciones_5-1.o" "../src/Tema5_VectoresYFunciones_5-1.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-1.c
+ 
+Building target: Tema5_VectoresYFunciones_5-1
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-1"  ./src/Tema5_VectoresYFunciones_5-1.o   
+Finished building target: Tema5_VectoresYFunciones_5-1
+ 
+19:45:36 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:48:55 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-1.d" -MT"src/Tema5_VectoresYFunciones_5-1.o" -o "src/Tema5_VectoresYFunciones_5-1.o" "../src/Tema5_VectoresYFunciones_5-1.c"
+../src/Tema5_VectoresYFunciones_5-1.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-1.c:30:26: error: ‘i’ undeclared (first use in this function)
+   30 |   printf("\n %d", vector[i]);
+      |                          ^
+../src/Tema5_VectoresYFunciones_5-1.c:30:26: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:20: src/Tema5_VectoresYFunciones_5-1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:49:08 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-1.d" -MT"src/Tema5_VectoresYFunciones_5-1.o" -o "src/Tema5_VectoresYFunciones_5-1.o" "../src/Tema5_VectoresYFunciones_5-1.c"
+../src/Tema5_VectoresYFunciones_5-1.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-1.c:30:27: error: ‘i’ undeclared (first use in this function)
+   30 |   printf("\n %d", &vector[i]);
+      |                           ^
+../src/Tema5_VectoresYFunciones_5-1.c:30:27: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:20: src/Tema5_VectoresYFunciones_5-1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:49:30 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-1.d" -MT"src/Tema5_VectoresYFunciones_5-1.o" -o "src/Tema5_VectoresYFunciones_5-1.o" "../src/Tema5_VectoresYFunciones_5-1.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-1.c
+ 
+Building target: Tema5_VectoresYFunciones_5-1
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-1"  ./src/Tema5_VectoresYFunciones_5-1.o   
+Finished building target: Tema5_VectoresYFunciones_5-1
+ 
+19:49:37 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:49:39 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:51:17 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-1.d" -MT"src/Tema5_VectoresYFunciones_5-1.o" -o "src/Tema5_VectoresYFunciones_5-1.o" "../src/Tema5_VectoresYFunciones_5-1.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-1.c
+ 
+Building target: Tema5_VectoresYFunciones_5-1
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-1"  ./src/Tema5_VectoresYFunciones_5-1.o   
+Finished building target: Tema5_VectoresYFunciones_5-1
+ 
+19:51:21 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:52:17 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-1.d" -MT"src/Tema5_VectoresYFunciones_5-1.o" -o "src/Tema5_VectoresYFunciones_5-1.o" "../src/Tema5_VectoresYFunciones_5-1.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-1.c
+ 
+Building target: Tema5_VectoresYFunciones_5-1
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-1"  ./src/Tema5_VectoresYFunciones_5-1.o   
+Finished building target: Tema5_VectoresYFunciones_5-1
+ 
+19:53:05 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-1.d" -MT"src/Tema5_VectoresYFunciones_5-1.o" -o "src/Tema5_VectoresYFunciones_5-1.o" "../src/Tema5_VectoresYFunciones_5-1.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-1.c
+ 
+Building target: Tema5_VectoresYFunciones_5-1
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-1"  ./src/Tema5_VectoresYFunciones_5-1.o   
+Finished building target: Tema5_VectoresYFunciones_5-1
+ 
+19:55:48 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+19:55:52 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+make: No se hace nada para 'all'.
+20:04:31 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: unused variable ‘listadoNumerosDeLasPosicionesImpares’ [-Wunused-variable]
+   34 |  int listadoNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: unused variable ‘listadoNumerosPares’ [-Wunused-variable]
+   33 |  int listadoNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:32:6: warning: unused variable ‘listadoNumerosIngresado’ [-Wunused-variable]
+   32 |  int listadoNumerosIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:31:6: warning: unused variable ‘mayorImpar’ [-Wunused-variable]
+   31 |  int mayorImpar = 0;
+      |      ^~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:30:6: warning: unused variable ‘sumatoriaPares’ [-Wunused-variable]
+   30 |  int sumatoriaPares = 0;
+      |      ^~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:29:6: warning: unused variable ‘cantidadNegativos’ [-Wunused-variable]
+   29 |  int cantidadNegativos = 0;
+      |      ^~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:28:6: warning: unused variable ‘cantidadPositovs’ [-Wunused-variable]
+   28 |  int cantidadPositovs = 0;
+      |      ^~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+20:04:37 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+make: No se hace nada para 'all'.
+19:13:39 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+../src/Funciones.c: In function ‘esPar_o_Impar’:
+../src/Funciones.c:18:3: warning: statement with no effect [-Wunused-value]
+   18 |   estado 2 ;
+      |   ^~~~~~
+../src/Funciones.c:18:9: error: expected ‘;’ before numeric constant
+   18 |   estado 2 ;
+      |         ^~
+      |         ;
+make: *** [src/subdir.mk:23: src/Funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:13:59 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+../src/Funciones.c: In function ‘esPar_o_Impar’:
+../src/Funciones.c:18:3: warning: statement with no effect [-Wunused-value]
+   18 |   estado 2 ;
+      |   ^~~~~~
+../src/Funciones.c:18:9: error: expected ‘;’ before numeric constant
+   18 |   estado 2 ;
+      |         ^~
+      |         ;
+make: *** [src/subdir.mk:23: src/Funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:14:18 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+Finished building: ../src/Funciones.c
+ 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:37:6: warning: unused variable ‘listadoNumerosDeLasPosicionesImpares’ [-Wunused-variable]
+   37 |  int listadoNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:36:6: warning: unused variable ‘listadoNumerosPares’ [-Wunused-variable]
+   36 |  int listadoNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: unused variable ‘listadoNumerosIngresado’ [-Wunused-variable]
+   35 |  int listadoNumerosIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: unused variable ‘mayorImpar’ [-Wunused-variable]
+   34 |  int mayorImpar = 0;
+      |      ^~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: unused variable ‘sumatoriaPares’ [-Wunused-variable]
+   33 |  int sumatoriaPares = 0;
+      |      ^~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:32:6: warning: unused variable ‘cantidadNegativos’ [-Wunused-variable]
+   32 |  int cantidadNegativos = 0;
+      |      ^~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:31:6: warning: unused variable ‘cantidadPositovs’ [-Wunused-variable]
+   31 |  int cantidadPositovs = 0;
+      |      ^~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+19:22:34 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:36:6: warning: unused variable ‘listadoNumerosDeLasPosicionesImpares’ [-Wunused-variable]
+   36 |  int listadoNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: unused variable ‘listadoNumerosPares’ [-Wunused-variable]
+   35 |  int listadoNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: unused variable ‘listadoNumerosIngresado’ [-Wunused-variable]
+   34 |  int listadoNumerosIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+19:31:25 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+../src/Funciones.c: In function ‘listadoNumerosIngresados’:
+../src/Funciones.c:30:28: warning: ‘sizeof’ on array function parameter ‘numeros’ will return size of ‘int *’ [-Wsizeof-array-argument]
+   30 |  for (int i = 0; i < sizeof(numeros); ++i) {
+      |                            ^
+../src/Funciones.c:28:36: note: declared here
+   28 | void listadoNumerosIngresados (int numeros[])
+      |                                ~~~~^~~~~~~~~
+Finished building: ../src/Funciones.c
+ 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: unused variable ‘listadoNumerosDeLasPosicionesImpares’ [-Wunused-variable]
+   35 |  int listadoNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: unused variable ‘listadoNumerosPares’ [-Wunused-variable]
+   34 |  int listadoNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: unused variable ‘listadoNumerosIngresado’ [-Wunused-variable]
+   33 |  int listadoNumerosIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+19:31:37 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+../src/Funciones.c: In function ‘listadoNumerosIngresados’:
+../src/Funciones.c:30:28: warning: ‘sizeof’ on array function parameter ‘numeros’ will return size of ‘int *’ [-Wsizeof-array-argument]
+   30 |  for (int i = 0; i < sizeof(numeros); ++i) {
+      |                            ^
+../src/Funciones.c:28:36: note: declared here
+   28 | void listadoNumerosIngresados (int numeros[])
+      |                                ~~~~^~~~~~~~~
+Finished building: ../src/Funciones.c
+ 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: unused variable ‘listadoNumerosDeLasPosicionesImpares’ [-Wunused-variable]
+   35 |  int listadoNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: unused variable ‘listadoNumerosPares’ [-Wunused-variable]
+   34 |  int listadoNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: unused variable ‘listadoNumerosIngresado’ [-Wunused-variable]
+   33 |  int listadoNumerosIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+19:32:26 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+Finished building: ../src/Funciones.c
+ 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: unused variable ‘listadoNumerosDeLasPosicionesImpares’ [-Wunused-variable]
+   35 |  int listadoNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: unused variable ‘listadoNumerosPares’ [-Wunused-variable]
+   34 |  int listadoNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: unused variable ‘listadoNumerosIngresado’ [-Wunused-variable]
+   33 |  int listadoNumerosIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+19:41:20 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+../src/Funciones.c: In function ‘listadoNumerosIngresados’:
+../src/Funciones.c:30:74: error: expected ‘;’ before ‘for’
+   30 |  printf("\n-------------LISTADO NUMEROS INGRESADOS---------------------")
+      |                                                                          ^
+      |                                                                          ;
+   31 |  for (int i = 0; i < largo; ++i) {
+      |  ~~~                                                                      
+make: *** [src/subdir.mk:23: src/Funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:41:40 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+Finished building: ../src/Funciones.c
+ 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: unused variable ‘listadoNumerosDeLasPosicionesImpares’ [-Wunused-variable]
+   35 |  int listadoNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: variable ‘listadoNumerosPares’ set but not used [-Wunused-but-set-variable]
+   34 |  int listadoNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: variable ‘vectorNumeroIngresado’ set but not used [-Wunused-but-set-variable]
+   33 |  int vectorNumeroIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+19:42:20 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: unused variable ‘vectorNumerosDeLasPosicionesImpares’ [-Wunused-variable]
+   35 |  int vectorNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: variable ‘vectorNumerosPares’ set but not used [-Wunused-but-set-variable]
+   34 |  int vectorNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: variable ‘vectorNumeroIngresado’ set but not used [-Wunused-but-set-variable]
+   33 |  int vectorNumeroIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+19:44:42 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: variable ‘vectorNumerosDeLasPosicionesImpares’ set but not used [-Wunused-but-set-variable]
+   35 |  int vectorNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: variable ‘vectorNumerosPares’ set but not used [-Wunused-but-set-variable]
+   34 |  int vectorNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: variable ‘vectorNumeroIngresado’ set but not used [-Wunused-but-set-variable]
+   33 |  int vectorNumeroIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+21:57:47 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:94:9: warning: too many arguments for format [-Wformat-extra-args]
+   94 |  printf("\nC) El mayor de los impares :", mayorImpar);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: variable ‘vectorNumerosDeLasPosicionesImpares’ set but not used [-Wunused-but-set-variable]
+   35 |  int vectorNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: variable ‘vectorNumerosPares’ set but not used [-Wunused-but-set-variable]
+   34 |  int vectorNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: variable ‘vectorNumeroIngresado’ set but not used [-Wunused-but-set-variable]
+   33 |  int vectorNumeroIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+22:05:55 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+Finished building: ../src/Funciones.c
+ 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:94:9: warning: too many arguments for format [-Wformat-extra-args]
+   94 |  printf("\nC) El mayor de los impares :", mayorImpar);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: variable ‘vectorNumerosDeLasPosicionesImpares’ set but not used [-Wunused-but-set-variable]
+   35 |  int vectorNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:34:6: warning: variable ‘vectorNumerosPares’ set but not used [-Wunused-but-set-variable]
+   34 |  int vectorNumerosPares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: variable ‘vectorNumeroIngresado’ set but not used [-Wunused-but-set-variable]
+   33 |  int vectorNumeroIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+22:06:23 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:94:9: warning: too many arguments for format [-Wformat-extra-args]
+   94 |  printf("\nC) El mayor de los impares :", mayorImpar);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: variable ‘vectorNumerosDeLasPosicionesImpares’ set but not used [-Wunused-but-set-variable]
+   35 |  int vectorNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: variable ‘vectorNumeroIngresado’ set but not used [-Wunused-but-set-variable]
+   33 |  int vectorNumeroIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+21:41:38 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+Building file: ../src/Funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Funciones.d" -MT"src/Funciones.o" -o "src/Funciones.o" "../src/Funciones.c"
+Finished building: ../src/Funciones.c
+ 
+Building file: ../src/Tema5_VectoresYFunciones_5-2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-2.d" -MT"src/Tema5_VectoresYFunciones_5-2.o" -o "src/Tema5_VectoresYFunciones_5-2.o" "../src/Tema5_VectoresYFunciones_5-2.c"
+../src/Tema5_VectoresYFunciones_5-2.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-2.c:35:6: warning: variable ‘vectorNumerosDeLasPosicionesImpares’ set but not used [-Wunused-but-set-variable]
+   35 |  int vectorNumerosDeLasPosicionesImpares[VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema5_VectoresYFunciones_5-2.c:33:6: warning: variable ‘vectorNumeroIngresado’ set but not used [-Wunused-but-set-variable]
+   33 |  int vectorNumeroIngresado [VECTOR_LEN];
+      |      ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-2.c
+ 
+Building target: Tema5_VectoresYFunciones_5-2
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-2"  ./src/Funciones.o ./src/Tema5_VectoresYFunciones_5-2.o   
+Finished building target: Tema5_VectoresYFunciones_5-2
+ 
+21:46:35 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+21:47:05 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+make: No se hace nada para 'all'.
+21:47:14 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+make: No se hace nada para 'all'.
+19:08:46 **** Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+19:08:52 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.

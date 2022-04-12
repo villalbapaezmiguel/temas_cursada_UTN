@@ -1,0 +1,15 @@
+19:53:05 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-1.d" -MT"src/Tema5_VectoresYFunciones_5-1.o" -o "src/Tema5_VectoresYFunciones_5-1.o" "../src/Tema5_VectoresYFunciones_5-1.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-1.c
+ 
+Building target: Tema5_VectoresYFunciones_5-1
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-1"  ./src/Tema5_VectoresYFunciones_5-1.o   
+Finished building target: Tema5_VectoresYFunciones_5-1
+ 
+
+19:53:05 Build Finished. 0 errors, 0 warnings. (took 514ms)
+
