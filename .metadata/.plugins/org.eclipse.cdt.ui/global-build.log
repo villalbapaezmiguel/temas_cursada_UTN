@@ -682,3 +682,257 @@ Finished building target: Anexo_Tema_Vectores
 19:08:52 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
 make all 
 make: No se hace nada para 'all'.
+19:38:42 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+19:41:08 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+19:41:10 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+19:42:26 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+../src/Anexo_Tema_Vectores.c: In function ‘main’:
+../src/Anexo_Tema_Vectores.c:54:3: warning: implicit declaration of function ‘__fpurge’ [-Wimplicit-function-declaration]
+   54 |   __fpurge(stdin);
+      |   ^~~~~~~~
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+19:42:55 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+19:42:59 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+19:44:09 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+21:03:18 **** Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+21:03:24 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+make: No se hace nada para 'all'.
+21:04:20 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+21:04:24 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+make: No se hace nada para 'all'.
+21:05:02 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+21:05:15 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+21:09:43 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:30:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+   30 |  gets(nombre);
+      |  ^~~~
+      |  fgets
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+/usr/bin/ld: ./src/CrearUnMenu.o: en la función `main':
+/home/miguel/Escritorio/cursada 2022 UTN /CrearUnMenu/Debug/../src/CrearUnMenu.c:30: aviso: the `gets' function is dangerous and should not be used.
+Finished building target: CrearUnMenu
+ 
+21:09:56 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:30:2: error: too many arguments to function ‘getchar’
+   30 |  getchar(nombre);
+      |  ^~~~~~~
+In file included from /usr/include/stdio_ext.h:25,
+                 from ../src/CrearUnMenu.c:11:
+/usr/include/stdio.h:492:12: note: declared here
+  492 | extern int getchar (void);
+      |            ^~~~~~~
+make: *** [src/subdir.mk:20: src/CrearUnMenu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:25:56 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+21:55:20 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:43:7: warning: unused variable ‘nombre_apellido’ [-Wunused-variable]
+   43 |  char nombre_apellido[71];
+      |       ^~~~~~~~~~~~~~~
+../src/CrearUnMenu.c:42:7: warning: unused variable ‘apellido’ [-Wunused-variable]
+   42 |  char apellido [31];
+      |       ^~~~~~~~
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+21:56:46 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:53:2: warning: implicit declaration of function ‘strlwr’; did you mean ‘strlen’? [-Wimplicit-function-declaration]
+   53 |  strlwr(apellido);
+      |  ^~~~~~
+      |  strlen
+../src/CrearUnMenu.c:43:7: warning: unused variable ‘nombre_apellido’ [-Wunused-variable]
+   43 |  char nombre_apellido[71];
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+/usr/bin/ld: ./src/CrearUnMenu.o: en la función `main':
+/home/miguel/Escritorio/cursada 2022 UTN /CrearUnMenu/Debug/../src/CrearUnMenu.c:53: referencia a `strlwr' sin definir
+/usr/bin/ld: /home/miguel/Escritorio/cursada 2022 UTN /CrearUnMenu/Debug/../src/CrearUnMenu.c:54: referencia a `strlwr' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: CrearUnMenu] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:02:39 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:54:10: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+   54 |  tolower(apellido);
+      |          ^~~~~~~~
+      |          |
+      |          char *
+In file included from ../src/CrearUnMenu.c:14:
+/usr/include/ctype.h:122:25: note: expected ‘int’ but argument is of type ‘char *’
+  122 | extern int tolower (int __c) __THROW;
+      |                     ~~~~^~~
+../src/CrearUnMenu.c:54:2: warning: statement with no effect [-Wunused-value]
+   54 |  tolower(apellido);
+      |  ^~~~~~~~~~~~~~~~~
+../src/CrearUnMenu.c:55:10: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |  tolower(nombre);
+      |          ^~~~~~
+      |          |
+      |          char *
+In file included from ../src/CrearUnMenu.c:14:
+/usr/include/ctype.h:122:25: note: expected ‘int’ but argument is of type ‘char *’
+  122 | extern int tolower (int __c) __THROW;
+      |                     ~~~~^~~
+../src/CrearUnMenu.c:55:2: warning: statement with no effect [-Wunused-value]
+   55 |  tolower(nombre);
+      |  ^~~~~~~~~~~~~~~
+../src/CrearUnMenu.c:43:7: warning: unused variable ‘nombre_apellido’ [-Wunused-variable]
+   43 |  char nombre_apellido[71];
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 

@@ -1,6 +1,15 @@
-19:08:52 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+19:44:09 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
 make all 
-make: No se hace nada para 'all'.
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+Finished building target: Anexo_Tema_Vectores
+ 
 
-19:08:53 Build Finished. 0 errors, 0 warnings. (took 473ms)
+19:44:09 Build Finished. 0 errors, 0 warnings. (took 529ms)
 

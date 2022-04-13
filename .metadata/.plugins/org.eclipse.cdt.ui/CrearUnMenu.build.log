@@ -1,6 +1,43 @@
-21:47:14 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+22:02:39 **** Incremental Build of configuration Debug for project CrearUnMenu ****
 make all 
-make: No se hace nada para 'all'.
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:54:10: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+   54 |  tolower(apellido);
+      |          ^~~~~~~~
+      |          |
+      |          char *
+In file included from ../src/CrearUnMenu.c:14:
+/usr/include/ctype.h:122:25: note: expected ‘int’ but argument is of type ‘char *’
+  122 | extern int tolower (int __c) __THROW;
+      |                     ~~~~^~~
+../src/CrearUnMenu.c:54:2: warning: statement with no effect [-Wunused-value]
+   54 |  tolower(apellido);
+      |  ^~~~~~~~~~~~~~~~~
+../src/CrearUnMenu.c:55:10: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |  tolower(nombre);
+      |          ^~~~~~
+      |          |
+      |          char *
+In file included from ../src/CrearUnMenu.c:14:
+/usr/include/ctype.h:122:25: note: expected ‘int’ but argument is of type ‘char *’
+  122 | extern int tolower (int __c) __THROW;
+      |                     ~~~~^~~
+../src/CrearUnMenu.c:55:2: warning: statement with no effect [-Wunused-value]
+   55 |  tolower(nombre);
+      |  ^~~~~~~~~~~~~~~
+../src/CrearUnMenu.c:43:7: warning: unused variable ‘nombre_apellido’ [-Wunused-variable]
+   43 |  char nombre_apellido[71];
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
 
-21:47:15 Build Finished. 0 errors, 0 warnings. (took 471ms)
+22:02:39 Build Finished. 0 errors, 5 warnings. (took 570ms)
 
