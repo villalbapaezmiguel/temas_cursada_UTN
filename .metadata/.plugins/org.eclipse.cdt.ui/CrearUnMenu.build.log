@@ -1,4 +1,4 @@
-22:02:39 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+18:57:03 **** Incremental Build of configuration Debug for project CrearUnMenu ****
 make all 
 Building file: ../src/CrearUnMenu.c
 Invoking: GCC C Compiler
@@ -28,7 +28,7 @@ In file included from ../src/CrearUnMenu.c:14:
 ../src/CrearUnMenu.c:55:2: warning: statement with no effect [-Wunused-value]
    55 |  tolower(nombre);
       |  ^~~~~~~~~~~~~~~
-../src/CrearUnMenu.c:43:7: warning: unused variable ‘nombre_apellido’ [-Wunused-variable]
+../src/CrearUnMenu.c:43:7: warning: variable ‘nombre_apellido’ set but not used [-Wunused-but-set-variable]
    43 |  char nombre_apellido[71];
       |       ^~~~~~~~~~~~~~~
 Finished building: ../src/CrearUnMenu.c
@@ -39,5 +39,5 @@ gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o
 Finished building target: CrearUnMenu
  
 
-22:02:39 Build Finished. 0 errors, 5 warnings. (took 570ms)
+18:57:04 Build Finished. 0 errors, 5 warnings. (took 721ms)
 

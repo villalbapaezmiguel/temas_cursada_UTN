@@ -936,3 +936,647 @@ Invoking: GCC C Linker
 gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
 Finished building target: CrearUnMenu
  
+18:51:46 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:54:2: warning: implicit declaration of function ‘strlwr’; did you mean ‘strlen’? [-Wimplicit-function-declaration]
+   54 |  strlwr(apellido);
+      |  ^~~~~~
+      |  strlen
+../src/CrearUnMenu.c:43:7: warning: variable ‘nombre_apellido’ set but not used [-Wunused-but-set-variable]
+   43 |  char nombre_apellido[71];
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+/usr/bin/ld: ./src/CrearUnMenu.o: en la función `main':
+/home/miguel/Escritorio/cursada 2022 UTN /CrearUnMenu/Debug/../src/CrearUnMenu.c:54: referencia a `strlwr' sin definir
+/usr/bin/ld: /home/miguel/Escritorio/cursada 2022 UTN /CrearUnMenu/Debug/../src/CrearUnMenu.c:55: referencia a `strlwr' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: CrearUnMenu] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:56:58 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:54:10: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+   54 |  tolower(apellido);
+      |          ^~~~~~~~
+      |          |
+      |          char *
+In file included from ../src/CrearUnMenu.c:14:
+/usr/include/ctype.h:122:25: note: expected ‘int’ but argument is of type ‘char *’
+  122 | extern int tolower (int __c) __THROW;
+      |                     ~~~~^~~
+../src/CrearUnMenu.c:54:2: warning: statement with no effect [-Wunused-value]
+   54 |  tolower(apellido);
+      |  ^~~~~~~~~~~~~~~~~
+../src/CrearUnMenu.c:55:2: warning: implicit declaration of function ‘strlwr’; did you mean ‘strlen’? [-Wimplicit-function-declaration]
+   55 |  strlwr(nombre);
+      |  ^~~~~~
+      |  strlen
+../src/CrearUnMenu.c:43:7: warning: variable ‘nombre_apellido’ set but not used [-Wunused-but-set-variable]
+   43 |  char nombre_apellido[71];
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+/usr/bin/ld: ./src/CrearUnMenu.o: en la función `main':
+/home/miguel/Escritorio/cursada 2022 UTN /CrearUnMenu/Debug/../src/CrearUnMenu.c:55: referencia a `strlwr' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: CrearUnMenu] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:57:03 **** Incremental Build of configuration Debug for project CrearUnMenu ****
+make all 
+Building file: ../src/CrearUnMenu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CrearUnMenu.d" -MT"src/CrearUnMenu.o" -o "src/CrearUnMenu.o" "../src/CrearUnMenu.c"
+../src/CrearUnMenu.c: In function ‘main’:
+../src/CrearUnMenu.c:54:10: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+   54 |  tolower(apellido);
+      |          ^~~~~~~~
+      |          |
+      |          char *
+In file included from ../src/CrearUnMenu.c:14:
+/usr/include/ctype.h:122:25: note: expected ‘int’ but argument is of type ‘char *’
+  122 | extern int tolower (int __c) __THROW;
+      |                     ~~~~^~~
+../src/CrearUnMenu.c:54:2: warning: statement with no effect [-Wunused-value]
+   54 |  tolower(apellido);
+      |  ^~~~~~~~~~~~~~~~~
+../src/CrearUnMenu.c:55:10: warning: passing argument 1 of ‘tolower’ makes integer from pointer without a cast [-Wint-conversion]
+   55 |  tolower(nombre);
+      |          ^~~~~~
+      |          |
+      |          char *
+In file included from ../src/CrearUnMenu.c:14:
+/usr/include/ctype.h:122:25: note: expected ‘int’ but argument is of type ‘char *’
+  122 | extern int tolower (int __c) __THROW;
+      |                     ~~~~^~~
+../src/CrearUnMenu.c:55:2: warning: statement with no effect [-Wunused-value]
+   55 |  tolower(nombre);
+      |  ^~~~~~~~~~~~~~~
+../src/CrearUnMenu.c:43:7: warning: variable ‘nombre_apellido’ set but not used [-Wunused-but-set-variable]
+   43 |  char nombre_apellido[71];
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../src/CrearUnMenu.c
+ 
+Building target: CrearUnMenu
+Invoking: GCC C Linker
+gcc  -o "CrearUnMenu"  ./src/CrearUnMenu.o   
+Finished building target: CrearUnMenu
+ 
+19:16:05 **** Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+19:16:28 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+19:16:34 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c:12:2: error: invalid preprocessing directive #includ; did you mean #include?
+   12 | #includ  e <stdlib.h>
+      |  ^~~~~~
+      |  include
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:16:9: error: ‘EXIT_SUCCESS’ undeclared (first use in this function)
+   16 |  return EXIT_SUCCESS;
+      |         ^~~~~~~~~~~~
+../src/arrays_Paralelos.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:20: src/arrays_Paralelos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:16:44 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+19:16:48 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+19:19:14 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:22:6: warning: unused variable ‘horasReserva’ [-Wunused-variable]
+   22 |  int horasReserva[HORAS_LEN];
+      |      ^~~~~~~~~~~~
+../src/arrays_Paralelos.c:21:7: warning: unused variable ‘apellidoClinete’ [-Wunused-variable]
+   21 |  char apellidoClinete[NOMBRE_APELLIDO_LEN];
+      |       ^~~~~~~~~~~~~~~
+../src/arrays_Paralelos.c:20:7: warning: unused variable ‘nombreCliente’ [-Wunused-variable]
+   20 |  char nombreCliente[NOMBRE_APELLIDO_LEN];
+      |       ^~~~~~~~~~~~~
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+19:22:54 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:23:6: warning: unused variable ‘horasReserva’ [-Wunused-variable]
+   23 |  int horasReserva[HORAS_LEN];
+      |      ^~~~~~~~~~~~
+../src/arrays_Paralelos.c:22:7: warning: unused variable ‘apellidoClinete’ [-Wunused-variable]
+   22 |  char apellidoClinete[NOMBRE_APELLIDO_LEN];
+      |       ^~~~~~~~~~~~~~~
+../src/arrays_Paralelos.c:21:7: warning: unused variable ‘nombreCliente’ [-Wunused-variable]
+   21 |  char nombreCliente[NOMBRE_APELLIDO_LEN];
+      |       ^~~~~~~~~~~~~
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+19:25:31 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:25:6: warning: unused variable ‘horasReserva’ [-Wunused-variable]
+   25 |  int horasReserva[HORAS_LEN];
+      |      ^~~~~~~~~~~~
+../src/arrays_Paralelos.c:24:7: warning: unused variable ‘apellidoClinete’ [-Wunused-variable]
+   24 |  char apellidoClinete[NOMBRE_APELLIDO_LEN][LEN];
+      |       ^~~~~~~~~~~~~~~
+../src/arrays_Paralelos.c:23:7: warning: unused variable ‘nombreCliente’ [-Wunused-variable]
+   23 |  char nombreCliente[NOMBRE_APELLIDO_LEN][LEN];
+      |       ^~~~~~~~~~~~~
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+19:54:54 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:25:6: warning: unused variable ‘horasReserva’ [-Wunused-variable]
+   25 |  int horasReserva[HORAS_LEN];
+      |      ^~~~~~~~~~~~
+../src/arrays_Paralelos.c:24:7: warning: unused variable ‘apellidoClinete’ [-Wunused-variable]
+   24 |  char apellidoClinete[NOMBRE_APELLIDO_LEN][LEN];
+      |       ^~~~~~~~~~~~~~~
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+19:56:49 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:39:11: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   39 |   scanf("%c", horasReserva[i]);
+      |          ~^   ~~~~~~~~~~~~~~~
+      |           |               |
+      |           char *          int
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+19:57:07 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:39:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   39 |   scanf("%d", horasReserva[i]);
+      |          ~^   ~~~~~~~~~~~~~~~
+      |           |               |
+      |           int *           int
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+19:57:42 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:00:16 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:45:28: warning: format ‘%c’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+   45 |   printf("\n[%d] Nombre : %c", j , nombreCliente[j]);
+      |                           ~^       ~~~~~~~~~~~~~~~~
+      |                            |                    |
+      |                            int                  char *
+      |                           %s
+../src/arrays_Paralelos.c:46:30: warning: format ‘%c’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+   46 |   printf("\n[%d] Apellido : %c", j , apellidoClinete[j]);
+      |                             ~^       ~~~~~~~~~~~~~~~~~~
+      |                              |                      |
+      |                              int                    char *
+      |                             %s
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:00:40 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:01:26 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:01:30 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:03:45 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:45:28: warning: format ‘%c’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+   45 |   printf("\n[%d] Nombre : %c", j , nombreCliente[j]);
+      |                           ~^       ~~~~~~~~~~~~~~~~
+      |                            |                    |
+      |                            int                  char *
+      |                           %s
+../src/arrays_Paralelos.c:46:30: warning: format ‘%c’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+   46 |   printf("\n[%d] Apellido : %c", j , apellidoClinete[j]);
+      |                             ~^       ~~~~~~~~~~~~~~~~~~
+      |                              |                      |
+      |                              int                    char *
+      |                             %s
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:03:54 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:04:08 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:45:28: warning: format ‘%c’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+   45 |   printf("\n[%d] Nombre : %c", j , nombreCliente[j]);
+      |                           ~^       ~~~~~~~~~~~~~~~~
+      |                            |                    |
+      |                            int                  char *
+      |                           %s
+../src/arrays_Paralelos.c:46:30: warning: format ‘%c’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+   46 |   printf("\n[%d] Apellido : %c", j , apellidoClinete[j]);
+      |                             ~^       ~~~~~~~~~~~~~~~~~~
+      |                              |                      |
+      |                              int                    char *
+      |                             %s
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:04:09 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:06:20 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:45:28: warning: format ‘%c’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+   45 |   printf("\n[%d] Nombre : %c", j , nombreCliente[j]);
+      |                           ~^       ~~~~~~~~~~~~~~~~
+      |                            |                    |
+      |                            int                  char *
+      |                           %s
+../src/arrays_Paralelos.c:46:30: warning: format ‘%c’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+   46 |   printf("\n[%d] Apellido : %c", j , apellidoClinete[j]);
+      |                             ~^       ~~~~~~~~~~~~~~~~~~
+      |                              |                      |
+      |                              int                    char *
+      |                             %s
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:09:49 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:09:51 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:10:39 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:15:20 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:51:1: error: ‘a’ undeclared (first use in this function)
+   51 | a
+      | ^
+../src/arrays_Paralelos.c:51:1: note: each undeclared identifier is reported only once for each function it appears in
+../src/arrays_Paralelos.c:51:2: error: expected ‘;’ before ‘return’
+   51 | a
+      |  ^
+      |  ;
+......
+   57 |  return EXIT_SUCCESS;
+      |  ~~~~~~
+make: *** [src/subdir.mk:20: src/arrays_Paralelos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:15:42 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:15:44 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:18:07 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:18:11 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:20:48 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:21:11 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:21:14 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+21:27:30 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:52:7: warning: unused variable ‘l’ [-Wunused-variable]
+   52 |  char l [] = "hola";
+      |       ^
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+21:28:19 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+21:28:21 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+21:28:31 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c: In function ‘main’:
+../src/arrays_Paralelos.c:25:6: warning: unused variable ‘horasReserva’ [-Wunused-variable]
+   25 |  int horasReserva[HORAS_LEN];
+      |      ^~~~~~~~~~~~
+../src/arrays_Paralelos.c:24:7: warning: unused variable ‘apellidoClinete’ [-Wunused-variable]
+   24 |  char apellidoClinete[FILAS][COLUMNA];
+      |       ^~~~~~~~~~~~~~~
+../src/arrays_Paralelos.c:23:7: warning: unused variable ‘nombreCliente’ [-Wunused-variable]
+   23 |  char nombreCliente[FILAS][COLUMNA];
+      |       ^~~~~~~~~~~~~
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+21:28:33 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+21:52:06 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+21:52:08 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+22:02:46 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+22:03:13 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+22:03:16 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+22:13:06 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c:33:6: error: conflicting types for ‘MostrarUnTicket’
+   33 | void MostrarUnTicket(eTicket unTicket , int codigo , char nombre[], char apellido[], int horario){
+      |      ^~~~~~~~~~~~~~~
+../src/arrays_Paralelos.c:32:6: note: previous declaration of ‘MostrarUnTicket’ was here
+   32 | void MostrarUnTicket(eTicket unTicket);
+      |      ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/arrays_Paralelos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:13:43 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+../src/arrays_Paralelos.c:32:106: error: expected ‘;’ before ‘void’
+   32 | void MostrarUnTicket(eTicket unTicket , int codigo , char nombre[], char apellido[], int horario);sssssss
+      |                                                                                                          ^
+      |                                                                                                          ;
+   33 | void MostrarUnTicket(eTicket unTicket , int codigo , char nombre[], char apellido[], int horario){
+      | ~~~~                                                                                                      
+make: *** [src/subdir.mk:20: src/arrays_Paralelos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:13:50 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+22:15:19 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+22:15:24 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+22:34:12 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+22:37:26 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.

@@ -41,6 +41,7 @@ Gomez, Juan Ignacio*/
 	char nombre [31];
 	char apellido [31];
 	char nombre_apellido[71];
+	char apellido_tolower = [31];
 	int cantidad  = 0;
 	printf("\nIngrese nombre :");
 	__fpurge(stdin);
@@ -51,8 +52,8 @@ Gomez, Juan Ignacio*/
 	scanf("%[^\n]",apellido);
 
 	//paso a minuscula las cadenas
-	strlwr(apellido);
-	strlwr(nombre);
+	tolower(apellido);
+	tolower(nombre);
 
 	//paso las iniciales a mayusculas
 	apellido[0] = toupper(apellido[0]);
@@ -71,7 +72,8 @@ Gomez, Juan Ignacio*/
 	nombre_apellido[0] = '\0';//limpiamos la mememria que nos resrvo : porque cuando le pedimos un espacio de memerio , nos lo van a dar , pero va  estar con basura
 
 	//concateno apellido y nombre en una variable
-
+	//saber pasar de minusculas a mayuscuolas
+	//saber copiar cadenas en un nuevo char
 
 
 	return EXIT_SUCCESS;
