@@ -26,7 +26,7 @@ typedef struct{//esto solo es estructura , no tiene comportamiento
 	char apellido[20];
 	int horarioSalida;
 }eTicket;
-
+//hacer ejercicios
 
 
 void MostrarUnTicket(eTicket unTicket , int codigo , char nombre[], char apellido[], int horario);

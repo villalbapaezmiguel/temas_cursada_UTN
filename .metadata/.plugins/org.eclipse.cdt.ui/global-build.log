@@ -1580,3 +1580,679 @@ make: No se hace nada para 'all'.
 22:37:26 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
 make all 
 make: No se hace nada para 'all'.
+19:58:25 **** Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:58:36 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+19:58:42 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:08:21 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:17:49 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:19:29 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:22:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   22 |  Menu(productos);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:19:29 **** Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+20:19:31 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:22:10 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:22:14 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:22:34 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:23:47 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:22:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   22 |  Menu(productos);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:24:05 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c:10:6: error: conflicting types for ‘Menu’
+   10 | void Menu(eProductoApple productos[])
+      |      ^~~~
+In file included from ../src/Menu.c:8:
+../src/Menu.h:12:6: note: previous declaration of ‘Menu’ was here
+   12 | void Menu(eProductoApple productos);
+      |      ^~~~
+make: *** [src/subdir.mk:26: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:24:12 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:22:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   22 |  Menu(productos[]);
+      |  ^~~~
+../src/Tema7_Arrays_Paralelos.c:22:17: error: expected expression before ‘]’ token
+   22 |  Menu(productos[]);
+      |                 ^
+../src/Tema7_Arrays_Paralelos.c:21:17: warning: variable ‘productos’ set but not used [-Wunused-but-set-variable]
+   21 |  eProductoApple productos [3];
+      |                 ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/Tema7_Arrays_Paralelos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:24:35 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:22:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   22 |  Menu(productos[3]);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:25:10 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:22:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   22 |  Menu(productos);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:25:26 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c:10:6: error: conflicting types for ‘Menu’
+   10 | void Menu(eProductoApple productos)
+      |      ^~~~
+In file included from ../src/Menu.c:8:
+../src/Menu.h:12:6: note: previous declaration of ‘Menu’ was here
+   12 | void Menu(eProductoApple productos[]);
+      |      ^~~~
+make: *** [src/subdir.mk:26: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:25:33 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:26:55 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘nuevoId’:
+../src/Productos_Apple.c:14:9: error: expected expression before ‘static’
+   14 |  return static contador++;
+      |         ^~~~~~
+../src/Productos_Apple.c:12:6: warning: unused variable ‘contador’ [-Wunused-variable]
+   12 |  int contador = 0;
+      |      ^~~~~~~~
+../src/Productos_Apple.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+At top level:
+../src/Productos_Apple.c:10:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   10 | static int nuevoId()
+      |            ^~~~~~~
+make: *** [src/subdir.mk:26: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:27:02 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:10:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   10 | static int nuevoId()
+      |            ^~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:27:20 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:56:18 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+20:56:30 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+21:12:59 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘inicializar’:
+../src/Productos_Apple.c:22:17: warning: variable ‘productos’ set but not used [-Wunused-but-set-variable]
+   22 |  eProductoApple productos[CANTINDAD];
+      |                 ^~~~~~~~~
+At top level:
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:22:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   22 |  Menu(productos);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:13:36 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘inicializar’:
+../src/Productos_Apple.c:25:12: error: subscripted value is neither array nor pointer nor vector
+   25 |   productos[i].estado = VACIO;
+      |            ^
+At top level:
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+make: *** [src/subdir.mk:26: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:13:48 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘inicializar’:
+../src/Productos_Apple.c:25:12: error: subscripted value is neither array nor pointer nor vector
+   25 |   productos[i].estado = VACIO;
+      |            ^
+At top level:
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+make: *** [src/subdir.mk:26: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:14:11 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:15:42 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:24:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   24 |  Menu(productos);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:17:03 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:27:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   27 |  Menu(productos);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:17:55 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:27:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   27 |  Menu(productos , CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:18:01 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:27:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   27 |  Menu(productos [], CANTINDAD);
+      |  ^~~~
+../src/Tema7_Arrays_Paralelos.c:27:18: error: expected expression before ‘]’ token
+   27 |  Menu(productos [], CANTINDAD);
+      |                  ^
+make: *** [src/subdir.mk:26: src/Tema7_Arrays_Paralelos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:18:12 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:27:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   27 |  Menu( productos, CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:20:00 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:30:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   30 |  Menu( productos, CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:20:03 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+21:23:23 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:39:15: error: invalid operands to binary != (have ‘eProductoApple’ {aka ‘struct <anonymous>’} and ‘void *’)
+   39 |  if(productos != NULL && len > 0)
+      |               ^~
+../src/Productos_Apple.c:43:16: error: subscripted value is neither array nor pointer nor vector
+   43 |    if(productos[i].estado == VACIO )
+      |                ^
+../src/Productos_Apple.c:45:14: error: subscripted value is neither array nor pointer nor vector
+   45 |     productos[i].estado == OCUPADO;
+      |              ^
+At top level:
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+make: *** [src/subdir.mk:26: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:23:39 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:45:25: warning: statement with no effect [-Wunused-value]
+   45 |     productos[i].estado == OCUPADO;
+At top level:
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos, CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:23:56 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:11:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:25:58 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:46:39: error: expected expression before ‘void’
+   46 |     productos[i].idProducto = nuevoId(void);
+      |                                       ^~~~
+../src/Productos_Apple.c:46:31: error: too many arguments to function ‘nuevoId’
+   46 |     productos[i].idProducto = nuevoId(void);
+      |                               ^~~~~~~
+../src/Productos_Apple.c:11:12: note: declared here
+   11 | static int nuevoId(void)
+      |            ^~~~~~~
+make: *** [src/subdir.mk:26: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:26:13 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:27:36 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:48:14: error: ‘stdlin’ undeclared (first use in this function); did you mean ‘stdin’?
+   48 |     __fpurge(stdlin);
+      |              ^~~~~~
+      |              stdin
+../src/Productos_Apple.c:48:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/Productos_Apple.c:49:13: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   49 |     scanf("%s", &productos[i].descripcion);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |   |
+      |             |   char (*)[50]
+      |             char *
+make: *** [src/subdir.mk:26: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:29:28 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:48:14: error: ‘stdlin’ undeclared (first use in this function); did you mean ‘stdin’?
+   48 |     __fpurge(stdlin);
+      |              ^~~~~~
+      |              stdin
+../src/Productos_Apple.c:48:14: note: each undeclared identifier is reported only once for each function it appears in
+../src/Productos_Apple.c:49:13: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   49 |     scanf("%s", &productos[i].descripcion);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |   |
+      |             |   char (*)[50]
+      |             char *
+make: *** [src/subdir.mk:26: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:30:21 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:49:13: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   49 |     scanf("%s", &productos[i].descripcion);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |   |
+      |             |   char (*)[50]
+      |             char *
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:30:22 **** Incremental Build of configuration Debug for project arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+21:30:45 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:49:13: warning: format ‘%c’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   49 |     scanf("%c", &productos[i].descripcion);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |   |
+      |             |   char (*)[50]
+      |             char *
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:30:52 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:30:58 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
