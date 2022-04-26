@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+#include "utn.h"
 
 #define DESCRIPCION 50
 #define EEUU 1

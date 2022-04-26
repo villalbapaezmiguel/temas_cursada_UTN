@@ -2256,3 +2256,814 @@ Invoking: GCC C Linker
 gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
 Finished building target: Tema7_Arrays_Paralelos
  
+19:00:10 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:54:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   54 |     scanf("%d", productos[i].nacionalidad);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |               |
+      |             int *           int
+../src/Productos_Apple.c:39:6: warning: unused variable ‘opcionNacionalidad’ [-Wunused-variable]
+   39 |  int opcionNacionalidad ;
+      |      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:00:21 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+19:00:22 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+19:14:23 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:54:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   54 |     scanf("%d", productos[i].nacionalidad);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |               |
+      |             int *           int
+../src/Productos_Apple.c:39:6: warning: unused variable ‘opcionNacionalidad’ [-Wunused-variable]
+   39 |  int opcionNacionalidad ;
+      |      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos, CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘int_getCaracter’:
+../src/utn.c:19:4: warning: implicit declaration of function ‘___fpurge’; did you mean ‘__fpurge’? [-Wimplicit-function-declaration]
+   19 |    ___fpurge(stdin);
+      |    ^~~~~~~~~
+      |    __fpurge
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+/usr/bin/ld: ./src/utn.o: en la función `int_getCaracter':
+/home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:19: referencia a `___fpurge' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Tema7_Arrays_Paralelos] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:15:03 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘int_getCaracter’:
+../src/utn.c:19:4: warning: implicit declaration of function ‘___fpurge’; did you mean ‘__fpurge’? [-Wimplicit-function-declaration]
+   19 |    ___fpurge(stdin);
+      |    ^~~~~~~~~
+      |    __fpurge
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+/usr/bin/ld: ./src/utn.o: en la función `int_getCaracter':
+/home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:19: referencia a `___fpurge' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Tema7_Arrays_Paralelos] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:15:56 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘int_getCaracter’:
+../src/utn.c:21:4: warning: implicit declaration of function ‘___fpurge’; did you mean ‘__fpurge’? [-Wimplicit-function-declaration]
+   21 |    ___fpurge(stdin);
+      |    ^~~~~~~~~
+      |    __fpurge
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+/usr/bin/ld: ./src/utn.o: en la función `int_getCaracter':
+/home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:21: referencia a `___fpurge' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Tema7_Arrays_Paralelos] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:18:10 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:18:19 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:20:04 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:57:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   57 |     scanf("%d", productos[i].nacionalidad);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |               |
+      |             int *           int
+../src/Productos_Apple.c:39:6: warning: unused variable ‘opcionNacionalidad’ [-Wunused-variable]
+   39 |  int opcionNacionalidad ;
+      |      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:21:25 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:49:21: error: ‘pResultado’ undeclared (first use in this function); did you mean ‘estado’?
+   49 |     utn_getCaracter(pResultado, mensaje, mensajeError, minimo, maximo, reintentos)
+      |                     ^~~~~~~~~~
+      |                     estado
+../src/Productos_Apple.c:49:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/Productos_Apple.c:49:33: error: ‘mensaje’ undeclared (first use in this function)
+   49 |     utn_getCaracter(pResultado, mensaje, mensajeError, minimo, maximo, reintentos)
+      |                                 ^~~~~~~
+../src/Productos_Apple.c:49:42: error: ‘mensajeError’ undeclared (first use in this function)
+   49 |     utn_getCaracter(pResultado, mensaje, mensajeError, minimo, maximo, reintentos)
+      |                                          ^~~~~~~~~~~~
+../src/Productos_Apple.c:49:56: error: ‘minimo’ undeclared (first use in this function)
+   49 |     utn_getCaracter(pResultado, mensaje, mensajeError, minimo, maximo, reintentos)
+      |                                                        ^~~~~~
+../src/Productos_Apple.c:49:64: error: ‘maximo’ undeclared (first use in this function)
+   49 |     utn_getCaracter(pResultado, mensaje, mensajeError, minimo, maximo, reintentos)
+      |                                                                ^~~~~~
+../src/Productos_Apple.c:49:72: error: ‘reintentos’ undeclared (first use in this function)
+   49 |     utn_getCaracter(pResultado, mensaje, mensajeError, minimo, maximo, reintentos)
+      |                                                                        ^~~~~~~~~~
+../src/Productos_Apple.c:49:83: error: expected ‘;’ before ‘printf’
+   49 |     utn_getCaracter(pResultado, mensaje, mensajeError, minimo, maximo, reintentos)
+      |                                                                                   ^
+      |                                                                                   ;
+   50 |     printf("\nIngrese descripcion : ");
+      |     ~~~~~~                                                                         
+../src/Productos_Apple.c:57:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   57 |     scanf("%d", productos[i].nacionalidad);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |               |
+      |             int *           int
+../src/Productos_Apple.c:39:6: warning: unused variable ‘opcionNacionalidad’ [-Wunused-variable]
+   39 |  int opcionNacionalidad ;
+      |      ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:23:06 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:41:2: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘if’
+   41 |  if(productos != NULL && len > 0)
+      |  ^~
+../src/Productos_Apple.c:50:22: error: ‘pResultado’ undeclared (first use in this function); did you mean ‘estado’?
+   50 |     utn_getCaracter(&pResultado, "\nIngrese descripcion :", "\nERROR ", 1, 10, 2);
+      |                      ^~~~~~~~~~
+      |                      estado
+../src/Productos_Apple.c:50:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/Productos_Apple.c:58:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   58 |     scanf("%d", productos[i].nacionalidad);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |               |
+      |             int *           int
+../src/Productos_Apple.c:39:6: warning: unused variable ‘opcionNacionalidad’ [-Wunused-variable]
+   39 |  int opcionNacionalidad ;
+      |      ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:23:41 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:58:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   58 |     scanf("%d", productos[i].nacionalidad);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             |               |
+      |             int *           int
+../src/Productos_Apple.c:39:6: warning: unused variable ‘opcionNacionalidad’ [-Wunused-variable]
+   39 |  int opcionNacionalidad ;
+      |      ^~~~~~~~~~~~~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos, CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:40:15 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:53:41: warning: passing argument 2 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   53 |      strncpy(productos[i].descripcion , pResultado , sizeof(productos[i].descripcion));
+      |                                         ^~~~~~~~~~
+      |                                         |
+      |                                         char
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:68:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:72:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:74:6: error: duplicate case value
+   74 |      case 2:
+      |      ^~~~
+../src/Productos_Apple.c:70:6: note: previously used here
+   70 |      case 2:
+      |      ^~~~
+../src/Productos_Apple.c:76:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:88:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   88 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:92:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   92 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:94:6: error: duplicate case value
+   94 |      case 2:
+      |      ^~~~
+../src/Productos_Apple.c:90:6: note: previously used here
+   90 |      case 2:
+      |      ^~~~
+../src/Productos_Apple.c:96:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   96 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:41:6: warning: unused variable ‘auxTipo’ [-Wunused-variable]
+   41 |  int auxTipo;
+      |      ^~~~~~~
+../src/Productos_Apple.c:68:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:72:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:76:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:88:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   88 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:92:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   92 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:96:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   96 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:40:30 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:53:41: warning: passing argument 2 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   53 |      strncpy(productos[i].descripcion , pResultado , sizeof(productos[i].descripcion));
+      |                                         ^~~~~~~~~~
+      |                                         |
+      |                                         char
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:68:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:72:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:76:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:88:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   88 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:92:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   92 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:94:6: error: duplicate case value
+   94 |      case 2:
+      |      ^~~~
+../src/Productos_Apple.c:90:6: note: previously used here
+   90 |      case 2:
+      |      ^~~~
+../src/Productos_Apple.c:96:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   96 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:41:6: warning: unused variable ‘auxTipo’ [-Wunused-variable]
+   41 |  int auxTipo;
+      |      ^~~~~~~
+../src/Productos_Apple.c:68:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:72:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:76:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:88:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   88 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:92:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   92 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:96:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   96 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:40:37 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:53:41: warning: passing argument 2 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   53 |      strncpy(productos[i].descripcion , pResultado , sizeof(productos[i].descripcion));
+      |                                         ^~~~~~~~~~
+      |                                         |
+      |                                         char
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:68:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:72:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:76:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:88:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   88 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:92:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   92 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:96:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+Finished building: ../src/Productos_Apple.c
+   96 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:41:6: warning: unused variable ‘auxTipo’ [-Wunused-variable]
+   41 |  int auxTipo;
+      |      ^~~~~~~
+../src/Productos_Apple.c:68:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:72:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:76:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:88:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   88 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:92:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   92 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:96:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   96 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:40:46 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+make: No se hace nada para 'all'.
+19:50:07 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:53:41: warning: passing argument 2 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   53 |      strncpy(productos[i].descripcion , pResultado , sizeof(productos[i].descripcion));
+      |                                         ^~~~~~~~~~
+      |                                         |
+      |                                         char
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:68:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:72:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:76:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:88:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   88 |       strncpy(productos[i].tipo , "PHONE" , sizeof(productos[i].tipo));
+      |               ~~~~~~~~~~~~^~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:92:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   92 |       strncpy(productos[i].tipo , "MAC" , sizeof(productos[i].tipo));
+      |               ~~~~~~~~~~~~^~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:96:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   96 |       strncpy(productos[i].tipo , "IPAD" , sizeof(productos[i].tipo));
+      |               ~~~~~~~~~~~~^~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:100:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+  100 |       strncpy(productos[i].tipo , "ACCESORIOS" , sizeof(productos[i].tipo));
+      |               ~~~~~~~~~~~~^~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:68:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:72:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:76:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:88:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   88 |       strncpy(productos[i].tipo , "PHONE" , sizeof(productos[i].tipo));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:96:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   96 |       strncpy(productos[i].tipo , "IPAD" , sizeof(productos[i].tipo));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:100:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 10 [-Wstringop-truncation]
+  100 |       strncpy(productos[i].tipo , "ACCESORIOS" , sizeof(productos[i].tipo));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:52:29 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:68:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:72:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:76:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |               ~~~~~~~~~~~~^~~~~~~~~~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:88:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   88 |       strncpy(productos[i].tipo , "PHONE" , sizeof(productos[i].tipo));
+      |               ~~~~~~~~~~~~^~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:92:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   92 |       strncpy(productos[i].tipo , "MAC" , sizeof(productos[i].tipo));
+      |               ~~~~~~~~~~~~^~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:96:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+   96 |       strncpy(productos[i].tipo , "IPAD" , sizeof(productos[i].tipo));
+      |               ~~~~~~~~~~~~^~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:100:27: warning: passing argument 1 of ‘strncpy’ makes pointer from integer without a cast [-Wint-conversion]
+  100 |       strncpy(productos[i].tipo , "ACCESORIOS" , sizeof(productos[i].tipo));
+      |               ~~~~~~~~~~~~^~~~~
+      |                           |
+      |                           int
+In file included from ../src/Productos_Apple.h:13,
+                 from ../src/Productos_Apple.c:8:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Productos_Apple.c:68:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   68 |       strncpy(productos[i].nacionalidad , "EEUU" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:72:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   72 |       strncpy(productos[i].nacionalidad , "CHINA" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:76:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   76 |       strncpy(productos[i].nacionalidad , "OTRO" , sizeof(productos[i].nacionalidad));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:88:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 5 [-Wstringop-truncation]
+   88 |       strncpy(productos[i].tipo , "PHONE" , sizeof(productos[i].tipo));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:96:7: warning: ‘strncpy’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   96 |       strncpy(productos[i].tipo , "IPAD" , sizeof(productos[i].tipo));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Productos_Apple.c:100:7: warning: ‘strncpy’ output truncated copying 4 bytes from a string of length 10 [-Wstringop-truncation]
+  100 |       strncpy(productos[i].tipo , "ACCESORIOS" , sizeof(productos[i].tipo));
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
