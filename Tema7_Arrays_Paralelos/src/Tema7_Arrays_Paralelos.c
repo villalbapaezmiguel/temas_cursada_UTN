@@ -29,7 +29,7 @@ int main(void) {
 		printf("\n producto  : %d", productos[i].estado);
 	}
 
-	Menu( productos, CANTINDAD);
+	Menu( productos , CANTINDAD);
 
 
 	return EXIT_SUCCESS;

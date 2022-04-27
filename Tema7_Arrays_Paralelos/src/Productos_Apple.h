@@ -36,4 +36,7 @@ typedef struct{
 }eProductoApple;
 
 int inicializar (eProductoApple productos [], int len );
+int buscarLugarLibre ( eProductoApple producto [], int tam);
+int alta(eProductoApple productos [], int len , int lugarLibre);
+int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion);
 #endif /* PRODUCTOS_APPLE_H_ */

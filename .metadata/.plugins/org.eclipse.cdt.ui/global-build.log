@@ -3067,3 +3067,1735 @@ Invoking: GCC C Linker
 gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
 Finished building target: Tema7_Arrays_Paralelos
  
+18:46:13 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:106:5: error: break statement not within loop or switch
+  106 |     break;
+      |     ^~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:46:45 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:106:5: error: break statement not within loop or switch
+  106 |     break;
+      |     ^~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:47:09 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+18:49:45 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+  136 | }
+      | ^
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos, CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:03:27 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:137:14: error: invalid operands to binary != (have ‘eProductoApple’ {aka ‘struct <anonymous>’} and ‘void *’)
+  137 |  if(producto != NULL && tam > 0)
+      |              ^~
+../src/Productos_Apple.c:141:15: error: subscripted value is neither array nor pointer nor vector
+  141 |    if(producto[i].idProducto == id)
+      |               ^
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:05:40 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:137:14: error: invalid operands to binary != (have ‘eProductoApple’ {aka ‘struct <anonymous>’} and ‘void *’)
+  137 |  if(producto != NULL && tam > 0)
+      |              ^~
+../src/Productos_Apple.c:141:15: error: subscripted value is neither array nor pointer nor vector
+  141 |    if(producto[i].idProducto == id)
+      |               ^
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:06:16 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:138:14: error: invalid operands to binary != (have ‘eProductoApple’ {aka ‘struct <anonymous>’} and ‘void *’)
+  138 |  if(producto != NULL && tam > 0)
+      |              ^~
+../src/Productos_Apple.c:142:15: error: subscripted value is neither array nor pointer nor vector
+  142 |    if(producto[i].idProducto == id)
+      |               ^
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:06:36 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:133:5: error: conflicting types for ‘buscarPorId’
+  133 | int buscarPorId(eProductoApple producto , int tam , int id , int idPosicion)
+      |     ^~~~~~~~~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:41:5: note: previous declaration of ‘buscarPorId’ was here
+   41 | int buscarPorId(eProductoApple producto , int tam , int id , int *idPosicion);
+      |     ^~~~~~~~~~~
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:138:14: error: invalid operands to binary != (have ‘eProductoApple’ {aka ‘struct <anonymous>’} and ‘void *’)
+  138 |  if(producto != NULL && tam > 0)
+      |              ^~
+../src/Productos_Apple.c:142:15: error: subscripted value is neither array nor pointer nor vector
+  142 |    if(producto[i].idProducto == id)
+      |               ^
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:06:53 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos, CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:07:19 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos, CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:07:57 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos[], CANTINDAD);
+      |  ^~~~
+../src/Tema7_Arrays_Paralelos.c:32:18: error: expected expression before ‘]’ token
+   32 |  Menu( productos[], CANTINDAD);
+      |                  ^
+make: *** [src/subdir.mk:29: src/Tema7_Arrays_Paralelos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:08:16 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( eProductoApple productos, CANTINDAD);
+      |  ^~~~
+../src/Tema7_Arrays_Paralelos.c:32:8: error: expected expression before ‘eProductoApple’
+   32 |  Menu( eProductoApple productos, CANTINDAD);
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Tema7_Arrays_Paralelos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:08:25 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos , CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:09:39 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c:10:6: error: conflicting types for ‘Menu’
+   10 | void Menu(eProductoApple* productos[] , int len)
+      |      ^~~~
+In file included from ../src/Menu.c:8:
+../src/Menu.h:12:6: note: previous declaration of ‘Menu’ was here
+   12 | void Menu(eProductoApple productos[], int len);
+      |      ^~~~
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:09:47 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:37:51 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:40:00 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:26:44: warning: passing argument 4 of ‘buscarPorId’ makes pointer from integer without a cast [-Wint-conversion]
+   26 |     if(buscarPorId(*productos, len, auxId, auxPosicionLibre) == 1)
+      |                                            ^~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            int
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:41:69: note: expected ‘int *’ but argument is of type ‘int’
+   41 | int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion);
+      |                                                                ~~~~~^~~~~~~~~~
+../src/Menu.c:28:45: error: expected ‘;’ before ‘}’ token
+   28 |      alta(*productos, len, auxPosicionLibre)
+      |                                             ^
+      |                                             ;
+   29 | 
+   30 |     }
+      |     ~                                        
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:40:11 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(*productos, len, &auxPosicionLibre)
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:28:46: error: expected ‘;’ before ‘}’ token
+   28 |      alta(*productos, len, &auxPosicionLibre)
+      |                                              ^
+      |                                              ;
+   29 | 
+   30 |     }
+      |     ~                                         
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:40:20 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:26:20: warning: passing argument 1 of ‘buscarPorId’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |     if(buscarPorId(productos, len, auxId, &auxPosicionLibre) == 1)
+      |                    ^~~~~~~~~
+      |                    |
+      |                    eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:41:32: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   41 | int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion);
+      |                 ~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/Menu.c:28:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |      alta(productos, len, &auxPosicionLibre)
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:28:27: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos, len, &auxPosicionLibre)
+      |                           ^~~~~~~~~~~~~~~~~
+      |                           |
+      |                           int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:28:45: error: expected ‘;’ before ‘}’ token
+   28 |      alta(productos, len, &auxPosicionLibre)
+      |                                             ^
+      |                                             ;
+   29 | 
+   30 |     }
+      |     ~                                        
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:40:41 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:26:20: warning: passing argument 1 of ‘buscarPorId’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |     if(buscarPorId(productos , len, auxId, &auxPosicionLibre) == 1)
+      |                    ^~~~~~~~~
+      |                    |
+      |                    eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:41:32: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   41 | int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion);
+      |                 ~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/Menu.c:28:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:26:8: warning: ‘auxId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |     if(buscarPorId(productos , len, auxId, &auxPosicionLibre) == 1)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:40:57 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:26:20: warning: passing argument 1 of ‘buscarPorId’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |     if(buscarPorId(&productos , len, auxId, &auxPosicionLibre) == 1)
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    eProductoApple *** {aka struct <anonymous> ***}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:41:32: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple ***’ {aka ‘struct <anonymous> ***’}
+   41 | int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion);
+      |                 ~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/Menu.c:28:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:26:8: warning: ‘auxId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |     if(buscarPorId(&productos , len, auxId, &auxPosicionLibre) == 1)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:41:07 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:28:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:26:8: warning: ‘auxId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |     if(buscarPorId(*productos , len, auxId, &auxPosicionLibre) == 1)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:41:14 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:26:31: error: expected expression before ‘]’ token
+   26 |     if(buscarPorId(productos [], len, auxId, &auxPosicionLibre) == 1)
+      |                               ^
+../src/Menu.c:28:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:41:32 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:26:20: warning: passing argument 1 of ‘buscarPorId’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |     if(buscarPorId(productos , len, auxId, &auxPosicionLibre) == 1)
+      |                    ^~~~~~~~~
+      |                    |
+      |                    eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:41:32: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   41 | int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion);
+      |                 ~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/Menu.c:28:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:26:8: warning: ‘auxId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |     if(buscarPorId(productos , len, auxId, &auxPosicionLibre) == 1)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:42:25 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c:10:6: error: conflicting types for ‘Menu’
+   10 | void Menu(eProductoApple* productos , int len)
+      |      ^~~~
+In file included from ../src/Menu.c:8:
+../src/Menu.h:12:6: note: previous declaration of ‘Menu’ was here
+   12 | void Menu(eProductoApple* productos[], int len);
+      |      ^~~~
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:42:32 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:26:20: warning: passing argument 1 of ‘buscarPorId’ from incompatible pointer type [-Wincompatible-pointer-types]
+   26 |     if(buscarPorId(productos , len, auxId, &auxPosicionLibre) == 1)
+      |                    ^~~~~~~~~
+      |                    |
+      |                    eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:41:32: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   41 | int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion);
+      |                 ~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/Menu.c:28:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:26:8: warning: ‘auxId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |     if(buscarPorId(productos , len, auxId, &auxPosicionLibre) == 1)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:42:49 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:28:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:28:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   28 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:26:8: warning: ‘auxId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |     if(buscarPorId(*productos , len, auxId, &auxPosicionLibre) == 1)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:44:03 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:27:20: warning: passing argument 1 of ‘buscarPorId’ from incompatible pointer type [-Wincompatible-pointer-types]
+   27 |     if(buscarPorId(*productos , len, auxId, &auxPosicionLibre) == 1)
+      |                    ^~~~~~~~~~
+      |                    |
+      |                    eProductoApple * {aka struct <anonymous> *}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:41:33: note: expected ‘eProductoApple **’ {aka ‘struct <anonymous> **’} but argument is of type ‘eProductoApple *’ {aka ‘struct <anonymous> *’}
+   41 | int buscarPorId(eProductoApple* producto [], int tam , int id , int *idPosicion);
+      |                 ~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/Menu.c:29:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:54: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple* productos [], int len , int lugarLibre);
+      |                                                  ~~~~^~~~~~~~~~
+../src/Menu.c:27:8: warning: ‘auxId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   27 |     if(buscarPorId(*productos , len, auxId, &auxPosicionLibre) == 1)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:18:5: error: conflicting types for ‘inicializar’
+   18 | int inicializar (eProductoApple productos [], int len )
+      |     ^~~~~~~~~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:38:5: note: previous declaration of ‘inicializar’ was here
+   38 | int inicializar (eProductoApple* productos [], int len );
+      |     ^~~~~~~~~~~
+../src/Productos_Apple.c:35:5: error: conflicting types for ‘alta’
+   35 | int alta(eProductoApple productos [], int len , int lugarLibre)
+      |     ^~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:40:5: note: previous declaration of ‘alta’ was here
+   40 | int alta(eProductoApple* productos [], int len , int lugarLibre);
+      |     ^~~~
+../src/Productos_Apple.c:103:5: error: conflicting types for ‘bucarLugarLibre’
+  103 | int bucarLugarLibre ( eProductoApple producto [], int tam)
+      |     ^~~~~~~~~~~~~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:39:5: note: previous declaration of ‘bucarLugarLibre’ was here
+   39 | int bucarLugarLibre ( eProductoApple* producto [], int tam);
+      |     ^~~~~~~~~~~~~~~
+../src/Productos_Apple.c:122:5: error: conflicting types for ‘buscarPorId’
+  122 | int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion)
+      |     ^~~~~~~~~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:41:5: note: previous declaration of ‘buscarPorId’ was here
+   41 | int buscarPorId(eProductoApple* producto [], int tam , int id , int *idPosicion);
+      |     ^~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:44:31 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘inicializar’:
+../src/Productos_Apple.c:27:16: error: ‘*(productos + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+   27 |    productos[i].estado = VACIO;
+      |                ^
+      |                ->
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:43:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   43 |   if(productos[lugarLibre].estado == VACIO )
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:45:25: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   45 |    productos[lugarLibre].estado = OCUPADO;
+      |                         ^
+      |                         ->
+../src/Productos_Apple.c:46:25: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   46 |    productos[lugarLibre].idProducto = nuevoId();
+      |                         ^
+      |                         ->
+../src/Productos_Apple.c:50:34: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   50 |     strncpy(productos[lugarLibre].descripcion , &pResultado , sizeof(productos[lugarLibre].descripcion));
+      |                                  ^
+      |                                  ->
+../src/Productos_Apple.c:50:91: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   50 |     strncpy(productos[lugarLibre].descripcion , &pResultado , sizeof(productos[lugarLibre].descripcion));
+      |                                                                                           ^
+      |                                                                                           ->
+../src/Productos_Apple.c:59:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   59 |      productos[lugarLibre].nacionalidad = 1;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:63:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   63 |      productos[lugarLibre].nacionalidad = 2;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:67:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   67 |      productos[lugarLibre].nacionalidad = 3;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:79:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   79 |      productos[lugarLibre].tipo = 1;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:83:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   83 |      productos[lugarLibre].tipo = 2;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:87:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   87 |      productos[lugarLibre].tipo = 3;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:91:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   91 |      productos[lugarLibre].tipo = 4;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c: In function ‘bucarLugarLibre’:
+../src/Productos_Apple.c:111:18: error: ‘*(producto + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+  111 |    if(producto[i].estado ==  VACIO)
+      |                  ^
+      |                  ->
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:131:18: error: ‘*(producto + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+  131 |    if(producto[i].idProducto == id)
+      |                  ^
+      |                  ->
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:44:40 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘inicializar’:
+../src/Productos_Apple.c:27:16: error: ‘*(productos + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+   27 |    productos[i].estado = VACIO;
+      |                ^
+      |                ->
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:43:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   43 |   if(productos[lugarLibre].estado == VACIO )
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:45:25: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   45 |    productos[lugarLibre].estado = OCUPADO;
+      |                         ^
+      |                         ->
+../src/Productos_Apple.c:46:25: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   46 |    productos[lugarLibre].idProducto = nuevoId();
+      |                         ^
+      |                         ->
+../src/Productos_Apple.c:50:34: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   50 |     strncpy(productos[lugarLibre].descripcion , &pResultado , sizeof(productos[lugarLibre].descripcion));
+      |                                  ^
+      |                                  ->
+../src/Productos_Apple.c:50:91: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   50 |     strncpy(productos[lugarLibre].descripcion , &pResultado , sizeof(productos[lugarLibre].descripcion));
+      |                                                                                           ^
+      |                                                                                           ->
+../src/Productos_Apple.c:59:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   59 |      productos[lugarLibre].nacionalidad = 1;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:63:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   63 |      productos[lugarLibre].nacionalidad = 2;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:67:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   67 |      productos[lugarLibre].nacionalidad = 3;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:79:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   79 |      productos[lugarLibre].tipo = 1;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:83:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   83 |      productos[lugarLibre].tipo = 2;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:87:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   87 |      productos[lugarLibre].tipo = 3;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:91:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   91 |      productos[lugarLibre].tipo = 4;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c: In function ‘bucarLugarLibre’:
+../src/Productos_Apple.c:111:18: error: ‘*(producto + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+  111 |    if(producto[i].estado ==  VACIO)
+      |                  ^
+      |                  ->
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:131:19: error: ‘*(producto + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+  131 |    if(*producto[i].idProducto == id)
+      |                   ^
+      |                   ->
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:44:47 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘inicializar’:
+../src/Productos_Apple.c:27:16: error: ‘*(productos + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+   27 |    productos[i].estado = VACIO;
+      |                ^
+      |                ->
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:43:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   43 |   if(productos[lugarLibre].estado == VACIO )
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:45:25: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   45 |    productos[lugarLibre].estado = OCUPADO;
+      |                         ^
+      |                         ->
+../src/Productos_Apple.c:46:25: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   46 |    productos[lugarLibre].idProducto = nuevoId();
+      |                         ^
+      |                         ->
+../src/Productos_Apple.c:50:34: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   50 |     strncpy(productos[lugarLibre].descripcion , &pResultado , sizeof(productos[lugarLibre].descripcion));
+      |                                  ^
+      |                                  ->
+../src/Productos_Apple.c:50:91: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   50 |     strncpy(productos[lugarLibre].descripcion , &pResultado , sizeof(productos[lugarLibre].descripcion));
+      |                                                                                           ^
+      |                                                                                           ->
+../src/Productos_Apple.c:59:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   59 |      productos[lugarLibre].nacionalidad = 1;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:63:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   63 |      productos[lugarLibre].nacionalidad = 2;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:67:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   67 |      productos[lugarLibre].nacionalidad = 3;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:79:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   79 |      productos[lugarLibre].tipo = 1;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:83:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   83 |      productos[lugarLibre].tipo = 2;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:87:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   87 |      productos[lugarLibre].tipo = 3;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c:91:27: error: ‘*(productos + (sizetype)((long unsigned int)lugarLibre * 8))’ is a pointer; did you mean to use ‘->’?
+   91 |      productos[lugarLibre].tipo = 4;
+      |                           ^
+      |                           ->
+../src/Productos_Apple.c: In function ‘bucarLugarLibre’:
+../src/Productos_Apple.c:111:18: error: ‘*(producto + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+  111 |    if(producto[i].estado ==  VACIO)
+      |                  ^
+      |                  ->
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:131:19: error: ‘*(producto + (sizetype)((long unsigned int)i * 8))’ is a pointer; did you mean to use ‘->’?
+  131 |    if(*producto[i].idProducto == id)
+      |                   ^
+      |                   ->
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:45:01 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c:18:5: error: conflicting types for ‘inicializar’
+   18 | int inicializar (eProductoApple productos [], int len )
+      |     ^~~~~~~~~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:38:5: note: previous declaration of ‘inicializar’ was here
+   38 | int inicializar (eProductoApple* productos [], int len );
+      |     ^~~~~~~~~~~
+../src/Productos_Apple.c:35:5: error: conflicting types for ‘alta’
+   35 | int alta(eProductoApple productos [], int len , int lugarLibre)
+      |     ^~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:40:5: note: previous declaration of ‘alta’ was here
+   40 | int alta(eProductoApple* productos [], int len , int lugarLibre);
+      |     ^~~~
+../src/Productos_Apple.c:103:5: error: conflicting types for ‘bucarLugarLibre’
+  103 | int bucarLugarLibre ( eProductoApple producto [], int tam)
+      |     ^~~~~~~~~~~~~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:39:5: note: previous declaration of ‘bucarLugarLibre’ was here
+   39 | int bucarLugarLibre ( eProductoApple* producto [], int tam);
+      |     ^~~~~~~~~~~~~~~
+../src/Productos_Apple.c:122:5: error: conflicting types for ‘buscarPorId’
+  122 | int buscarPorId(eProductoApple producto [], int tam , int id , int *idPosicion)
+      |     ^~~~~~~~~~~
+In file included from ../src/Productos_Apple.c:8:
+../src/Productos_Apple.h:41:5: note: previous declaration of ‘buscarPorId’ was here
+   41 | int buscarPorId(eProductoApple* producto [], int tam , int id , int *idPosicion);
+      |     ^~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:45:09 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:29:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   29 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:29:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:27:8: warning: ‘auxId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   27 |     if(buscarPorId(*productos , len, auxId, &auxPosicionLibre) == 1)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos , CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:45:51 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:46:48 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:27:8: error: ‘busca’ undeclared (first use in this function)
+   27 |     if(busca)
+      |        ^~~~~
+../src/Menu.c:27:8: note: each undeclared identifier is reported only once for each function it appears in
+../src/Menu.c:29:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   29 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:29:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:48:01 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:29:11: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   29 |      alta(productos , len, &auxPosicionLibre);
+      |           ^~~~~~~~~
+      |           |
+      |           eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:29:28: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |      alta(productos , len, &auxPosicionLibre);
+      |                            ^~~~~~~~~~~~~~~~~
+      |                            |
+      |                            int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos , CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:48:38 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:29:14: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   29 |      if(alta(productos , len, &auxPosicionLibre) == 1)
+      |              ^~~~~~~~~
+      |              |
+      |              eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:29:31: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |      if(alta(productos , len, &auxPosicionLibre) == 1)
+      |                               ^~~~~~~~~~~~~~~~~
+      |                               |
+      |                               int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:48:47 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:29:14: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   29 |      if(alta(productos , len, auxPosicionLibre) == 1)
+      |              ^~~~~~~~~
+      |              |
+      |              eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:49:21 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:29:14: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   29 |      if(alta(productos , len, &auxPosicionLibre) == 1)
+      |              ^~~~~~~~~
+      |              |
+      |              eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int *lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘alta’:
+../src/Productos_Apple.c:43:15: error: array subscript is not an integer
+   43 |   if(productos[lugarLibre].estado == VACIO )
+      |               ^
+../src/Productos_Apple.c:46:13: error: array subscript is not an integer
+   46 |    productos[lugarLibre].estado = OCUPADO;
+      |             ^
+../src/Productos_Apple.c:47:13: error: array subscript is not an integer
+   47 |    productos[lugarLibre].idProducto = nuevoId();
+      |             ^
+../src/Productos_Apple.c:51:22: error: array subscript is not an integer
+   51 |     strncpy(productos[lugarLibre].descripcion , &pResultado , sizeof(productos[lugarLibre].descripcion));
+      |                      ^
+../src/Productos_Apple.c:51:79: error: array subscript is not an integer
+   51 |     strncpy(productos[lugarLibre].descripcion , &pResultado , sizeof(productos[lugarLibre].descripcion));
+      |                                                                               ^
+../src/Productos_Apple.c:60:15: error: array subscript is not an integer
+   60 |      productos[lugarLibre].nacionalidad = 1;
+      |               ^
+../src/Productos_Apple.c:64:15: error: array subscript is not an integer
+   64 |      productos[lugarLibre].nacionalidad = 2;
+      |               ^
+../src/Productos_Apple.c:68:15: error: array subscript is not an integer
+   68 |      productos[lugarLibre].nacionalidad = 3;
+      |               ^
+../src/Productos_Apple.c:80:15: error: array subscript is not an integer
+   80 |      productos[lugarLibre].tipo = 1;
+      |               ^
+../src/Productos_Apple.c:84:15: error: array subscript is not an integer
+   84 |      productos[lugarLibre].tipo = 2;
+      |               ^
+../src/Productos_Apple.c:88:15: error: array subscript is not an integer
+   88 |      productos[lugarLibre].tipo = 3;
+      |               ^
+../src/Productos_Apple.c:92:15: error: array subscript is not an integer
+   92 |      productos[lugarLibre].tipo = 4;
+      |               ^
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:49:30 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:29:14: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   29 |      if(alta(productos , len, &auxPosicionLibre) == 1)
+      |              ^~~~~~~~~
+      |              |
+      |              eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:29:31: warning: passing argument 3 of ‘alta’ makes integer from pointer without a cast [-Wint-conversion]
+   29 |      if(alta(productos , len, &auxPosicionLibre) == 1)
+      |                               ^~~~~~~~~~~~~~~~~
+      |                               |
+      |                               int *
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:53: note: expected ‘int’ but argument is of type ‘int *’
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |                                                 ~~~~^~~~~~~~~~
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos , CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:49:41 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:29:14: warning: passing argument 1 of ‘alta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   29 |      if(alta(productos , len, auxPosicionLibre) == 1)
+      |              ^~~~~~~~~
+      |              |
+      |              eProductoApple ** {aka struct <anonymous> **}
+In file included from ../src/Menu.h:10,
+                 from ../src/Menu.c:8:
+../src/Productos_Apple.h:40:25: note: expected ‘eProductoApple *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eProductoApple **’ {aka ‘struct <anonymous> **’}
+   40 | int alta(eProductoApple productos [], int len , int lugarLibre);
+      |          ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:49:57 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+19:59:22 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:13:6: warning: unused variable ‘auxId’ [-Wunused-variable]
+   13 |  int auxId ;
+      |      ^~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+20:06:29 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:41:64: error: expected ‘;’ before ‘break’
+   41 |     buscarPorId(*productos, len, auxIdBaja, &auxidPosicionBaja)
+      |                                                                ^
+      |                                                                ;
+   42 |     break;
+      |     ~~~~~                                                       
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:06:42 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:41:64: error: expected ‘;’ before ‘break’
+   41 |     buscarPorId(*productos, len, auxIdBaja, &auxidPosicionBaja)
+      |                                                                ^
+      |                                                                ;
+   42 |     break;
+      |     ~~~~~                                                       
+make: *** [src/subdir.mk:29: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:07:04 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:41:5: warning: ‘auxIdBaja’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   41 |     buscarPorId(*productos, len, auxIdBaja, &auxidPosicionBaja);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos , CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘getInt’:
+../src/utn.c:14:6: warning: implicit declaration of function ‘getString’ [-Wimplicit-function-declaration]
+   14 |      getString(bufferString,sizeof(bufferString)) == 0 &&
+      |      ^~~~~~~~~
+../src/utn.c:15:6: warning: implicit declaration of function ‘esNumerica’ [-Wimplicit-function-declaration]
+   15 |      esNumerica(bufferString,sizeof(bufferString)))
+      |      ^~~~~~~~~~
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+/usr/bin/ld: ./src/utn.o: en la función `getInt':
+/home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:14: referencia a `getString' sin definir
+/usr/bin/ld: /home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:15: referencia a `esNumerica' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Tema7_Arrays_Paralelos] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:07:12 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:15:6: warning: unused variable ‘auxidPosicionBaja’ [-Wunused-variable]
+   15 |  int auxidPosicionBaja ;
+      |      ^~~~~~~~~~~~~~~~~
+../src/Menu.c:14:6: warning: unused variable ‘auxIdBaja’ [-Wunused-variable]
+   14 |  int auxIdBaja ;
+      |      ^~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+/usr/bin/ld: ./src/utn.o: en la función `getInt':
+/home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:14: referencia a `getString' sin definir
+/usr/bin/ld: /home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:15: referencia a `esNumerica' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Tema7_Arrays_Paralelos] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:07:50 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘getInt’:
+../src/utn.c:14:6: warning: implicit declaration of function ‘getString’ [-Wimplicit-function-declaration]
+   14 |      getString(bufferString,sizeof(bufferString)) == 0 &&
+      |      ^~~~~~~~~
+../src/utn.c:15:6: warning: implicit declaration of function ‘esNumerica’ [-Wimplicit-function-declaration]
+   15 |      esNumerica(bufferString,sizeof(bufferString)))
+      |      ^~~~~~~~~~
+../src/utn.c: At top level:
+../src/utn.c:23:12: error: static declaration of ‘getString’ follows non-static declaration
+   23 | static int getString(char* cadena, int longitud)
+      |            ^~~~~~~~~
+../src/utn.c:14:6: note: previous implicit declaration of ‘getString’ was here
+   14 |      getString(bufferString,sizeof(bufferString)) == 0 &&
+      |      ^~~~~~~~~
+../src/utn.c:23:12: warning: ‘getString’ defined but not used [-Wunused-function]
+   23 | static int getString(char* cadena, int longitud)
+      |            ^~~~~~~~~
+make: *** [src/subdir.mk:29: src/utn.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:08:15 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘getInt’:
+../src/utn.c:14:6: warning: implicit declaration of function ‘getString’ [-Wimplicit-function-declaration]
+   14 |      getString(bufferString,sizeof(bufferString)) == 0 &&
+      |      ^~~~~~~~~
+../src/utn.c:15:6: warning: implicit declaration of function ‘esNumerica’ [-Wimplicit-function-declaration]
+   15 |      esNumerica(bufferString,sizeof(bufferString)))
+      |      ^~~~~~~~~~
+../src/utn.c: At top level:
+../src/utn.c:23:12: error: static declaration of ‘getString’ follows non-static declaration
+   23 | static int getString(char* cadena, int longitud)
+      |            ^~~~~~~~~
+../src/utn.c:14:6: note: previous implicit declaration of ‘getString’ was here
+   14 |      getString(bufferString,sizeof(bufferString)) == 0 &&
+      |      ^~~~~~~~~
+../src/utn.c:47:12: error: static declaration of ‘esNumerica’ follows non-static declaration
+   47 | static int esNumerica(char* cadena, int limite)
+      |            ^~~~~~~~~~
+../src/utn.c:15:6: note: previous implicit declaration of ‘esNumerica’ was here
+   15 |      esNumerica(bufferString,sizeof(bufferString)))
+      |      ^~~~~~~~~~
+../src/utn.c:47:12: warning: ‘esNumerica’ defined but not used [-Wunused-function]
+   47 | static int esNumerica(char* cadena, int limite)
+      |            ^~~~~~~~~~
+../src/utn.c:23:12: warning: ‘getString’ defined but not used [-Wunused-function]
+   23 | static int getString(char* cadena, int longitud)
+      |            ^~~~~~~~~
+make: *** [src/subdir.mk:29: src/utn.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:08:38 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘getInt’:
+../src/utn.c:14:6: warning: implicit declaration of function ‘getString’ [-Wimplicit-function-declaration]
+   14 |      getString(bufferString,sizeof(bufferString)) == 0 &&
+      |      ^~~~~~~~~
+../src/utn.c:15:6: warning: implicit declaration of function ‘esNumerica’ [-Wimplicit-function-declaration]
+   15 |      esNumerica(bufferString,sizeof(bufferString)))
+      |      ^~~~~~~~~~
+../src/utn.c: At top level:
+../src/utn.c:23:12: error: static declaration of ‘getString’ follows non-static declaration
+   23 | static int getString(char* cadena, int longitud)
+      |            ^~~~~~~~~
+../src/utn.c:14:6: note: previous implicit declaration of ‘getString’ was here
+   14 |      getString(bufferString,sizeof(bufferString)) == 0 &&
+      |      ^~~~~~~~~
+../src/utn.c:47:12: error: static declaration of ‘esNumerica’ follows non-static declaration
+   47 | static int esNumerica(char* cadena, int limite)
+      |            ^~~~~~~~~~
+../src/utn.c:15:6: note: previous implicit declaration of ‘esNumerica’ was here
+   15 |      esNumerica(bufferString,sizeof(bufferString)))
+      |      ^~~~~~~~~~
+../src/utn.c:47:12: warning: ‘esNumerica’ defined but not used [-Wunused-function]
+   47 | static int esNumerica(char* cadena, int limite)
+      |            ^~~~~~~~~~
+../src/utn.c:23:12: warning: ‘getString’ defined but not used [-Wunused-function]
+   23 | static int getString(char* cadena, int longitud)
+      |            ^~~~~~~~~
+make: *** [src/subdir.mk:29: src/utn.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:08:59 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+21:04:15 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:137:16: error: invalid storage class for function ‘getString’
+  137 |    }static int getString(char* cadena, int longitud)
+      |                ^~~~~~~~~
+../src/Productos_Apple.c: In function ‘getString’:
+../src/Productos_Apple.c:138:3: error: expected declaration specifiers before ‘}’ token
+  138 |   }
+      |   ^
+../src/Productos_Apple.c:139:2: error: expected declaration specifiers before ‘}’ token
+  139 |  }
+      |  ^
+../src/Productos_Apple.c:140:2: error: expected declaration specifiers before ‘return’
+  140 |  return retorno;
+      |  ^~~~~~
+../src/Productos_Apple.c:141:1: error: expected declaration specifiers before ‘}’ token
+  141 | }
+      | ^
+../src/Productos_Apple.c:141: error: expected ‘{’ at end of input
+  141 | }
+      | 
+../src/Productos_Apple.c:141:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  141 | }
+      | ^
+../src/Productos_Apple.c: In function ‘buscarPorId’:
+../src/Productos_Apple.c:141:1: error: expected declaration or statement at end of input
+../src/Productos_Apple.c:141:1: error: expected declaration or statement at end of input
+../src/Productos_Apple.c:141:1: error: expected declaration or statement at end of input
+../src/Productos_Apple.c:126:6: warning: variable ‘retorno’ set but not used [-Wunused-but-set-variable]
+  126 |  int retorno = -1;
+      |      ^~~~~~~
+../src/Productos_Apple.c:141: warning: control reaches end of non-void function [-Wreturn-type]
+  141 | }
+      | 
+At top level:
+../src/Productos_Apple.c:137:16: warning: ‘getString’ defined but not used [-Wunused-function]
+  137 |    }static int getString(char* cadena, int longitud)
+      |                ^~~~~~~~~
+make: *** [src/subdir.mk:29: src/Productos_Apple.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:04:35 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+22:18:39 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:15:6: warning: unused variable ‘auxidPosicionBaja’ [-Wunused-variable]
+   15 |  int auxidPosicionBaja ;
+      |      ^~~~~~~~~~~~~~~~~
+../src/Menu.c:14:6: warning: unused variable ‘auxIdBaja’ [-Wunused-variable]
+   14 |  int auxIdBaja ;
+      |      ^~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos , CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘utn_getNumeroFlotante’:
+../src/utn.c:140:6: warning: implicit declaration of function ‘getFloat’ [-Wimplicit-function-declaration]
+  140 |   if(getFloat(&bufferFloat) == 0)
+      |      ^~~~~~~~
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+/usr/bin/ld: ./src/utn.o: en la función `utn_getNumeroFlotante':
+/home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:140: referencia a `getFloat' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Tema7_Arrays_Paralelos] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:19:24 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘getFloat’:
+../src/utn.c:88:48: warning: implicit declaration of function ‘esFlotante’ [-Wimplicit-function-declaration]
+   88 |      if(getString(buffer,sizeof(buffer))==0 && esFlotante(buffer))
+      |                                                ^~~~~~~~~~
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+/usr/bin/ld: ./src/utn.o: en la función `getFloat':
+/home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:88: referencia a `esFlotante' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Tema7_Arrays_Paralelos] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:19:48 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+../src/utn.c: In function ‘getFloat’:
+../src/utn.c:89:48: warning: implicit declaration of function ‘esFlotante’ [-Wimplicit-function-declaration]
+   89 |      if(getString(buffer,sizeof(buffer))==0 && esFlotante(buffer))
+      |                                                ^~~~~~~~~~
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+/usr/bin/ld: ./src/utn.o: en la función `getFloat':
+/home/miguel/Escritorio/cursada 2022 UTN /Tema7_Arrays_Paralelos/Debug/../src/utn.c:89: referencia a `esFlotante' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Tema7_Arrays_Paralelos] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:20:29 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+22:26:46 **** Incremental Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 

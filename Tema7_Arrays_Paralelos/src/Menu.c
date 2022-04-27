@@ -7,9 +7,12 @@
 
 #include "Menu.h"
 
-void Menu(eProductoApple productos[] , int len)
+void Menu(eProductoApple* productos[] , int len)
 {
 	int opciones ;
+	int auxPosicionLibre ;
+	int auxIdBaja ;
+	int auxidPosicionBaja ;
 
 	printf("\n");
 	do {
@@ -21,10 +24,21 @@ void Menu(eProductoApple productos[] , int len)
 		{
 			case 1:
 				printf("\nAlta");
+				auxPosicionLibre = buscarLugarLibre(*productos, len);
+				if(auxPosicionLibre != -1)
+				{
+					if(alta(*productos , len, auxPosicionLibre) == 1)
+					{
+						printf("ya se hizo la alta");
+					}
 
+				}
 				break;
 			case 2:
 				printf("\nBaja");
+				printf("\nIngrese Id a dar de baja :");
+
+
 				break;
 			case 3:
 				printf("\nModificacion");
