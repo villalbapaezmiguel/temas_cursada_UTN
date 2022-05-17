@@ -5243,3 +5243,484 @@ make: No se hace nada para 'all'.
 21:45:24 **** Incremental Build of configuration Debug for project Punteros ****
 make all 
 make: No se hace nada para 'all'.
+18:51:34 **** Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building file: ../src/Tema 17(memoria Dinamica).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema 17(memoria Dinamica).d" -MT"src/Tema 17(memoria Dinamica).o" -o "src/Tema 17(memoria Dinamica).o" "../src/Tema 17(memoria Dinamica).c"
+../src/Tema 17(memoria Dinamica).c: In function ‘funcion’:
+../src/Tema 17(memoria Dinamica).c:43:2: warning: implicit declaration of function ‘strncpy’ [-Wimplicit-function-declaration]
+   43 |  strncpy(producto->nombreProducto , "pepas", NOMBRE);
+      |  ^~~~~~~
+../src/Tema 17(memoria Dinamica).c:43:2: warning: incompatible implicit declaration of built-in function ‘strncpy’
+../src/Tema 17(memoria Dinamica).c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strncpy’
+   12 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   13 | 
+../src/Tema 17(memoria Dinamica).c:46:1: error: expected expression before ‘}’ token
+   46 | }
+      | ^
+../src/Tema 17(memoria Dinamica).c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+   46 | }
+      | ^
+make: *** [src/subdir.mk:20: src/Tema 17(memoria Dinamica).o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:53:15 **** Incremental Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building file: ../src/Tema 17(memoria Dinamica).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema 17(memoria Dinamica).d" -MT"src/Tema 17(memoria Dinamica).o" -o "src/Tema 17(memoria Dinamica).o" "../src/Tema 17(memoria Dinamica).c"
+../src/Tema 17(memoria Dinamica).c: In function ‘funcion’:
+../src/Tema 17(memoria Dinamica).c:48:1: error: expected expression before ‘}’ token
+   48 | }
+      | ^
+../src/Tema 17(memoria Dinamica).c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+make: *** [src/subdir.mk:20: src/Tema 17(memoria Dinamica).o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:54:26 **** Incremental Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building file: ../src/Tema 17(memoria Dinamica).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema 17(memoria Dinamica).d" -MT"src/Tema 17(memoria Dinamica).o" -o "src/Tema 17(memoria Dinamica).o" "../src/Tema 17(memoria Dinamica).c"
+../src/Tema 17(memoria Dinamica).c: In function ‘funcion’:
+../src/Tema 17(memoria Dinamica).c:47:10: error: incompatible type for argument 1 of ‘strncpy’
+   47 |  strncpy(aux , "pepas", NOMBRE);
+      |          ^~~
+      |          |
+      |          eProducto {aka struct <anonymous>}
+In file included from ../src/Tema 17(memoria Dinamica).c:13:
+/usr/include/string.h:125:14: note: expected ‘char * restrict’ but argument is of type ‘eProducto’ {aka ‘struct <anonymous>’}
+  125 | extern char *strncpy (char *__restrict __dest,
+      |              ^~~~~~~
+../src/Tema 17(memoria Dinamica).c:49:9: error: incompatible types when returning type ‘eProducto’ {aka ‘struct <anonymous>’} but ‘int’ was expected
+   49 |  return aux;
+      |         ^~~
+../src/Tema 17(memoria Dinamica).c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+make: *** [src/subdir.mk:20: src/Tema 17(memoria Dinamica).o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:20:52 **** Incremental Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building file: ../src/Tema 17(memoria Dinamica).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema 17(memoria Dinamica).d" -MT"src/Tema 17(memoria Dinamica).o" -o "src/Tema 17(memoria Dinamica).o" "../src/Tema 17(memoria Dinamica).c"
+../src/Tema 17(memoria Dinamica).c: In function ‘funcion’:
+../src/Tema 17(memoria Dinamica).c:54:9: error: incompatible types when returning type ‘eProducto’ {aka ‘struct <anonymous>’} but ‘int’ was expected
+   54 |  return *aux;
+      |         ^~~~
+../src/Tema 17(memoria Dinamica).c:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+   55 | }
+      | ^
+make: *** [src/subdir.mk:20: src/Tema 17(memoria Dinamica).o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:21:40 **** Incremental Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building file: ../src/Tema 17(memoria Dinamica).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema 17(memoria Dinamica).d" -MT"src/Tema 17(memoria Dinamica).o" -o "src/Tema 17(memoria Dinamica).o" "../src/Tema 17(memoria Dinamica).c"
+../src/Tema 17(memoria Dinamica).c: In function ‘funcion’:
+../src/Tema 17(memoria Dinamica).c:56:9: error: incompatible types when returning type ‘eProducto’ {aka ‘struct <anonymous>’} but ‘int’ was expected
+   56 |  return *aux;
+      |         ^~~~
+../src/Tema 17(memoria Dinamica).c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+   57 | }
+      | ^
+make: *** [src/subdir.mk:20: src/Tema 17(memoria Dinamica).o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:32:43 **** Incremental Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building file: ../src/Tema 17(memoria Dinamica).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema 17(memoria Dinamica).d" -MT"src/Tema 17(memoria Dinamica).o" -o "src/Tema 17(memoria Dinamica).o" "../src/Tema 17(memoria Dinamica).c"
+../src/Tema 17(memoria Dinamica).c: In function ‘funcion’:
+../src/Tema 17(memoria Dinamica).c:58:1: error: expected expression before ‘}’ token
+   58 | }
+      | ^
+../src/Tema 17(memoria Dinamica).c:58:1: warning: control reaches end of non-void function [-Wreturn-type]
+   58 | }
+      | ^
+make: *** [src/subdir.mk:20: src/Tema 17(memoria Dinamica).o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:34:29 **** Incremental Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building file: ../src/Tema 17(memoria Dinamica).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema 17(memoria Dinamica).d" -MT"src/Tema 17(memoria Dinamica).o" -o "src/Tema 17(memoria Dinamica).o" "../src/Tema 17(memoria Dinamica).c"
+../src/Tema 17(memoria Dinamica).c: In function ‘funcion’:
+../src/Tema 17(memoria Dinamica).c:60:9: warning: returning ‘eProducto *’ {aka ‘struct <anonymous> *’} from a function with return type ‘int’ makes integer from pointer without a cast [-Wint-conversion]
+   60 |  return auxPuntero;
+      |         ^~~~~~~~~~
+../src/Tema 17(memoria Dinamica).c:55:20: warning: ‘auxPuntero’ is used uninitialized in this function [-Wuninitialized]
+   55 |  strncpy(auxPuntero->nombre, "pepas", NOMBRE);
+      |          ~~~~~~~~~~^~~~~~~~
+Finished building: ../src/Tema 17(memoria Dinamica).c
+ 
+Building target: Tema 17
+Invoking: GCC C Linker
+gcc  -o "Tema 17(memoria Dinamica)"  ./src/Tema\ 17(memoria\ Dinamica).o   
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:46: Tema 17(memoria Dinamica)] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:35:17 **** Incremental Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building file: ../src/Tema 17(memoria Dinamica).c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema 17(memoria Dinamica).d" -MT"src/Tema 17(memoria Dinamica).o" -o "src/Tema 17(memoria Dinamica).o" "../src/Tema 17(memoria Dinamica).c"
+../src/Tema 17(memoria Dinamica).c: In function ‘funcion’:
+../src/Tema 17(memoria Dinamica).c:60:9: warning: returning ‘eProducto *’ {aka ‘struct <anonymous> *’} from a function with return type ‘int’ makes integer from pointer without a cast [-Wint-conversion]
+   60 |  return auxPuntero;
+      |         ^~~~~~~~~~
+../src/Tema 17(memoria Dinamica).c:55:20: warning: ‘auxPuntero’ is used uninitialized in this function [-Wuninitialized]
+   55 |  strncpy(auxPuntero->nombre, "pepas", NOMBRE);
+      |          ~~~~~~~~~~^~~~~~~~
+Finished building: ../src/Tema 17(memoria Dinamica).c
+ 
+Building target: Tema 17
+Invoking: GCC C Linker
+gcc  -o "Tema 17(memoria Dinamica)"  ./src/Tema\ 17(memoria\ Dinamica).o   
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:46: Tema 17(memoria Dinamica)] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:35:31 **** Incremental Build of configuration Debug for project Tema 17(memoria Dinamica) ****
+make all 
+Building target: Tema 17
+Invoking: GCC C Linker
+gcc  -o "Tema 17(memoria Dinamica)"  ./src/Tema\ 17(memoria\ Dinamica).o   
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:46: Tema 17(memoria Dinamica)] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:36:34 **** Clean-only build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make clean 
+rm -rf  ./src/Tema\ 17(memoria\ Dinamica).o  ./src/Tema\ 17(memoria\ Dinamica).d  "Tema 17(memoria Dinamica)"
+/bin/sh: 1: Syntax error: "(" unexpected
+make: [makefile:52: clean] Error 2 (no tiene efecto)
+ 
+19:36:34 **** Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema\ 17(memoria\ Dinamica).o   
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [makefile:46: Tema_17_memoria_ Dinamica] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:37:06 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘funcion’:
+../src/Tema_17_memoria_Dinamica.c:60:9: warning: returning ‘eProducto *’ {aka ‘struct <anonymous> *’} from a function with return type ‘int’ makes integer from pointer without a cast [-Wint-conversion]
+   60 |  return auxPuntero;
+      |         ^~~~~~~~~~
+../src/Tema_17_memoria_Dinamica.c:55:20: warning: ‘auxPuntero’ is used uninitialized in this function [-Wuninitialized]
+   55 |  strncpy(auxPuntero->nombre, "pepas", NOMBRE);
+      |          ~~~~~~~~~~^~~~~~~~
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+19:42:23 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘funcion’:
+../src/Tema_17_memoria_Dinamica.c:60:9: error: incompatible types when returning type ‘eProducto’ {aka ‘struct <anonymous>’} but ‘int’ was expected
+   60 |  return *auxPuntero;
+      |         ^~~~~~~~~~~
+../src/Tema_17_memoria_Dinamica.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+   61 | }
+      | ^
+make: *** [src/subdir.mk:20: src/Tema_17_memoria_Dinamica.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:42:35 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘funcion’:
+../src/Tema_17_memoria_Dinamica.c:56:2: error: invalid type argument of unary ‘*’ (have ‘int’)
+   56 |  *auxPuntero->precio = 180;
+      |  ^~~~~~~~~~~~~~~~~~~
+../src/Tema_17_memoria_Dinamica.c:58:16: error: incompatible types when assigning to type ‘eProducto’ {aka ‘struct <anonymous>’} from type ‘eProducto *’ {aka ‘struct <anonymous> *’}
+   58 |  *auxPuntero = &pProducto;
+      |                ^
+../src/Tema_17_memoria_Dinamica.c:60:9: error: incompatible types when returning type ‘eProducto’ {aka ‘struct <anonymous>’} but ‘int’ was expected
+   60 |  return *auxPuntero;
+      |         ^~~~~~~~~~~
+../src/Tema_17_memoria_Dinamica.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+   61 | }
+      | ^
+make: *** [src/subdir.mk:20: src/Tema_17_memoria_Dinamica.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:44:10 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+19:47:46 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+19:47:58 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+19:48:04 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+19:48:22 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+19:48:27 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+19:57:33 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+19:57:36 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+20:09:49 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+20:09:52 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+20:11:17 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+20:11:20 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+20:12:17 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+20:26:43 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘cargarProducto’:
+../src/Tema_17_memoria_Dinamica.c:55:23: error: expected expression before ‘)’ token
+   55 |  puntero = (producto *) malloc(sizeof(eProducto));
+      |                       ^
+make: *** [src/subdir.mk:20: src/Tema_17_memoria_Dinamica.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:26:50 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+20:26:53 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+20:36:54 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+20:38:29 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘cargarProducto’:
+../src/Tema_17_memoria_Dinamica.c:64:13: error: ‘producto’ undeclared (first use in this function); did you mean ‘eProducto’?
+   64 |  puntero = &producto;
+      |             ^~~~~~~~
+      |             eProducto
+../src/Tema_17_memoria_Dinamica.c:64:13: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:20: src/Tema_17_memoria_Dinamica.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:40:15 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+20:40:17 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+20:52:19 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+20:54:25 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘main’:
+../src/Tema_17_memoria_Dinamica.c:61:2: error: ‘puntero’ undeclared (first use in this function)
+   61 |  puntero = cargarProducto();
+      |  ^~~~~~~
+../src/Tema_17_memoria_Dinamica.c:61:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/Tema_17_memoria_Dinamica.c:69:13: error: redeclaration of ‘otro’ with no linkage
+   69 |  eProducto* otro ;
+      |             ^~~~
+../src/Tema_17_memoria_Dinamica.c:60:13: note: previous declaration of ‘otro’ was here
+   60 |  eProducto* otro ;
+      |             ^~~~
+make: *** [src/subdir.mk:20: src/Tema_17_memoria_Dinamica.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:54:31 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘main’:
+../src/Tema_17_memoria_Dinamica.c:61:2: error: ‘puntero’ undeclared (first use in this function)
+   61 |  puntero = cargarProducto();
+      |  ^~~~~~~
+../src/Tema_17_memoria_Dinamica.c:61:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/Tema_17_memoria_Dinamica.c:69:13: error: redeclaration of ‘otro’ with no linkage
+   69 |  eProducto* otro ;
+      |             ^~~~
+../src/Tema_17_memoria_Dinamica.c:60:13: note: previous declaration of ‘otro’ was here
+   60 |  eProducto* otro ;
+      |             ^~~~
+make: *** [src/subdir.mk:20: src/Tema_17_memoria_Dinamica.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:55:02 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+20:55:06 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+21:34:33 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+21:34:41 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+21:57:01 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘main’:
+../src/Tema_17_memoria_Dinamica.c:82:6: warning: unused variable ‘vector’ [-Wunused-variable]
+   82 |  int vector[5];
+      |      ^~~~~~
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+22:15:10 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
