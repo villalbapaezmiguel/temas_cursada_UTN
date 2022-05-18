@@ -6766,3 +6766,400 @@ make: No se hace nada para 'all'.
 19:35:50 **** Incremental Build of configuration Debug for project archivo_clase ****
 make all 
 make: No se hace nada para 'all'.
+18:24:22 **** Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+18:24:48 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+18:24:50 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+18:26:53 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+18:26:57 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+18:36:08 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:26:11: error: lvalue required as left operand of assignment
+   26 |  *pSaludo = saludar;
+      |           ^
+make: *** [src/subdir.mk:20: src/PunteroFuncion_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:36:15 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+18:36:19 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+18:37:56 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+18:38:02 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+18:56:30 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+18:56:33 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+19:09:01 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:80:32: error: expected expression before ‘char’
+   80 |  auxSaludarChar = pSaludarChar(char*);
+      |                                ^~~~
+make: *** [src/subdir.mk:20: src/PunteroFuncion_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:09:19 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:80:19: warning: ‘pSaludarChar’ is used uninitialized in this function [-Wuninitialized]
+   80 |  auxSaludarChar = pSaludarChar("hola oscar");
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:10:25 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:81:19: warning: ‘pSaludarChar’ is used uninitialized in this function [-Wuninitialized]
+   81 |  auxSaludarChar = pSaludarChar("hola oscar");
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:10:53 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:81:22: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pSaludarChar’
+   81 |  int sauxSaludarChar pSaludarChar("hola oscar");
+      |                      ^~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/PunteroFuncion_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:16:31 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:80:32: error: expected expression before ‘char’
+   80 |  auxSaludarChar = pSaludarChar(char*);
+      |                                ^~~~
+make: *** [src/subdir.mk:20: src/PunteroFuncion_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:16:38 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:80:32: error: expected expression before ‘char’
+   80 |  auxSaludarChar = pSaludarChar(char*);
+      |                                ^~~~
+make: *** [src/subdir.mk:20: src/PunteroFuncion_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:26:45 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:80:17: warning: implicit declaration of function ‘saludarChar’; did you mean ‘pSaludarChar’? [-Wimplicit-function-declaration]
+   80 |  pSaludarChar = saludarChar()
+      |                 ^~~~~~~~~~~
+      |                 pSaludarChar
+../src/PunteroFuncion_Video.c:80:15: warning: assignment to ‘int (*)(char *)’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   80 |  pSaludarChar = saludarChar()
+      |               ^
+../src/PunteroFuncion_Video.c:80:30: error: expected ‘;’ before ‘if’
+   80 |  pSaludarChar = saludarChar()
+      |                              ^
+      |                              ;
+   81 | 
+   82 |  if(auxSaludarChar == 0)
+      |  ~~                           
+../src/PunteroFuncion_Video.c:79:8: warning: variable ‘pSaludarChar’ set but not used [-Wunused-but-set-variable]
+   79 |  int (*pSaludarChar)(char* );
+      |        ^~~~~~~~~~~~
+../src/PunteroFuncion_Video.c:78:6: warning: unused variable ‘auxSaludarChar’ [-Wunused-variable]
+   78 |  int auxSaludarChar ;
+      |      ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/PunteroFuncion_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:27:00 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:80:17: warning: implicit declaration of function ‘saludarChar’; did you mean ‘pSaludarChar’? [-Wimplicit-function-declaration]
+   80 |  pSaludarChar = saludarChar()
+      |                 ^~~~~~~~~~~
+      |                 pSaludarChar
+../src/PunteroFuncion_Video.c:80:15: warning: assignment to ‘int (*)(char *)’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   80 |  pSaludarChar = saludarChar()
+      |               ^
+../src/PunteroFuncion_Video.c:80:30: error: expected ‘;’ before ‘if’
+   80 |  pSaludarChar = saludarChar()
+      |                              ^
+      |                              ;
+   81 | 
+   82 |  if(auxSaludarChar == 0)
+      |  ~~                           
+../src/PunteroFuncion_Video.c:79:8: warning: variable ‘pSaludarChar’ set but not used [-Wunused-but-set-variable]
+   79 |  int (*pSaludarChar)(char* );
+      |        ^~~~~~~~~~~~
+../src/PunteroFuncion_Video.c:78:6: warning: unused variable ‘auxSaludarChar’ [-Wunused-variable]
+   78 |  int auxSaludarChar ;
+      |      ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:20: src/PunteroFuncion_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:27:16 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:83:4: warning: ‘auxSaludarChar’ is used uninitialized in this function [-Wuninitialized]
+   83 |  if(auxSaludarChar == 0)
+      |    ^
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:28:15 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘main’:
+../src/PunteroFuncion_Video.c:78:6: warning: unused variable ‘auxSaludarChar’ [-Wunused-variable]
+   78 |  int auxSaludarChar ;
+      |      ^~~~~~~~~~~~~~
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:28:26 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:28:29 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+19:31:11 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘saludoChar’:
+../src/PunteroFuncion_Video.c:44:32: error: parameter name omitted
+   44 | int saludoChar(char* mensaje , int )
+      |                                ^~~
+make: *** [src/subdir.mk:20: src/PunteroFuncion_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:31:31 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:31:35 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+19:37:00 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+../src/PunteroFuncion_Video.c: In function ‘saludoLenguaje’:
+../src/PunteroFuncion_Video.c:68:15: warning: passing argument 1 of ‘pSaludarChar’ from incompatible pointer type [-Wincompatible-pointer-types]
+   68 |  pSaludarChar(&mensaje , numero);
+      |               ^~~~~~~~
+      |               |
+      |               char **
+../src/PunteroFuncion_Video.c:68:15: note: expected ‘char *’ but argument is of type ‘char **’
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:37:26 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:40:33 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:40:36 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+19:40:52 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:41:16 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:41:18 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+19:41:33 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:41:33 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+19:42:25 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+19:42:28 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
