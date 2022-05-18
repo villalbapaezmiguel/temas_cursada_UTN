@@ -5724,3 +5724,1045 @@ Finished building target: Tema_17_memoria_ Dinamica
 22:15:10 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
 make all 
 make: No se hace nada para 'all'.
+15:22:09 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:22:13 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:25:04 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+../src/Tema5_VectoresYFunciones_5-3.c: In function ‘funciones’:
+../src/Tema5_VectoresYFunciones_5-3.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:25:14 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:28:59 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:29:01 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:29:05 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:29:07 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:29:21 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:29:26 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:29:27 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:29:58 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:30:00 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:30:04 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:30:31 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:30:33 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:30:45 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:30:48 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:35:41 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+../src/Tema5_VectoresYFunciones_5-3.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-3.c:24:6: warning: unused variable ‘numero’ [-Wunused-variable]
+   24 |  int numero , i;
+      |      ^~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:35:47 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:35:50 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:35:52 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:36:00 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+../src/Tema5_VectoresYFunciones_5-3.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-3.c:24:6: warning: unused variable ‘numero’ [-Wunused-variable]
+   24 |  int numero , i;
+      |      ^~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:37:52 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+../src/Tema5_VectoresYFunciones_5-3.c: In function ‘main’:
+../src/Tema5_VectoresYFunciones_5-3.c:24:6: warning: variable ‘numero’ set but not used [-Wunused-but-set-variable]
+   24 |  int numero [10];
+      |      ^~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:40:37 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:40:41 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:40:59 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:41:01 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:46:38 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+../src/Tema5_VectoresYFunciones_5-3.c: In function ‘funciones’:
+../src/Tema5_VectoresYFunciones_5-3.c:49:8: warning: variable ‘promedioPositivo’ set but not used [-Wunused-but-set-variable]
+   49 |  float promedioPositivo ;
+      |        ^~~~~~~~~~~~~~~~
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:48:35 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:49:00 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+15:49:02 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+15:52:30 **** Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+15:52:41 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+15:52:44 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+15:57:27 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+15:58:32 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:00:13 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:04:10 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:11:14: warning: unused variable ‘i’ [-Wunused-variable]
+   11 |  int opcion ,i;
+      |              ^
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:04:23 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:04:28 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+16:04:58 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:04:59 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+16:21:51 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘cargar’:
+../src/Menu.c:87:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   87 |   scanf("%d", vector[i]);
+      |          ~^   ~~~~~~~~~
+      |           |         |
+      |           int *     int
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:22:23 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:22:29 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+16:23:29 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:23:33 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+16:26:19 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:26:19 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:27:31 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘mostrar’:
+../src/Menu.c:110:26: error: expected ‘)’ before ‘vector’
+  110 |   printf("\n edades : %d" vector[i]);
+      |                          ^~~~~~~
+      |                          )
+../src/Menu.c:110:24: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  110 |   printf("\n edades : %d" vector[i]);
+      |                       ~^
+      |                        |
+      |                        int
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:27:32 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:27:37 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘mostrar’:
+../src/Menu.c:110:27: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  110 |   printf("\n edades : %d" &vector[i]);
+      |          ~~~~~~~~~~~~~~~~ ^~~~~~~~~~
+      |          |                       |
+      |          char *                  int
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:27:37 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:27:51 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c:104:24: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+  104 | void mostrar(int vector*  , int tam)
+      |                        ^
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:27:51 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:28:01 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘mostrar’:
+../src/Menu.c:110:26: error: expected ‘)’ before ‘vector’
+  110 |   printf("\n edades : %d" vector[i]);
+      |                          ^~~~~~~
+      |                          )
+../src/Menu.c:110:24: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  110 |   printf("\n edades : %d" vector[i]);
+      |                       ~^
+      |                        |
+      |                        int
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:28:01 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:28:33 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘mostrar’:
+../src/Menu.c:110:26: error: expected ‘)’ before ‘vector’
+  110 |   printf("\n edades : %d" vector[i]);
+      |                          ^~~~~~~
+      |                          )
+../src/Menu.c:110:24: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  110 |   printf("\n edades : %d" vector[i]);
+      |                       ~^
+      |                        |
+      |                        int
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:28:33 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:28:39 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘mostrar’:
+../src/Menu.c:110:27: error: invalid operands to binary & (have ‘char *’ and ‘int *’)
+  110 |   printf("\n edades : %d" &vector[i]);
+      |          ~~~~~~~~~~~~~~~~ ^~~~~~~~~~
+      |          |                       |
+      |          char *                  int *
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:28:40 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:28:46 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘mostrar’:
+../src/Menu.c:110:27: error: invalid operands to binary * (have ‘char *’ and ‘int *’)
+  110 |   printf("\n edades : %d" *vector[i]);
+      |          ~~~~~~~~~~~~~~~~ ^~~~~~~~~~
+      |          |                       |
+      |          char *                  int *
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:28:47 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:28:54 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘mostrar’:
+../src/Menu.c:110:26: error: expected ‘)’ before ‘vector’
+  110 |   printf("\n edades : %d" vector[i]);
+      |                          ^~~~~~~
+      |                          )
+../src/Menu.c:110:24: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  110 |   printf("\n edades : %d" vector[i]);
+      |                       ~^
+      |                        |
+      |                        int
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:28:55 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:29:08 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘mostrar’:
+../src/Menu.c:110:26: error: expected ‘)’ before ‘vector’
+  110 |   printf("\n edades : %i" vector[i]);
+      |                          ^~~~~~~
+      |                          )
+../src/Menu.c:110:24: warning: format ‘%i’ expects a matching ‘int’ argument [-Wformat=]
+  110 |   printf("\n edades : %i" vector[i]);
+      |                       ~^
+      |                        |
+      |                        int
+make: *** [src/subdir.mk:23: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:29:08 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:29:17 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:29:17 **** Incremental Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+make: No se hace nada para 'all'.
+16:30:26 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:30:28 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+make: No se hace nada para 'all'.
+16:42:27 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Anexo_Tema_Vectores.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Anexo_Tema_Vectores.d" -MT"src/Anexo_Tema_Vectores.o" -o "src/Anexo_Tema_Vectores.o" "../src/Anexo_Tema_Vectores.c"
+Finished building: ../src/Anexo_Tema_Vectores.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+16:43:23 **** Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+16:43:29 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+16:50:08 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+../src/Punteros_Video.c: In function ‘main’:
+../src/Punteros_Video.c:17:14: warning: initialization of ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   17 |  int pVar1 = &var1;
+      |              ^
+../src/Punteros_Video.c:17:6: warning: unused variable ‘pVar1’ [-Wunused-variable]
+   17 |  int pVar1 = &var1;
+      |      ^~~~~
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+16:50:17 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+../src/Punteros_Video.c: In function ‘main’:
+../src/Punteros_Video.c:17:7: warning: unused variable ‘pVar1’ [-Wunused-variable]
+   17 |  int* pVar1 = &var1;
+      |       ^~~~~
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+16:50:23 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+16:50:49 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+16:51:57 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+../src/Punteros_Video.c: In function ‘main’:
+../src/Punteros_Video.c:21:2: error: invalid type argument of unary ‘*’ (have ‘int’)
+   21 |  **pVar1 = 50;
+      |  ^~~~~~~
+make: *** [src/subdir.mk:20: src/Punteros_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:52:02 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+16:53:52 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:10:51 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:10:54 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:13:19 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:13:24 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:15:47 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:18:51 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:18:54 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:19:12 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:19:14 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:20:21 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+../src/Punteros_Video.c: In function ‘main’:
+../src/Punteros_Video.c:44:13: error: expected expression before ‘;’ token
+   44 |  pArreglo = ;
+      |             ^
+make: *** [src/subdir.mk:20: src/Punteros_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:21:56 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:22:00 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:22:11 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:22:14 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:22:28 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:22:30 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:23:07 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:23:51 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:24:01 **** Incremental Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+17:59:14 **** Build of configuration Debug for project Memoria_Dinamica_Video ****
+make all 
+Building file: ../src/Memoria_Dinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Memoria_Dinamica_Video.d" -MT"src/Memoria_Dinamica_Video.o" -o "src/Memoria_Dinamica_Video.o" "../src/Memoria_Dinamica_Video.c"
+Finished building: ../src/Memoria_Dinamica_Video.c
+ 
+Building target: Memoria_Dinamica_Video
+Invoking: GCC C Linker
+gcc  -o "Memoria_Dinamica_Video"  ./src/Memoria_Dinamica_Video.o   
+Finished building target: Memoria_Dinamica_Video
+ 
+17:59:20 **** Incremental Build of configuration Debug for project Memoria_Dinamica_Video ****
+make all 
+Building file: ../src/Memoria_Dinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Memoria_Dinamica_Video.d" -MT"src/Memoria_Dinamica_Video.o" -o "src/Memoria_Dinamica_Video.o" "../src/Memoria_Dinamica_Video.c"
+Finished building: ../src/Memoria_Dinamica_Video.c
+ 
+Building target: Memoria_Dinamica_Video
+Invoking: GCC C Linker
+gcc  -o "Memoria_Dinamica_Video"  ./src/Memoria_Dinamica_Video.o   
+Finished building target: Memoria_Dinamica_Video
+ 
+17:59:24 **** Incremental Build of configuration Debug for project Memoria_Dinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:59:31 **** Incremental Build of configuration Debug for project Memoria_Dinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+18:18:39 **** Incremental Build of configuration Debug for project Memoria_Dinamica_Video ****
+make all 
+Building file: ../src/Memoria_Dinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Memoria_Dinamica_Video.d" -MT"src/Memoria_Dinamica_Video.o" -o "src/Memoria_Dinamica_Video.o" "../src/Memoria_Dinamica_Video.c"
+Finished building: ../src/Memoria_Dinamica_Video.c
+ 
+Building target: Memoria_Dinamica_Video
+Invoking: GCC C Linker
+gcc  -o "Memoria_Dinamica_Video"  ./src/Memoria_Dinamica_Video.o   
+Finished building target: Memoria_Dinamica_Video
+ 
+18:18:41 **** Incremental Build of configuration Debug for project Memoria_Dinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+19:00:11 **** Build of configuration Debug for project archivo_clase ****
+make all 
+Building file: ../src/archivo_clase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
+Finished building: ../src/archivo_clase.c
+ 
+Building target: archivo_clase
+Invoking: GCC C Linker
+gcc  -o "archivo_clase"  ./src/archivo_clase.o   
+Finished building target: archivo_clase
+ 
+19:00:13 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+make: No se hace nada para 'all'.
+19:05:41 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+Building file: ../src/archivo_clase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
+Finished building: ../src/archivo_clase.c
+ 
+Building target: archivo_clase
+Invoking: GCC C Linker
+gcc  -o "archivo_clase"  ./src/archivo_clase.o   
+Finished building target: archivo_clase
+ 
+19:06:28 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+Building file: ../src/archivo_clase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
+Finished building: ../src/archivo_clase.c
+ 
+Building target: archivo_clase
+Invoking: GCC C Linker
+gcc  -o "archivo_clase"  ./src/archivo_clase.o   
+Finished building target: archivo_clase
+ 
+19:06:32 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+make: No se hace nada para 'all'.
+19:06:36 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+make: No se hace nada para 'all'.
+19:06:38 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+make: No se hace nada para 'all'.
+19:12:19 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+Building file: ../src/archivo_clase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
+../src/archivo_clase.c: In function ‘main’:
+../src/archivo_clase.c:27:14: error: expected ‘;’ before ‘M’
+   27 |  puts(saludo)M
+      |              ^
+      |              ;
+make: *** [src/subdir.mk:20: src/archivo_clase.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:12:39 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+Building file: ../src/archivo_clase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
+Finished building: ../src/archivo_clase.c
+ 
+Building target: archivo_clase
+Invoking: GCC C Linker
+gcc  -o "archivo_clase"  ./src/archivo_clase.o   
+Finished building target: archivo_clase
+ 
+19:12:44 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+make: No se hace nada para 'all'.
+19:14:41 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+Building file: ../src/archivo_clase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
+Finished building: ../src/archivo_clase.c
+ 
+Building target: archivo_clase
+Invoking: GCC C Linker
+gcc  -o "archivo_clase"  ./src/archivo_clase.o   
+Finished building target: archivo_clase
+ 
+19:34:56 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+Building file: ../src/archivo_clase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
+../src/archivo_clase.c: In function ‘main’:
+../src/archivo_clase.c:17:7: warning: unused variable ‘saludo’ [-Wunused-variable]
+   17 |  char saludo [20];
+      |       ^~~~~~
+Finished building: ../src/archivo_clase.c
+ 
+Building target: archivo_clase
+Invoking: GCC C Linker
+gcc  -o "archivo_clase"  ./src/archivo_clase.o   
+Finished building target: archivo_clase
+ 
+19:35:48 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+make: No se hace nada para 'all'.
+19:35:50 **** Incremental Build of configuration Debug for project archivo_clase ****
+make all 
+make: No se hace nada para 'all'.

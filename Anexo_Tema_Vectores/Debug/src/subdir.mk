@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/Anexo_Tema_Vectores.c 
+../src/Anexo_Tema_Vectores.c \
+../src/Menu.c 
 
 OBJS += \
-./src/Anexo_Tema_Vectores.o 
+./src/Anexo_Tema_Vectores.o \
+./src/Menu.o 
 
 C_DEPS += \
-./src/Anexo_Tema_Vectores.d 
+./src/Anexo_Tema_Vectores.d \
+./src/Menu.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

@@ -1,4 +1,4 @@
-19:44:09 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
+16:42:27 **** Incremental Build of configuration Debug for project Anexo_Tema_Vectores ****
 make all 
 Building file: ../src/Anexo_Tema_Vectores.c
 Invoking: GCC C Compiler
@@ -7,9 +7,9 @@ Finished building: ../src/Anexo_Tema_Vectores.c
  
 Building target: Anexo_Tema_Vectores
 Invoking: GCC C Linker
-gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o   
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
 Finished building target: Anexo_Tema_Vectores
  
 
-19:44:09 Build Finished. 0 errors, 0 warnings. (took 529ms)
+16:42:27 Build Finished. 0 errors, 0 warnings. (took 520ms)
 
