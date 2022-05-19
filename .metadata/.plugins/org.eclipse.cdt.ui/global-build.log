@@ -7163,3 +7163,1252 @@ Finished building target: PunteroFuncion_Video
 19:42:28 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
 make all 
 make: No se hace nada para 'all'.
+23:36:10 **** Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+23:36:21 **** Incremental Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+make: No se hace nada para 'all'.
+23:53:26 **** Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+23:53:33 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+00:18:59 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:30:15: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   30 |   printf("\n %d", a);
+      |              ~^   ~
+      |               |   |
+      |               int int *
+      |              %ls
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+00:19:06 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:30:15: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int **’ [-Wformat=]
+   30 |   printf("\n %d", &a);
+      |              ~^   ~~
+      |               |   |
+      |               int int **
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+00:19:12 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+00:19:15 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+00:21:12 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+00:21:14 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+00:37:26 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:41:7: error: redeclaration of ‘a’ with no linkage
+   41 |  int *a ;
+      |       ^
+../src/MemoriaDinamica_Video.c:24:7: note: previous declaration of ‘a’ was here
+   24 |  int* a ;
+      |       ^
+../src/MemoriaDinamica_Video.c:42:7: warning: unused variable ‘pAux’ [-Wunused-variable]
+   42 |  int *pAux ;
+      |       ^~~~
+../src/MemoriaDinamica_Video.c:41:7: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+   41 |  int *a ;
+      |       ^
+make: *** [src/subdir.mk:20: src/MemoriaDinamica_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:39:47 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+00:42:37 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+17:01:20 **** Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Tema10_10-1.o   
+Finished building target: Tema10_10-1
+ 
+17:01:34 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.
+17:05:55 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o   
+Finished building target: Tema10_10-1
+ 
+17:07:10 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o   
+Finished building target: Tema10_10-1
+ 
+17:09:56 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+17:14:42 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:27:3: error: duplicate case value
+   27 |   case 2:
+      |   ^~~~
+../src/Alumno.c:24:3: note: previously used here
+   24 |   case 2:
+      |   ^~~~
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:14:57 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:18:3: warning: ‘opcion’ is used uninitialized in this function [-Wuninitialized]
+   18 |   switch(opcion)
+      |   ^~~~~~
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+17:16:25 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:20:3: warning: ‘opcion’ is used uninitialized in this function [-Wuninitialized]
+   20 |   switch(opcion)
+      |   ^~~~~~
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+17:17:13 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:23:47 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:51:25: error: invalid type argument of ‘->’ (have ‘eAlumno’ {aka ‘struct <anonymous>’})
+   51 |  utn_getNombre(auxAlumno->nombre, NOMBRE_LEN, "\nIngrese nombre del alumno :", "\nERROR ", 2);
+      |                         ^~
+../src/Alumno.c:49:9: warning: unused variable ‘auxCurso’ [-Wunused-variable]
+   49 |  eCurso auxCurso ;
+      |         ^~~~~~~~
+../src/Alumno.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+   54 | }
+      | ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:24:02 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:49:9: warning: unused variable ‘auxCurso’ [-Wunused-variable]
+   49 |  eCurso auxCurso ;
+      |         ^~~~~~~~
+../src/Alumno.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+   54 | }
+      | ^
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:26:20 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:53:25: warning: passing argument 1 of ‘utn_getNumero’ makes pointer from integer without a cast [-Wint-conversion]
+   53 |  utn_getNumero(auxAlumno.legajo, "\nIngrese numero de legajo (entre 1, 9999) :", "\nERROR ", 1, 9999, 2);
+      |                ~~~~~~~~~^~~~~~~
+      |                         |
+      |                         int
+In file included from ../src/Alumno.c:9:
+../src/UTN.h:16:24: note: expected ‘int *’ but argument is of type ‘int’
+   16 | int utn_getNumero(int *pResultado, char *mensaje, char *mensajeError,int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+../src/Alumno.c:55:83: error: ‘repeticiones’ undeclared (first use in this function)
+   55 |  utn_pedirInt(auxAlumno.nota1, "\nIngrese la primera Nota : ", "\nError ", 1, 10, repeticiones)
+      |                                                                                   ^~~~~~~~~~~~
+../src/Alumno.c:55:83: note: each undeclared identifier is reported only once for each function it appears in
+../src/Alumno.c:55:24: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   55 |  utn_pedirInt(auxAlumno.nota1, "\nIngrese la primera Nota : ", "\nError ", 1, 10, repeticiones)
+      |               ~~~~~~~~~^~~~~~
+      |                        |
+      |                        int
+In file included from ../src/Alumno.c:9:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+../src/Alumno.c:55:96: error: expected ‘;’ before ‘}’ token
+   55 |  utn_pedirInt(auxAlumno.nota1, "\nIngrese la primera Nota : ", "\nError ", 1, 10, repeticiones)
+      |                                                                                                ^
+      |                                                                                                ;
+......
+   58 | }
+      | ~                                                                                               
+../src/Alumno.c:49:9: warning: unused variable ‘auxCurso’ [-Wunused-variable]
+   49 |  eCurso auxCurso ;
+      |         ^~~~~~~~
+../src/Alumno.c:58:1: warning: control reaches end of non-void function [-Wreturn-type]
+   58 | }
+      | ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:26:34 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:53:25: warning: passing argument 1 of ‘utn_getNumero’ makes pointer from integer without a cast [-Wint-conversion]
+   53 |  utn_getNumero(auxAlumno.legajo, "\nIngrese numero de legajo (entre 1, 9999) :", "\nERROR ", 1, 9999, 2);
+      |                ~~~~~~~~~^~~~~~~
+      |                         |
+      |                         int
+In file included from ../src/Alumno.c:9:
+../src/UTN.h:16:24: note: expected ‘int *’ but argument is of type ‘int’
+   16 | int utn_getNumero(int *pResultado, char *mensaje, char *mensajeError,int minimo, int maximo, int reintentos);
+      |                   ~~~~~^~~~~~~~~~
+../src/Alumno.c:55:24: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   55 |  utn_pedirInt(auxAlumno.nota1, "\nIngrese la primera Nota : ", "\nError ", 1, 10, 2);
+      |               ~~~~~~~~~^~~~~~
+      |                        |
+      |                        int
+In file included from ../src/Alumno.c:9:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+../src/Alumno.c:56:24: warning: passing argument 1 of ‘utn_pedirInt’ makes pointer from integer without a cast [-Wint-conversion]
+   56 |  utn_pedirInt(auxAlumno.nota1, "\nIngrese la segunda Nota : ", "\nError ", 1, 10, 2);
+      |               ~~~~~~~~~^~~~~~
+      |                        |
+      |                        int
+In file included from ../src/Alumno.c:9:
+../src/UTN.h:20:23: note: expected ‘int *’ but argument is of type ‘int’
+   20 | int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
+      |                  ~~~~~^~~~~~~
+../src/Alumno.c:49:9: warning: unused variable ‘auxCurso’ [-Wunused-variable]
+   49 |  eCurso auxCurso ;
+      |         ^~~~~~~~
+../src/Alumno.c:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+   59 | }
+      | ^
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:27:10 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:49:9: warning: unused variable ‘auxCurso’ [-Wunused-variable]
+   49 |  eCurso auxCurso ;
+      |         ^~~~~~~~
+../src/Alumno.c:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+   59 | }
+      | ^
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:33:53 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:59:1: warning: control reaches end of non-void function [-Wreturn-type]
+   59 | }
+      | ^
+At top level:
+../src/Alumno.c:62:12: warning: ‘nuevoId’ defined but not used [-Wunused-function]
+   62 | static int nuevoId (void)
+      |            ^~~~~~~
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:34:28 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
+      | ^
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:35:48 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:36:18 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:24:5: warning: implicit declaration of function ‘alta’ [-Wimplicit-function-declaration]
+   24 |     alta(alumnos, lenAlumno, cursos, lenCursos);
+      |     ^~~~
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:36:42 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:24:8: warning: implicit declaration of function ‘alta’ [-Wimplicit-function-declaration]
+   24 |     if(alta(alumnos, lenAlumno, cursos, lenCursos) == 0)
+      |        ^~~~
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:37:19 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:46:38 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c:47:5: error: conflicting types for ‘alta’
+   47 | int alta (eAlumno alumnos , int lenAlumno, eCurso cursos , int lenCursos , int posicionLibre)
+      |     ^~~~
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:39:5: note: previous declaration of ‘alta’ was here
+   39 | int alta (eAlumno alumnos , int lenAlumno, eCurso cursos , int lenCursos);
+      |     ^~~~
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:65:9: error: subscripted value is neither array nor pointer nor vector
+   65 |  alumnos[posicionLibre] = auxAlumno ;
+      |         ^
+../src/Alumno.c:66:2: error: ‘curso’ undeclared (first use in this function); did you mean ‘cursos’?
+   66 |  curso[posicionLibre] = auxCurso ;
+      |  ^~~~~
+      |  cursos
+../src/Alumno.c:66:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:46:53 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:24:8: error: too few arguments to function ‘alta’
+   24 |     if(alta(alumnos, lenAlumno, cursos, lenCursos) == 0)
+      |        ^~~~
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:39:5: note: declared here
+   39 | int alta (eAlumno alumnos , int lenAlumno, eCurso cursos , int lenCursos , int posicionLibre);
+      |     ^~~~
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:65:9: error: subscripted value is neither array nor pointer nor vector
+   65 |  alumnos[posicionLibre] = auxAlumno ;
+      |         ^
+../src/Alumno.c:66:2: error: ‘curso’ undeclared (first use in this function); did you mean ‘cursos’?
+   66 |  curso[posicionLibre] = auxCurso ;
+      |  ^~~~~
+      |  cursos
+../src/Alumno.c:66:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:47:28 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:24:8: error: too few arguments to function ‘alta’
+   24 |     if(alta(alumnos, lenAlumno, cursos, lenCursos) == 0)
+      |        ^~~~
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:39:5: note: declared here
+   39 | int alta (eAlumno alumnos , int lenAlumno, eCurso cursos , int lenCursos , int posicionLibre);
+      |     ^~~~
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:65:9: error: subscripted value is neither array nor pointer nor vector
+   65 |  alumnos[posicionLibre] = auxAlumno ;
+      |         ^
+../src/Alumno.c:66:2: error: ‘curso’ undeclared (first use in this function); did you mean ‘cursos’?
+   66 |  curso[posicionLibre] = auxCurso ;
+      |  ^~~~~
+      |  cursos
+../src/Alumno.c:66:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:50:17 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:25:52: error: ‘posicionLibre’ undeclared (first use in this function)
+   25 |     if(alta(alumnos, lenAlumno, cursos, lenCursos, posicionLibre))
+      |                                                    ^~~~~~~~~~~~~
+../src/Alumno.c:25:52: note: each undeclared identifier is reported only once for each function it appears in
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:66:9: error: subscripted value is neither array nor pointer nor vector
+   66 |  alumnos[posicionLibre] = auxAlumno ;
+      |         ^
+../src/Alumno.c:67:2: error: ‘curso’ undeclared (first use in this function); did you mean ‘cursos’?
+   67 |  curso[posicionLibre] = auxCurso ;
+      |  ^~~~~
+      |  cursos
+../src/Alumno.c: In function ‘primeraPosicionLibre’:
+../src/Alumno.c:104:12: error: subscripted value is neither array nor pointer nor vector
+  104 |   if(alumno[i].isEmpty == VACIO)
+      |            ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:50:59 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:69:9: error: subscripted value is neither array nor pointer nor vector
+   69 |  alumnos[posicionLibre] = auxAlumno ;
+      |         ^
+../src/Alumno.c:70:2: error: ‘curso’ undeclared (first use in this function); did you mean ‘cursos’?
+   70 |  curso[posicionLibre] = auxCurso ;
+      |  ^~~~~
+      |  cursos
+../src/Alumno.c:70:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/Alumno.c: In function ‘primeraPosicionLibre’:
+../src/Alumno.c:107:12: error: subscripted value is neither array nor pointer nor vector
+  107 |   if(alumno[i].isEmpty == VACIO)
+      |            ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:53:01 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:69:9: error: subscripted value is neither array nor pointer nor vector
+   69 |  alumnos[posicionLibre] = auxAlumno ;
+      |         ^
+../src/Alumno.c:70:2: error: ‘curso’ undeclared (first use in this function); did you mean ‘cursos’?
+   70 |  curso[posicionLibre] = auxCurso ;
+      |  ^~~~~
+      |  cursos
+../src/Alumno.c:70:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/Alumno.c: In function ‘primeraPosicionLibre’:
+../src/Alumno.c:107:12: error: subscripted value is neither array nor pointer nor vector
+  107 |   if(alumno[i].isEmpty == VACIO)
+      |            ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:53:34 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alta’:
+../src/Alumno.c:69:9: error: subscripted value is neither array nor pointer nor vector
+   69 |  alumnos[posicionLibre] = auxAlumno;
+      |         ^
+../src/Alumno.c: In function ‘primeraPosicionLibre’:
+../src/Alumno.c:106:12: error: subscripted value is neither array nor pointer nor vector
+  106 |   if(alumno[i].isEmpty == VACIO)
+      |            ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:55:02 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:28:13: error: incompatible type for argument 1 of ‘alta’
+   28 |     if(alta(alumnos, lenAlumno, cursos, lenCursos, posicionLibre))
+      |             ^~~~~~~
+      |             |
+      |             eAlumno {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:39:20: note: expected ‘eAlumno *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eAlumno’ {aka ‘struct <anonymous>’}
+   39 | int alta (eAlumno* alumnos , int lenAlumno, eCurso cursos , int lenCursos , int posicionLibre);
+      |           ~~~~~~~~~^~~~~~~
+../src/Alumno.c: In function ‘primeraPosicionLibre’:
+../src/Alumno.c:106:12: error: subscripted value is neither array nor pointer nor vector
+  106 |   if(alumno[i].isEmpty == VACIO)
+      |            ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:55:34 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:28:13: error: incompatible type for argument 1 of ‘alta’
+   28 |     if(alta(alumnos, lenAlumno, cursos, lenCursos, posicionLibre))
+      |             ^~~~~~~
+      |             |
+      |             eAlumno {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:39:20: note: expected ‘eAlumno *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eAlumno’ {aka ‘struct <anonymous>’}
+   39 | int alta (eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos , int posicionLibre);
+      |           ~~~~~~~~~^~~~~~~
+../src/Alumno.c:28:33: error: incompatible type for argument 3 of ‘alta’
+   28 |     if(alta(alumnos, lenAlumno, cursos, lenCursos, posicionLibre))
+      |                                 ^~~~~~
+      |                                 |
+      |                                 eCurso {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:39:53: note: expected ‘eCurso *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eCurso’ {aka ‘struct <anonymous>’}
+   39 | int alta (eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos , int posicionLibre);
+      |                                             ~~~~~~~~^~~~~~
+../src/Alumno.c: In function ‘primeraPosicionLibre’:
+../src/Alumno.c:106:12: error: subscripted value is neither array nor pointer nor vector
+  106 |   if(alumno[i].isEmpty == VACIO)
+      |            ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:55:51 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:28:13: error: incompatible type for argument 1 of ‘alta’
+   28 |     if(alta(alumnos, lenAlumno, cursos, lenCursos, posicionLibre) == 0)
+      |             ^~~~~~~
+      |             |
+      |             eAlumno {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:39:20: note: expected ‘eAlumno *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eAlumno’ {aka ‘struct <anonymous>’}
+   39 | int alta (eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos , int posicionLibre);
+      |           ~~~~~~~~~^~~~~~~
+../src/Alumno.c:28:33: error: incompatible type for argument 3 of ‘alta’
+   28 |     if(alta(alumnos, lenAlumno, cursos, lenCursos, posicionLibre) == 0)
+      |                                 ^~~~~~
+      |                                 |
+      |                                 eCurso {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:39:53: note: expected ‘eCurso *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eCurso’ {aka ‘struct <anonymous>’}
+   39 | int alta (eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos , int posicionLibre);
+      |                                             ~~~~~~~~^~~~~~
+../src/Alumno.c: In function ‘primeraPosicionLibre’:
+../src/Alumno.c:106:12: error: subscripted value is neither array nor pointer nor vector
+  106 |   if(alumno[i].isEmpty == VACIO)
+      |            ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:57:03 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:26:26: error: incompatible type for argument 1 of ‘primeraPosicionLibre’
+   26 |     primeraPosicionLibre(alumnos, lenAlumno, posicionLibre);
+      |                          ^~~~~~~
+      |                          |
+      |                          eAlumno * {aka struct <anonymous> *}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:41:35: note: expected ‘eAlumno’ {aka ‘struct <anonymous>’} but argument is of type ‘eAlumno *’ {aka ‘struct <anonymous> *’}
+   41 | int primeraPosicionLibre (eAlumno alumno , int lenAlumno , int posicionLibre);
+      |                           ~~~~~~~~^~~~~~
+../src/Alumno.c: In function ‘primeraPosicionLibre’:
+../src/Alumno.c:106:12: error: subscripted value is neither array nor pointer nor vector
+  106 |   if(alumno[i].isEmpty == VACIO)
+      |            ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:57:17 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:26:26: error: incompatible type for argument 1 of ‘primeraPosicionLibre’
+   26 |     primeraPosicionLibre(alumnos, lenAlumno, posicionLibre);
+      |                          ^~~~~~~
+      |                          |
+      |                          eAlumno * {aka struct <anonymous> *}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:41:35: note: expected ‘eAlumno’ {aka ‘struct <anonymous>’} but argument is of type ‘eAlumno *’ {aka ‘struct <anonymous> *’}
+   41 | int primeraPosicionLibre (eAlumno alumno , int lenAlumno , int posicionLibre);
+      |                           ~~~~~~~~^~~~~~
+../src/Alumno.c: At top level:
+../src/Alumno.c:100:5: error: conflicting types for ‘primeraPosicionLibre’
+  100 | int primeraPosicionLibre (eAlumno* alumno , int lenAlumno , int posicionLibre)
+      |     ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:41:5: note: previous declaration of ‘primeraPosicionLibre’ was here
+   41 | int primeraPosicionLibre (eAlumno alumno , int lenAlumno , int posicionLibre);
+      |     ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:57:24 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:26:5: warning: ‘posicionLibre’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |     primeraPosicionLibre(alumnos, lenAlumno, posicionLibre);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:58:46 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:26:8: warning: ‘posicionLibre’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   26 |     if(primeraPosicionLibre(alumnos, lenAlumno, posicionLibre) == 0)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+18:59:45 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c:102:5: error: conflicting types for ‘primeraPosicionLibre’
+  102 | int primeraPosicionLibre (eAlumno* alumno , int lenAlumno , int* posicionLibre)
+      |     ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:41:5: note: previous declaration of ‘primeraPosicionLibre’ was here
+   41 | int primeraPosicionLibre (eAlumno* alumno , int lenAlumno , int posicionLibre);
+      |     ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:59:52 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:26:49: warning: passing argument 3 of ‘primeraPosicionLibre’ makes integer from pointer without a cast [-Wint-conversion]
+   26 |     if(primeraPosicionLibre(alumnos, lenAlumno, &posicionLibre) == 0)
+      |                                                 ^~~~~~~~~~~~~~
+      |                                                 |
+      |                                                 int *
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:41:65: note: expected ‘int’ but argument is of type ‘int *’
+   41 | int primeraPosicionLibre (eAlumno* alumno , int lenAlumno , int posicionLibre);
+      |                                                             ~~~~^~~~~~~~~~~~~
+../src/Alumno.c: At top level:
+../src/Alumno.c:102:5: error: conflicting types for ‘primeraPosicionLibre’
+  102 | int primeraPosicionLibre (eAlumno* alumno , int lenAlumno , int* posicionLibre)
+      |     ^~~~~~~~~~~~~~~~~~~~
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:41:5: note: previous declaration of ‘primeraPosicionLibre’ was here
+   41 | int primeraPosicionLibre (eAlumno* alumno , int lenAlumno , int posicionLibre);
+      |     ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:00:07 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:01:08 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:01:12 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:03:30 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:03:50 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:17:2: warning: implicit declaration of function ‘inicializar’ [-Wimplicit-function-declaration]
+   17 |  inicializar(alumnos, lenAlumno);
+      |  ^~~~~~~~~~~
+../src/Alumno.c: At top level:
+../src/Alumno.c:123:6: warning: conflicting types for ‘inicializar’
+  123 | void inicializar (eAlumno* alumnos , int lenAlumno)
+      |      ^~~~~~~~~~~
+../src/Alumno.c:17:2: note: previous implicit declaration of ‘inicializar’ was here
+   17 |  inicializar(alumnos, lenAlumno);
+      |  ^~~~~~~~~~~
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:04:10 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:42:1: warning: parameter names (without types) in function declaration
+   42 | void inicializar(alumnos, lenAlumno);
+      | ^~~~
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+In file included from ../src/Tema10_10-1.c:14:
+../src/Alumno.h:42:1: warning: parameter names (without types) in function declaration
+   42 | void inicializar(alumnos, lenAlumno);
+      | ^~~~
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:04:30 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:17:14: error: incompatible type for argument 1 of ‘inicializar’
+   17 |  inicializar(alumnos, lenAlumno);
+      |              ^~~~~~~
+      |              |
+      |              eAlumno * {aka struct <anonymous> *}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:42:26: note: expected ‘eAlumno’ {aka ‘struct <anonymous>’} but argument is of type ‘eAlumno *’ {aka ‘struct <anonymous> *’}
+   42 | void inicializar(eAlumno alumnos, int lenAlumno);
+      |                  ~~~~~~~~^~~~~~~
+../src/Alumno.c: At top level:
+../src/Alumno.c:123:6: error: conflicting types for ‘inicializar’
+  123 | void inicializar (eAlumno* alumnos , int lenAlumno)
+      |      ^~~~~~~~~~~
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:42:6: note: previous declaration of ‘inicializar’ was here
+   42 | void inicializar(eAlumno alumnos, int lenAlumno);
+      |      ^~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:04:49 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:09:57 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:11:32 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:40:59: warning: passing argument 5 of ‘buscarPorId’ makes pointer from integer without a cast [-Wint-conversion]
+   40 |     if(buscarPorId(alumnos, lenAlumno, cursos, lenCursos, posicionencontrada) == 0)
+      |                                                           ^~~~~~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           int
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:43:89: note: expected ‘int *’ but argument is of type ‘int’
+   43 | int buscarPorId(eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos , int* posicion);
+      |                                                                                    ~~~~~^~~~~~~~
+../src/Alumno.c:40:8: warning: ‘posicionencontrada’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   40 |     if(buscarPorId(alumnos, lenAlumno, cursos, lenCursos, posicionencontrada) == 0)
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:12:40 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:13:31 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:13:46 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:13:48 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:13:54 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:15:05 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘mostrar’:
+../src/Alumno.c:107:13: error: subscripted value is neither array nor pointer nor vector
+  107 |   if(alumnos[i].isEmpty == OCUPADO)
+      |             ^
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:15:29 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:54:13: error: incompatible type for argument 1 of ‘mostrar’
+   54 |     mostrar(*alumnos, lenAlumno, *cursos, lenCursos);
+      |             ^~~~~~~~
+      |             |
+      |             eAlumno {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:45:23: note: expected ‘eAlumno *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eAlumno’ {aka ‘struct <anonymous>’}
+   45 | void mostrar(eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos);
+      |              ~~~~~~~~~^~~~~~~
+../src/Alumno.c:54:34: error: incompatible type for argument 3 of ‘mostrar’
+   54 |     mostrar(*alumnos, lenAlumno, *cursos, lenCursos);
+      |                                  ^~~~~~~
+      |                                  |
+      |                                  eCurso {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:45:56: note: expected ‘eCurso *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eCurso’ {aka ‘struct <anonymous>’}
+   45 | void mostrar(eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos);
+      |                                                ~~~~~~~~^~~~~~
+../src/Alumno.c: In function ‘mostrar’:
+../src/Alumno.c:109:99: error: ‘alumnos’ is a pointer; did you mean to use ‘->’?
+  109 |    printf("\n legajo : %d ||  nombre : %s || nota 1 : %d nota 2 : %d || promedio : %.2f ", alumnos.legajo , alumnos.nombre, alumnos.nota1 ,alumnos.nota2 , alumnos.promedio);
+      |                                                                                                   ^
+      |                                                                                                   ->
+../src/Alumno.c:109:116: error: ‘alumnos’ is a pointer; did you mean to use ‘->’?
+  109 |    printf("\n legajo : %d ||  nombre : %s || nota 1 : %d nota 2 : %d || promedio : %.2f ", alumnos.legajo , alumnos.nombre, alumnos.nota1 ,alumnos.nota2 , alumnos.promedio);
+      |                                                                                                                    ^
+      |                                                                                                                    ->
+../src/Alumno.c:109:132: error: ‘alumnos’ is a pointer; did you mean to use ‘->’?
+  109 |    printf("\n legajo : %d ||  nombre : %s || nota 1 : %d nota 2 : %d || promedio : %.2f ", alumnos.legajo , alumnos.nombre, alumnos.nota1 ,alumnos.nota2 , alumnos.promedio);
+      |                                                                                                                                    ^
+      |                                                                                                                                    ->
+../src/Alumno.c:109:147: error: ‘alumnos’ is a pointer; did you mean to use ‘->’?
+  109 |    printf("\n legajo : %d ||  nombre : %s || nota 1 : %d nota 2 : %d || promedio : %.2f ", alumnos.legajo , alumnos.nombre, alumnos.nota1 ,alumnos.nota2 , alumnos.promedio);
+      |                                                                                                                                                   ^
+      |                                                                                                                                                   ->
+../src/Alumno.c:109:163: error: ‘alumnos’ is a pointer; did you mean to use ‘->’?
+  109 |    printf("\n legajo : %d ||  nombre : %s || nota 1 : %d nota 2 : %d || promedio : %.2f ", alumnos.legajo , alumnos.nombre, alumnos.nota1 ,alumnos.nota2 , alumnos.promedio);
+      |                                                                                                                                                                   ^
+      |                                                                                                                                                                   ->
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:16:40 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘menu’:
+../src/Alumno.c:54:13: error: incompatible type for argument 1 of ‘mostrar’
+   54 |     mostrar(*alumnos, lenAlumno, *cursos, lenCursos);
+      |             ^~~~~~~~
+      |             |
+      |             eAlumno {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:45:23: note: expected ‘eAlumno *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eAlumno’ {aka ‘struct <anonymous>’}
+   45 | void mostrar(eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos);
+      |              ~~~~~~~~~^~~~~~~
+../src/Alumno.c:54:34: error: incompatible type for argument 3 of ‘mostrar’
+   54 |     mostrar(*alumnos, lenAlumno, *cursos, lenCursos);
+      |                                  ^~~~~~~
+      |                                  |
+      |                                  eCurso {aka struct <anonymous>}
+In file included from ../src/Alumno.c:10:
+../src/Alumno.h:45:56: note: expected ‘eCurso *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eCurso’ {aka ‘struct <anonymous>’}
+   45 | void mostrar(eAlumno* alumnos , int lenAlumno, eCurso* cursos , int lenCursos);
+      |                                                ~~~~~~~~^~~~~~
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:17:13 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:17:26 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:17:27 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:18:47 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:18:50 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:22:03 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:22:08 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.
+19:24:49 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+19:24:55 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
+make all 
+make: No se hace nada para 'all'.

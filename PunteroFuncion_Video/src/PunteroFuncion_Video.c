@@ -103,7 +103,7 @@ int main(void) {
 	{
 		printf("\nSalip ok");
 	}
-//-------------------------------------------------
+//------------------------------------------------- 
 
 	saludoLenguaje("\nholaa latinos", 10, saludarEsp);
 	saludoLenguaje("\nwelcome", 30, saludarIng);
