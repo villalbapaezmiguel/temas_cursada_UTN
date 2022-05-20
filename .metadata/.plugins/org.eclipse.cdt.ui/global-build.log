@@ -8412,3 +8412,1361 @@ Finished building target: Tema10_10-1
 19:24:55 **** Incremental Build of configuration Debug for project Tema10_10-1 ****
 make all 
 make: No se hace nada para 'all'.
+20:20:26 **** Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:64:6: warning: unused variable ‘sizeArrayEdades’ [-Wunused-variable]
+   64 |  int sizeArrayEdades  = SIZE_EDADES;
+      |      ^~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:24:23 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:64:6: warning: unused variable ‘sizeArrayEdades’ [-Wunused-variable]
+   64 |  int sizeArrayEdades  = SIZE_EDADES;
+      |      ^~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:25:43 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:26:47 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:27:30 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:27:37 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+20:27:41 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+20:28:54 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:31:36 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:31:38 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+20:35:20 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:41:30 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:67:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:86:3: warning: implicit declaration of function ‘utn_getNumero’ [-Wimplicit-function-declaration]
+   86 |   utn_getNumero(pArrayEdades, "\nIngrese la cantidad de byts a reservar :", "\nERROR", 0, 100000, 2);
+      |   ^~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:87:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   87 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:67:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:41:50 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:67:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:86:3: warning: implicit declaration of function ‘utn_getNumero’ [-Wimplicit-function-declaration]
+   86 |   utn_getNumero(sizeArrayEdades, "\nIngrese la cantidad de byts a reservar :", "\nERROR", 0, 100000, 2);
+      |   ^~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:87:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   87 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:67:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:41:58 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:67:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:86:3: warning: implicit declaration of function ‘utn_getNumero’ [-Wimplicit-function-declaration]
+   86 |   utn_getNumero(&sizeArrayEdades, "\nIngrese la cantidad de byts a reservar :", "\nERROR", 0, 100000, 2);
+      |   ^~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:87:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   87 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:67:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:42:29 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:67:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:86:3: warning: implicit declaration of function ‘utn_getNumero’ [-Wimplicit-function-declaration]
+   86 |   utn_getNumero(sizeArrayEdades, "\nIngrese la cantidad de byts a reservar :", "\nERROR", 0, 100000, 2);
+      |   ^~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:87:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   87 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:67:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:42:56 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:67:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:86:3: warning: implicit declaration of function ‘utn_getNumero’ [-Wimplicit-function-declaration]
+   86 |   utn_getNumero(*sizeArrayEdades, "\nIngrese la cantidad de byts a reservar :", "\nERROR", 0, 100000, 2);
+      |   ^~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:86:17: error: invalid type argument of unary ‘*’ (have ‘int’)
+   86 |   utn_getNumero(*sizeArrayEdades, "\nIngrese la cantidad de byts a reservar :", "\nERROR", 0, 100000, 2);
+      |                 ^~~~~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:87:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   87 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:67:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/MemoriaDinamica_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:43:01 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:67:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:86:3: warning: implicit declaration of function ‘utn_getNumero’ [-Wimplicit-function-declaration]
+   86 |   utn_getNumero(&sizeArrayEdades, "\nIngrese la cantidad de byts a reservar :", "\nERROR", 0, 100000, 2);
+      |   ^~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:87:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   87 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:67:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   67 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:43:48 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:68:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:88:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   88 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:68:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:44:00 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:68:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:88:37: warning: passing argument 1 of ‘realloc’ makes pointer from integer without a cast [-Wint-conversion]
+   88 |   pAuxArrayEdadesTemporal = realloc(*pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                                     ^~~~~~~~~~~~~
+      |                                     |
+      |                                     int
+In file included from ../src/MemoriaDinamica_Video.c:12:
+/usr/include/stdlib.h:550:14: note: expected ‘void *’ but argument is of type ‘int’
+  550 | extern void *realloc (void *__ptr, size_t __size)
+      |              ^~~~~~~
+../src/MemoriaDinamica_Video.c:88:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   88 |   pAuxArrayEdadesTemporal = realloc(*pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:68:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:44:05 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:68:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:88:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   88 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:68:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:44:18 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:68:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:88:27: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   88 |   pAuxArrayEdadesTemporal = (int*) realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:68:6: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:45:26 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:68:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:88:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   88 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:90:30: warning: comparison between pointer and integer
+   90 |   if(pAuxArrayEdadesTemporal != NULL)
+      |                              ^~
+../src/MemoriaDinamica_Video.c:92:17: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   92 |    pArrayEdades = pAuxArrayEdadesTemporal;
+      |                 ^
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:45:44 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:68:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:88:27: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   88 |   pAuxArrayEdadesTemporal = (int*)realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:90:30: warning: comparison between pointer and integer
+   90 |   if(pAuxArrayEdadesTemporal != NULL)
+      |                              ^~
+../src/MemoriaDinamica_Video.c:92:17: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   92 |    pArrayEdades = pAuxArrayEdadesTemporal;
+      |                 ^
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:45:53 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:68:32: warning: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   68 |  int pAuxArrayEdadesTemporal = NULL;
+      |                                ^~~~
+../src/MemoriaDinamica_Video.c:88:27: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   88 |   pAuxArrayEdadesTemporal = realloc(pArrayEdades, sizeof(int )* sizeArrayEdades);
+      |                           ^
+../src/MemoriaDinamica_Video.c:90:30: warning: comparison between pointer and integer
+   90 |   if(pAuxArrayEdadesTemporal != NULL)
+      |                              ^~
+../src/MemoriaDinamica_Video.c:92:17: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   92 |    pArrayEdades = pAuxArrayEdadesTemporal;
+      |                 ^
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:46:14 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:48:43 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:48:48 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+20:49:06 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:49:09 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+20:49:31 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+20:51:18 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+20:51:21 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+20:53:18 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:36:29 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:36:32 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:38:46 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘nuevoSize’:
+../src/MemoriaDinamica_Video.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+  154 | }
+      | ^
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:41:05 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:41:17 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘nuevoSize’:
+../src/MemoriaDinamica_Video.c:159:15: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+  159 |    sizeActual = sizeNuevo ;
+      |               ^
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:41:31 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:41:52 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:43:51 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:70:6: warning: unused variable ‘nuevaCantidadByts’ [-Wunused-variable]
+   70 |  int nuevaCantidadByts ;
+      |      ^~~~~~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:69:7: warning: unused variable ‘pAuxArrayEdadesTemporal’ [-Wunused-variable]
+   69 |  int* pAuxArrayEdadesTemporal = NULL;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:44:00 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:44:06 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:44:39 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:44:41 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:46:22 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:46:25 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:47:52 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:47:53 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:48:55 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:49:20 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘nuevoSize’:
+../src/MemoriaDinamica_Video.c:163:69: error: expected ‘)’ before ‘sizeNuevo’
+  163 |   pAuxArrayEdadesTemporal = (int*)realloc(pArrayEdades, sizeof(int *sizeNuevo));
+      |                                                               ~     ^~~~~~~~~
+      |                                                                     )
+make: *** [src/subdir.mk:23: src/MemoriaDinamica_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:49:27 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘nuevoSize’:
+../src/MemoriaDinamica_Video.c:163:69: error: expected ‘)’ before ‘sizeNuevo’
+  163 |   pAuxArrayEdadesTemporal = (int*)realloc(pArrayEdades, sizeof(int *sizeNuevo);
+      |                                                               ~     ^~~~~~~~~
+      |                                                                     )
+../src/MemoriaDinamica_Video.c:163:79: error: expected ‘)’ before ‘;’ token
+  163 |   pAuxArrayEdadesTemporal = (int*)realloc(pArrayEdades, sizeof(int *sizeNuevo);
+      |                                                                               ^
+      |                                                                               )
+../src/MemoriaDinamica_Video.c:171:4: error: expected ‘;’ before ‘}’ token
+  171 |   }
+      |    ^
+      |    ;
+  172 | 
+  173 |  }
+      |  ~  
+../src/MemoriaDinamica_Video.c:157:7: warning: variable ‘pAuxArrayEdadesTemporal’ set but not used [-Wunused-but-set-variable]
+  157 |  int* pAuxArrayEdadesTemporal = NULL;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/MemoriaDinamica_Video.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:49:42 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:49:45 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:53:30 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+21:53:31 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+21:53:43 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:03:09 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+22:10:03 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:10:06 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+22:11:35 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘nuevoSize’:
+../src/MemoriaDinamica_Video.c:176:16: warning: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+  176 |    sizeActual  = sizeNuevo;
+      |                ^
+../src/MemoriaDinamica_Video.c:177:26: warning: passing argument 2 of ‘mostrar’ makes integer from pointer without a cast [-Wint-conversion]
+  177 |    mostrar(pArrayEdades, sizeActual);
+      |                          ^~~~~~~~~~
+      |                          |
+      |                          int *
+../src/MemoriaDinamica_Video.c:135:37: note: expected ‘int’ but argument is of type ‘int *’
+  135 | int mostrar(int* pArrayEdades , int sizeArrayEdades )
+      |                                 ~~~~^~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:12:02 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘nuevoSize’:
+../src/MemoriaDinamica_Video.c:177:26: warning: passing argument 2 of ‘mostrar’ makes integer from pointer without a cast [-Wint-conversion]
+  177 |    mostrar(pArrayEdades, &sizeActual);
+      |                          ^~~~~~~~~~~
+      |                          |
+      |                          int **
+../src/MemoriaDinamica_Video.c:135:37: note: expected ‘int’ but argument is of type ‘int **’
+  135 | int mostrar(int* pArrayEdades , int sizeArrayEdades )
+      |                                 ~~~~^~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:12:11 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:12:30 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+../src/MemoriaDinamica_Video.c: In function ‘main’:
+../src/MemoriaDinamica_Video.c:70:6: warning: unused variable ‘nuevaCantidadByts’ [-Wunused-variable]
+   70 |  int nuevaCantidadByts ;
+      |      ^~~~~~~~~~~~~~~~~
+../src/MemoriaDinamica_Video.c:69:7: warning: unused variable ‘pAuxArrayEdadesTemporal’ [-Wunused-variable]
+   69 |  int* pAuxArrayEdadesTemporal = NULL;
+      |       ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:12:41 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:12:44 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+22:13:12 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:13:15 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+22:13:31 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+22:14:01 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:28:24 **** Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘main’:
+../src/Tema_17_memoria_Dinamica.c:82:6: warning: unused variable ‘vector’ [-Wunused-variable]
+   82 |  int vector[5];
+      |      ^~~~~~
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o ./src/UTN.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+22:28:42 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+22:28:50 **** Incremental Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+make: No se hace nada para 'all'.
+22:36:01 **** Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:44:27 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:23:7: warning: variable ‘arrayEnteros’ set but not used [-Wunused-but-set-variable]
+   23 |  int* arrayEnteros ;
+      |       ^~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:34:6: warning: unused variable ‘enteroIngresado’ [-Wunused-variable]
+   34 |  int enteroIngresado ;
+      |      ^~~~~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:48:46 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:48:6: warning: implicit declaration of function ‘encontrarEntero’ [-Wimplicit-function-declaration]
+   48 |   if(encontrarEntero(arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:16:6: note: previous declaration of ‘encontrarEntero’ was here
+   16 |  int encontrarEntero(int* arrayEnteros  , int sizeArray , int encontrarEntero , int encontrado );
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:43:6: warning: unused variable ‘i’ [-Wunused-variable]
+   43 |  int i;
+      |      ^
+../src/Tema17_17-2_Remove.c:48:6: warning: ‘enteroEncontrado’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   48 |   if(encontrarEntero(arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:48:57 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:48:6: warning: implicit declaration of function ‘encontrarEntero’ [-Wimplicit-function-declaration]
+   48 |   if(encontrarEntero(&arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:16:6: note: previous declaration of ‘encontrarEntero’ was here
+   16 |  int encontrarEntero(int* arrayEnteros  , int sizeArray , int encontrarEntero , int encontrado );
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:43:6: warning: unused variable ‘i’ [-Wunused-variable]
+   43 |  int i;
+      |      ^
+../src/Tema17_17-2_Remove.c:48:6: warning: ‘enteroEncontrado’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   48 |   if(encontrarEntero(&arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:49:10 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:48:6: warning: implicit declaration of function ‘encontrarEntero’ [-Wimplicit-function-declaration]
+   48 |   if(encontrarEntero(arrayEnteros, sizeArray, &enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:16:6: note: previous declaration of ‘encontrarEntero’ was here
+   16 |  int encontrarEntero(int* arrayEnteros  , int sizeArray , int encontrarEntero , int encontrado );
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:43:6: warning: unused variable ‘i’ [-Wunused-variable]
+   43 |  int i;
+      |      ^
+../src/Tema17_17-2_Remove.c:48:6: warning: ‘enteroEncontrado’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   48 |   if(encontrarEntero(arrayEnteros, sizeArray, &enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:50:22 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘encontrarEntero’:
+../src/Tema17_17-2_Remove.c:25:2: error: parameter ‘arrayEnteros’ is initialized
+   25 |  int* arrayEnteros = NULL;
+      |  ^~~
+../src/Tema17_17-2_Remove.c:26:2: error: parameter ‘sizeArray’ is initialized
+   26 |  int sizeArray = 10;
+      |  ^~~
+../src/Tema17_17-2_Remove.c:28:2: error: expected declaration specifiers before ‘arrayEnteros’
+   28 |  arrayEnteros = (int*)malloc(sizeof(int)* sizeArray);
+      |  ^~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:29:2: error: expected declaration specifiers before ‘if’
+   29 |  if(arrayEnteros != NULL)
+      |  ^~
+../src/Tema17_17-2_Remove.c:35:2: error: expected declaration specifiers before ‘return’
+   35 |  return EXIT_SUCCESS;
+      |  ^~~~~~
+../src/Tema17_17-2_Remove.c:36:1: error: expected declaration specifiers before ‘}’ token
+   36 | }
+      | ^
+../src/Tema17_17-2_Remove.c:39:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+   39 | {
+      | ^
+../src/Tema17_17-2_Remove.c:58:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+   58 | {
+      | ^
+../src/Tema17_17-2_Remove.c:16:6: error: old-style parameter declarations in prototyped function definition
+   16 |  int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado )
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:78: error: expected ‘{’ at end of input
+   78 | 
+      | 
+../src/Tema17_17-2_Remove.c:77:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   77 | }
+      | ^
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:77:1: error: expected declaration or statement at end of input
+At top level:
+../src/Tema17_17-2_Remove.c:16:6: warning: ‘encontrarEntero’ defined but not used [-Wunused-function]
+   16 |  int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado )
+      |      ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:50:32 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:47:6: warning: implicit declaration of function ‘encontrarEntero’ [-Wimplicit-function-declaration]
+   47 |   if(encontrarEntero(arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:16:6: note: previous declaration of ‘encontrarEntero’ was here
+   16 |  int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |      ^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c: In function ‘encontrarEntero’:
+../src/Tema17_17-2_Remove.c:66:23: warning: comparison between pointer and integer
+   66 |    if(arrayEnteros[i] == encontrarEntero)
+      |                       ^~
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:47:6: warning: ‘enteroEncontrado’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   47 |   if(encontrarEntero(arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:50:48 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:49:47: warning: passing argument 3 of ‘encontrarEntero’ makes pointer from integer without a cast [-Wint-conversion]
+   49 |   if(encontrarEntero(arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |                                               ^~~~~~~~~~~~~~~
+      |                                               |
+      |                                               int
+../src/Tema17_17-2_Remove.c:16:63: note: expected ‘int *’ but argument is of type ‘int’
+   16 | int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |                                                          ~~~~~^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:49:64: warning: passing argument 4 of ‘encontrarEntero’ makes pointer from integer without a cast [-Wint-conversion]
+   49 |   if(encontrarEntero(arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |                                                                ^~~~~~~~~~~~~~~~
+      |                                                                |
+      |                                                                int
+../src/Tema17_17-2_Remove.c:16:86: note: expected ‘int *’ but argument is of type ‘int’
+   16 | int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |                                                                                 ~~~~~^~~~~~~~~~
+../src/Tema17_17-2_Remove.c: In function ‘encontrarEntero’:
+../src/Tema17_17-2_Remove.c:68:23: warning: comparison between pointer and integer
+   68 |    if(arrayEnteros[i] == encontrarEntero)
+      |                       ^~
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:49:6: warning: ‘enteroEncontrado’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   49 |   if(encontrarEntero(arrayEnteros, sizeArray, enteroIngresado, enteroEncontrado) == 0)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:51:00 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:49:47: warning: passing argument 3 of ‘encontrarEntero’ makes pointer from integer without a cast [-Wint-conversion]
+   49 |   if(encontrarEntero(arrayEnteros, sizeArray, enteroIngresado, &enteroEncontrado) == 0)
+      |                                               ^~~~~~~~~~~~~~~
+      |                                               |
+      |                                               int
+../src/Tema17_17-2_Remove.c:16:63: note: expected ‘int *’ but argument is of type ‘int’
+   16 | int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |                                                          ~~~~~^~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c: In function ‘encontrarEntero’:
+../src/Tema17_17-2_Remove.c:68:23: warning: comparison between pointer and integer
+   68 |    if(arrayEnteros[i] == encontrarEntero)
+      |                       ^~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:51:05 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘encontrarEntero’:
+../src/Tema17_17-2_Remove.c:68:23: warning: comparison between pointer and integer
+   68 |    if(arrayEnteros[i] == encontrarEntero)
+      |                       ^~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:51:13 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:51:33 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:54:02 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revome’:
+../src/Tema17_17-2_Remove.c:54:16: error: expected ‘;’ before ‘}’ token
+   54 |    printf("\n")
+      |                ^
+      |                ;
+   55 |   }
+      |   ~             
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:56:11 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:56:22 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:57:07 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:57:15 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+22:57:20 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+22:57:51 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:57:53 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+23:02:05 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+23:02:40 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+23:03:01 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+23:03:19 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+23:03:23 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+23:03:27 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+23:07:27 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘inicializar’:
+../src/Tema17_17-2_Remove.c:112:18: error: expected expression before ‘{’ token
+  112 |   arrayEnteros = {10,2,4,5,6,5,90,88,22,30};
+      |                  ^
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:07:35 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘inicializar’:
+../src/Tema17_17-2_Remove.c:112:19: error: expected expression before ‘{’ token
+  112 |   *arrayEnteros = {10,2,4,5,6,5,90,88,22,30};
+      |                   ^
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:07:49 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘inicializar’:
+../src/Tema17_17-2_Remove.c:112:18: error: expected expression before ‘{’ token
+  112 |   arrayEnteros = {10,2,4,5,6,5,90,88,22,30};
+      |                  ^
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
