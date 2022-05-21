@@ -14,8 +14,8 @@
 #include "UTN.h"
 
 int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
-int revomeEnteros(int* arrayEnteros  , int sizeArray);
-int inicializar (int* arrayEnteros  , int sizeArray , int valorInicial );
+int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero);
+int inicializar (int* arrayEnteros  , int sizeArray );
 void imprimir (int* arrayEnteros  , int sizeArray );
 
 int main(void) {
@@ -29,17 +29,20 @@ El array deberá reestructurarse dinámicamente.
 
 	int* arrayEnteros = NULL;
 	int sizeArray = 10;
+	int enteroIngresado;
 
 	arrayEnteros = (int*)malloc(sizeof(int)* sizeArray);
 	if(arrayEnteros != NULL)
 	{
-		if(inicializar(arrayEnteros, sizeArray, 0) == 0)
+		if(inicializar(arrayEnteros, sizeArray) == 0)
 		{
 			imprimir(arrayEnteros, sizeArray );
 			printf("\nRemover : ");
-
-			revomeEnteros(arrayEnteros, sizeArray);
-			imprimir(arrayEnteros, sizeArray );
+			utn_pedirInt(&enteroIngresado, "\nIngrese el entero a elimnar : ", "\nERROR ",0, 1000,2 );
+			if(revomeEnteros(arrayEnteros, sizeArray , enteroIngresado) == 0)
+			{
+				imprimir(arrayEnteros, sizeArray );
+			}
 		}
 	}
 
@@ -47,33 +50,36 @@ El array deberá reestructurarse dinámicamente.
 	return EXIT_SUCCESS;
 }
 
-int revomeEnteros(int* arrayEnteros  , int sizeArray)
+int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero)
 {
-	int enteroIngresado ;
-	int enteroEncontrado ;
 	int estado = -1;
-	int* pAuxArrayEnteros;
-	int sizeNuevo ;
-
+	int* pAuxArrayEnteros = NULL;
+	int i;
 	if(arrayEnteros != NULL && sizeArray > 0)
 	{
-		utn_pedirInt(&enteroIngresado, "\nIngrese el numero a elimnar : ", "\nERROR ",0, sizeArray,2 );
-		if(encontrarEntero(arrayEnteros, sizeArray, &enteroIngresado, &enteroEncontrado) == 0)
-		{
-			utn_pedirInt(&sizeNuevo, "\nIngrese nuevo tamaño : ", "\nERROR ",0, sizeArray,2 );
 
-			pAuxArrayEnteros = (int *)realloc(arrayEnteros , sizeof(int )*sizeNuevo);
-			if(pAuxArrayEnteros != NULL )
+		for (i = 0; i < sizeArray; ++i) {
+
+			printf("\n array " );
+			if(arrayEnteros[i] == entero)
 			{
-				sizeArray = sizeNuevo ;
-				arrayEnteros = pAuxArrayEnteros;
-				estado = 0;
+				printf("\nEntro");
+
+				pAuxArrayEnteros = (int *)realloc(arrayEnteros , sizeof(int )*sizeArray);
+				if(pAuxArrayEnteros != NULL )
+				{
+					sizeArray -= 1 ;
+					arrayEnteros = pAuxArrayEnteros;
+					estado = 0;
+
+					break;
+				}else{
+					printf("\nNo hay mas espacio ");
+				}
+
 
 			}
-
-
 		}
-
 	}
 
 	return estado ;
@@ -91,6 +97,7 @@ int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , 
 			if(arrayEnteros[i] == *encontrarEntero)
 			{
 				*encontrado = i ;
+				estado = 0;
 				break;
 			}
 
@@ -101,15 +108,19 @@ int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , 
 }
 
 
-int inicializar (int* arrayEnteros  , int sizeArray , int valorInicial )
+int inicializar (int* arrayEnteros  , int sizeArray )
 {
 	int estado = -1;
+	int i;
 
 	if(arrayEnteros != NULL && sizeArray > 0)
 	{
 		estado = 0;
 
-		arrayEnteros = {10,2,4,5,6,5,90,88,22,30};
+		for (i = 0; i < sizeArray; ++i) {
+
+			arrayEnteros[i] = i*3;
+		}
 	}
 
 

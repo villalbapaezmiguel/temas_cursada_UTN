@@ -9770,3 +9770,782 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -
       |                  ^
 make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
+16:52:55 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘inicializar’:
+../src/Tema17_17-2_Remove.c:112:29: error: expected expression before ‘{’ token
+  112 |   arrayEnteros[sizeArray] = {10,2,4,5,6,5,90,88,22,30};
+      |                             ^
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:53:07 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘inicializar’:
+../src/Tema17_17-2_Remove.c:112:3: error: invalid type argument of unary ‘*’ (have ‘int’)
+  112 |   *arrayEnteros[sizeArray] = {10,2,4,5,6,5,90,88,22,30};
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:112:30: error: expected expression before ‘{’ token
+  112 |   *arrayEnteros[sizeArray] = {10,2,4,5,6,5,90,88,22,30};
+      |                              ^
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:54:28 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+16:54:32 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+16:55:30 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:43:43: error: expected ‘;’ before ‘imprimir’
+   43 |     revomeEnteros(arrayEnteros, sizeArray)
+      |                                           ^
+      |                                           ;
+   44 |     imprimir(arrayEnteros, sizeArray );
+      |     ~~~~~~~~                               
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:55:36 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+16:55:39 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+16:56:32 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+16:56:35 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+16:57:08 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+16:58:49 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c:53:5: error: conflicting types for ‘revomeEnteros’
+   53 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero)
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: previous declaration of ‘revomeEnteros’ was here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray);
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:108:5: error: conflicting types for ‘inicializar’
+  108 | int inicializar (int* arrayEnteros  , int sizeArray )
+      |     ^~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:18:5: note: previous declaration of ‘inicializar’ was here
+   18 | int inicializar (int* arrayEnteros  , int sizeArray , int valorInicial );
+      |     ^~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:59:00 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:36:6: error: too many arguments to function ‘inicializar’
+   36 |   if(inicializar(arrayEnteros, sizeArray, 0) == 0)
+      |      ^~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:18:5: note: declared here
+   18 | int inicializar (int* arrayEnteros  , int sizeArray );
+      |     ^~~~~~~~~~~
+../src/Tema17_17-2_Remove.c: At top level:
+../src/Tema17_17-2_Remove.c:53:5: error: conflicting types for ‘revomeEnteros’
+   53 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero)
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: previous declaration of ‘revomeEnteros’ was here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray);
+      |     ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:59:09 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c:53:5: error: conflicting types for ‘revomeEnteros’
+   53 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero)
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: previous declaration of ‘revomeEnteros’ was here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray);
+      |     ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:59:29 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:41:7: error: too few arguments to function ‘revomeEnteros’
+   41 |    if(revomeEnteros(arrayEnteros, sizeArray) == 0)
+      |       ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: declared here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero);
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:43:5: error: too few arguments to function ‘revomeEnteros’
+   43 |     revomeEnteros(arrayEnteros, sizeArray);
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: declared here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero);
+      |     ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:00:26 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:42:7: error: too few arguments to function ‘revomeEnteros’
+   42 |    if(revomeEnteros(arrayEnteros, sizeArray) == 0)
+      |       ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: declared here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero);
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:44:5: error: too few arguments to function ‘revomeEnteros’
+   44 |     revomeEnteros(arrayEnteros, sizeArray);
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: declared here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero);
+      |     ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:00:37 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:44:5: error: too few arguments to function ‘revomeEnteros’
+   44 |     revomeEnteros(arrayEnteros, sizeArray);
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: declared here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero);
+      |     ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:00:52 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:01:20 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:01:51 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:55:6: warning: unused variable ‘enteroIngresado’ [-Wunused-variable]
+   55 |  int enteroIngresado ;
+      |      ^~~~~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:02:01 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:02:03 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:02:50 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c:53:5: error: conflicting types for ‘revomeEnteros’
+   53 | int revomeEnteros(int** arrayEnteros  , int sizeArray , int entero)
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:17:5: note: previous declaration of ‘revomeEnteros’ was here
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero);
+      |     ^~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:63:22: warning: passing argument 1 of ‘encontrarEntero’ from incompatible pointer type [-Wincompatible-pointer-types]
+   63 |   if(encontrarEntero(arrayEnteros, sizeArray, &entero, &enteroEncontrado) == 0)
+      |                      ^~~~~~~~~~~~
+      |                      |
+      |                      int **
+../src/Tema17_17-2_Remove.c:16:26: note: expected ‘int *’ but argument is of type ‘int **’
+   16 | int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |                     ~~~~~^~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:03:04 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:42:21: warning: passing argument 1 of ‘revomeEnteros’ from incompatible pointer type [-Wincompatible-pointer-types]
+   42 |    if(revomeEnteros(arrayEnteros, sizeArray , enteroIngresado) == 0)
+      |                     ^~~~~~~~~~~~
+      |                     |
+      |                     int *
+../src/Tema17_17-2_Remove.c:17:25: note: expected ‘int **’ but argument is of type ‘int *’
+   17 | int revomeEnteros(int** arrayEnteros  , int sizeArray , int entero);
+      |                   ~~~~~~^~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:63:22: warning: passing argument 1 of ‘encontrarEntero’ from incompatible pointer type [-Wincompatible-pointer-types]
+   63 |   if(encontrarEntero(arrayEnteros, sizeArray, &entero, &enteroEncontrado) == 0)
+      |                      ^~~~~~~~~~~~
+      |                      |
+      |                      int **
+../src/Tema17_17-2_Remove.c:16:26: note: expected ‘int *’ but argument is of type ‘int **’
+   16 | int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |                     ~~~~~^~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:03:17 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:42:21: warning: passing argument 1 of ‘revomeEnteros’ makes pointer from integer without a cast [-Wint-conversion]
+   42 |    if(revomeEnteros(*arrayEnteros, sizeArray , enteroIngresado) == 0)
+      |                     ^~~~~~~~~~~~~
+      |                     |
+      |                     int
+../src/Tema17_17-2_Remove.c:17:25: note: expected ‘int **’ but argument is of type ‘int’
+   17 | int revomeEnteros(int** arrayEnteros  , int sizeArray , int entero);
+      |                   ~~~~~~^~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:63:22: warning: passing argument 1 of ‘encontrarEntero’ from incompatible pointer type [-Wincompatible-pointer-types]
+   63 |   if(encontrarEntero(arrayEnteros, sizeArray, &entero, &enteroEncontrado) == 0)
+      |                      ^~~~~~~~~~~~
+      |                      |
+      |                      int **
+../src/Tema17_17-2_Remove.c:16:26: note: expected ‘int *’ but argument is of type ‘int **’
+   16 | int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |                     ~~~~~^~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:03:22 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:63:22: warning: passing argument 1 of ‘encontrarEntero’ from incompatible pointer type [-Wincompatible-pointer-types]
+   63 |   if(encontrarEntero(arrayEnteros, sizeArray, &entero, &enteroEncontrado) == 0)
+      |                      ^~~~~~~~~~~~
+      |                      |
+      |                      int **
+../src/Tema17_17-2_Remove.c:16:26: note: expected ‘int *’ but argument is of type ‘int **’
+   16 | int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |                     ~~~~~^~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:03:30 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:63:22: warning: passing argument 1 of ‘encontrarEntero’ from incompatible pointer type [-Wincompatible-pointer-types]
+   63 |   if(encontrarEntero(&arrayEnteros, sizeArray, &entero, &enteroEncontrado) == 0)
+      |                      ^~~~~~~~~~~~~
+      |                      |
+      |                      int ***
+../src/Tema17_17-2_Remove.c:16:26: note: expected ‘int *’ but argument is of type ‘int ***’
+   16 | int encontrarEntero(int* arrayEnteros  , int sizeArray , int* encontrarEntero , int* encontrado );
+      |                     ~~~~~^~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:03:41 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:03:43 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:05:11 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:13:14 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:65:23: warning: comparison between pointer and integer
+   65 |    if(arrayEnteros[i] == entero)
+      |                       ^~
+../src/Tema17_17-2_Remove.c:59:9: warning: unused variable ‘j’ [-Wunused-variable]
+   59 |  int i, j;
+      |         ^
+../src/Tema17_17-2_Remove.c:58:6: warning: unused variable ‘sizeNuevo’ [-Wunused-variable]
+   58 |  int sizeNuevo ;
+      |      ^~~~~~~~~
+../src/Tema17_17-2_Remove.c:55:6: warning: unused variable ‘enteroEncontrado’ [-Wunused-variable]
+   55 |  int enteroEncontrado ;
+      |      ^~~~~~~~~~~~~~~~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:13:36 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:63:23: warning: comparison between pointer and integer
+   63 |    if(arrayEnteros[i] == entero)
+      |                       ^~
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:13:42 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:13:55 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:14:25 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:14:29 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:15:59 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:16:01 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:17:23 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:17:27 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:19:02 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:19:04 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:20:05 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:63:24: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   63 |    printf("\n array : %d" , arrayEnteros[i]);
+      |                       ~^    ~~~~~~~~~~~~~~~
+      |                        |                |
+      |                        int              int *
+      |                       %ls
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:20:11 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:63:24: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int **’ [-Wformat=]
+   63 |    printf("\n array : %d" , &arrayEnteros[i]);
+      |                       ~^    ~~~~~~~~~~~~~~~~
+      |                        |    |
+      |                        int  int **
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:20:16 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:20:19 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:21:03 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:21:06 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:22:32 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘main’:
+../src/Tema17_17-2_Remove.c:42:21: warning: passing argument 1 of ‘revomeEnteros’ from incompatible pointer type [-Wincompatible-pointer-types]
+   42 |    if(revomeEnteros(&arrayEnteros, sizeArray , enteroIngresado) == 0)
+      |                     ^~~~~~~~~~~~~
+      |                     |
+      |                     int **
+../src/Tema17_17-2_Remove.c:17:24: note: expected ‘int *’ but argument is of type ‘int **’
+   17 | int revomeEnteros(int* arrayEnteros  , int sizeArray , int entero);
+      |                   ~~~~~^~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:64:7: error: invalid type argument of unary ‘*’ (have ‘int’)
+   64 |    if(*arrayEnteros[i] == entero)
+      |       ^~~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:67:39: warning: passing argument 1 of ‘realloc’ makes pointer from integer without a cast [-Wint-conversion]
+   67 |     pAuxArrayEnteros = (int *)realloc(*arrayEnteros , sizeof(int )*(sizeArray - 1));
+      |                                       ^~~~~~~~~~~~~
+      |                                       |
+      |                                       int
+In file included from ../src/Tema17_17-2_Remove.c:12:
+/usr/include/stdlib.h:550:14: note: expected ‘void *’ but argument is of type ‘int’
+  550 | extern void *realloc (void *__ptr, size_t __size)
+      |              ^~~~~~~
+../src/Tema17_17-2_Remove.c:71:20: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   71 |      *arrayEnteros = pAuxArrayEnteros;
+      |                    ^
+../src/Tema17_17-2_Remove.c:73:22: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   73 |      arrayEnteros[i] = NULL ;
+      |                      ^
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:22:39 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:64:7: error: invalid type argument of unary ‘*’ (have ‘int’)
+   64 |    if(*arrayEnteros[i] == entero)
+      |       ^~~~~~~~~~~~~~~~
+../src/Tema17_17-2_Remove.c:67:39: warning: passing argument 1 of ‘realloc’ makes pointer from integer without a cast [-Wint-conversion]
+   67 |     pAuxArrayEnteros = (int *)realloc(*arrayEnteros , sizeof(int )*(sizeArray - 1));
+      |                                       ^~~~~~~~~~~~~
+      |                                       |
+      |                                       int
+In file included from ../src/Tema17_17-2_Remove.c:12:
+/usr/include/stdlib.h:550:14: note: expected ‘void *’ but argument is of type ‘int’
+  550 | extern void *realloc (void *__ptr, size_t __size)
+      |              ^~~~~~~
+../src/Tema17_17-2_Remove.c:71:20: warning: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   71 |      *arrayEnteros = pAuxArrayEnteros;
+      |                    ^
+../src/Tema17_17-2_Remove.c:73:22: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   73 |      arrayEnteros[i] = NULL ;
+      |                      ^
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:22:54 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:73:22: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   73 |      arrayEnteros[i] = NULL ;
+      |                      ^
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:23:24 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:73:6: error: invalid type argument of unary ‘*’ (have ‘int’)
+   73 |      *arrayEnteros[i] = NULL ;
+      |      ^~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:23:37 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:73:22: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   73 |      arrayEnteros[i] = NULL ;
+      |                      ^
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:24:04 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:24:05 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+make: No se hace nada para 'all'.
+17:28:03 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:28:04 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:29:53 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:29:54 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:68:21: warning: assignment to ‘int’ from ‘void *’ makes integer from pointer without a cast [-Wint-conversion]
+   68 |     arrayEnteros[i] = NULL ;
+      |                     ^
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+17:30:05 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:30:05 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:68:5: error: invalid type argument of unary ‘*’ (have ‘int’)
+   68 |     *arrayEnteros[i] = NULL ;
+      |     ^~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:30:11 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:30:11 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+../src/Tema17_17-2_Remove.c: In function ‘revomeEnteros’:
+../src/Tema17_17-2_Remove.c:68:22: error: lvalue required as left operand of assignment
+   68 |     &arrayEnteros[i] = NULL ;
+      |                      ^
+make: *** [src/subdir.mk:23: src/Tema17_17-2_Remove.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+17:30:22 **** Incremental Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+make: No se hace nada para 'all'.
+17:30:23 **** Incremental Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
