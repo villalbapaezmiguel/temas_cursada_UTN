@@ -6,6 +6,7 @@
  */
 #include "Alumno.h"
 static int isValidarNombre(char* cadena,int longitud);
+static int esNumericaVideo(char* cadena , int limite);
 /*construimos un alumno en memoria */
 eAlumno* alumno_new(void)
 {
@@ -39,6 +40,31 @@ void alumno_delete(eAlumno* this)
 		free(this);
 	}
 }
+int alumno_setAltura(eAlumno* this,float altura)
+{
+	int retorno = -1;
+
+	if(this != NULL && altura > 0)
+	{
+		retorno = 0;
+		this->altura = altura;
+	}
+	return retorno;
+}
+int alumno_getAltura(eAlumno* this,float* altura)
+{
+	int retorno = -1;
+
+	if(this != NULL && altura !=NULL)
+	{
+		retorno = 0;
+//a traves del puntero que resivi a la altura , voy a asignar lo que tengo en this->altura
+		*altura = this->altura;
+	}
+	return retorno;
+}
+
+
 /*este es el cuerpo de un set:
  * valido los parametros y aparte verifico que este bien lo que le este por asignar en este campo
  * este va a ser el unico lugar de mi codigo en el cual voy a acceder de manera directa al campo thi->nombre */
@@ -48,8 +74,9 @@ int alumno_setNombre(eAlumno* this, char* nombre)
 
 	if(this != NULL && nombre != NULL)
 	{
-		if(isValidarNombre(nombre, NOMBRE_LEN) == 0)
+		if(isValidarNombre(nombre, NOMBRE_LEN) == 1)
 		{
+			retorno = 0;
 			strcpy(this->nombre, nombre);
 		}
 	}
@@ -78,6 +105,88 @@ static int isValidarNombre(char* cadena,int longitud)
 			}
 		}
 	}
+	return retorno;
+}
+
+/*devolvemos el dato que nos estan asignando */
+int alumno_getNombre(eAlumno* this, char* nombre)
+{
+	int retorno = -1;
+
+	if(this != NULL && nombre != NULL)
+	{
+			retorno = 0;
+			strcpy(nombre , this->nombre);
+	}
+	return retorno;
+}
+
+/**/
+int alumno_setTxt(eAlumno* this, char* id)
+{
+	int retorno = -1;
+
+	if(this != NULL && id != NULL)
+	{
+		if(esNumericaVideo(id, 10))//si es numerico pasa
+		{
+			this->id = atoi(id);//la funcion atoi devuelve lo que le pasmos como  texto a numero
+			retorno = 0;
+		}
+
+	}
+	return retorno;
+}
+
+int alumno_setId(eAlumno* this, int id)
+{
+	int retorno = -1;
+
+	if(this != NULL && id >= 0)
+	{
+		this->id = id;
+		retorno = 0;
+	}
+	return retorno;
+}
+
+int alumno_getIdTxt(eAlumno* this, char* id)
+{
+	int retorno = -1;
+
+	if(this != NULL && id >= 0)
+	{
+		sprintf(id, "%d", this->id);//lo primero que resive es en donde lo quiero imprimir y despues es iguala la printf
+		retorno = 0;
+	}
+	return retorno;
+}
+/*\brief Verifica si la cadena ingresada es numerica
+ *\param cadena Cadena de caracteres a ser analizada
+ *\return  Retorno 1(verdadero) si la cadena es numerica , 0(falso) si no lo es y -1 en caso de error */
+static int esNumericaVideo(char* cadena , int limite)
+{
+	int retorno = -1;
+	int i;
+
+	if(cadena != NULL && limite >0)
+	{
+		retorno = 1;//verdadero
+		for (i = 0; i < limite; ++i) {
+
+			if(i == 0 && (cadena[i] == '+' || cadena[i] == '-'))
+			{
+				continue;
+			}
+
+			if(cadena[i] < '0' || cadena[i] > '9')
+			{
+				retorno = 0;
+				break;
+			}
+		}
+	}
+
 	return retorno;
 }
 //*****************************************************************************
@@ -208,4 +317,60 @@ int alumno_borrarPorIdArray(eAlumno* arrayPunteros[], int limite, int idBorrar)
 	}
 	return retorno  ;
 
+}
+
+int alumno_ordenarArray(eAlumno* arrayPunteros[], int limite)
+{
+	int i;
+	int retorno = -1;
+	int flagSwap;
+	//como estoy ordenando un array que dentro tiene punteros , lo que voy a necesitar temporalmente es guardar una direccion de memoria
+	eAlumno* bufferPunteroAlumno ;
+
+	if(arrayPunteros != NULL && limite > 0)
+	{
+		retorno = 0;
+		do {
+			flagSwap = 0;//falsa
+			for (i = 0; i < limite; ++i)
+			{
+				if(arrayPunteros[i] != NULL &&
+					arrayPunteros[i+1] != NULL &&
+					strncmp(arrayPunteros[i]->nombre, arrayPunteros[i+1]->nombre, NOMBRE_LEN) > 0)//si existe una difencia
+				{//hacer un swap es en este caso , intercambiar lo punteros
+
+					bufferPunteroAlumno = arrayPunteros[i] ;//me guarde el puntero que esta en i en un buffer
+					arrayPunteros[i] = arrayPunteros[i+1];//en esa posicion que tengo bacapeada , escribo en lo que hay array i +1
+					arrayPunteros[i+1] = bufferPunteroAlumno;// y lo que en esta en i+1 pongo lo que originalmente estaba en el buffer
+					flagSwap = 1;//lo pongo en 1 para esto pase una vez mas
+				}
+			}
+		} while (flagSwap);
+	}
+
+	return retorno;
+}
+
+int alumno_calcularAlturaPromedioArray(eAlumno* arrayPunteros[], int limite, float* promedio )
+{
+	int i;
+	int retorno = -1;
+	int cantidadAlumnos = 0;
+	float acumuladorAlturas = 0;
+
+	if(arrayPunteros != NULL && limite > 0)
+	{
+		for (i = 0; i < limite; ++i) {
+
+			if(arrayPunteros[i] != NULL)//si encontre un alumno que sea distinto de null pasa
+			{
+				cantidadAlumnos++;//lo incremento porque ya encontre un alumno
+				acumuladorAlturas = acumuladorAlturas + arrayPunteros[i]->altura;//voy a acuumular lo que el acumulador tiene + lo que tenien de altura ese almno en particular
+
+			}
+		}
+		*promedio = acumuladorAlturas/cantidadAlumnos;
+		retorno = 0;
+	}
+	return retorno;
 }

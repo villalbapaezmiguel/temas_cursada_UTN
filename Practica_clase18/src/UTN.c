@@ -9,6 +9,7 @@
 static int getInt (int* pResultado);
 static int myGets (char* cadena , int longitud);
 static int esNumerica(char* cadena );
+static int esNumericaVideo(char* cadena , int limite);
 static int getNombre(char* pResultado, int longitud);
 static int getString(char* cadena, int longitud);
 static int esNombre(char* cadena,int longitud);
@@ -100,6 +101,34 @@ static int esNumerica(char* cadena )
 		}
 	}
 	return retorno ;
+}
+/*\brief Verifica si la cadena ingresada es numerica
+ *\param cadena Cadena de caracteres a ser analizada
+ *\return  Retorno 1(verdadero) si la cadena es numerica , 0(falso) si no lo es y -1 en caso de error */
+static int esNumericaVideo(char* cadena , int limite)
+{
+	int retorno = -1;
+	int i;
+
+	if(cadena != NULL && limite >0)
+	{
+		retorno = 1;//verdadero
+		for (i = 0; i < limite; ++i) {
+
+			if(i == 0 && (cadena[i] == '+' || cadena[i] == '-'))
+			{
+				continue;
+			}
+
+			if(cadena[i] < '0' || cadena[i] > '9')
+			{
+				retorno = 0;
+				break;
+			}
+		}
+	}
+
+	return retorno;
 }
 static int getNombre(char* pResultado, int longitud)
 {
