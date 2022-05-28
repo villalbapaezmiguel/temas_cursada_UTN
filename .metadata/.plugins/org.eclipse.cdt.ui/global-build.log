@@ -836,3 +836,222 @@ Invoking: GCC C Linker
 gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
 Finished building target: Practica_clase18
  
+12:44:55 **** Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+12:44:59 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+make: No se hace nada para 'all'.
+12:50:20 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+12:50:51 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+12:51:01 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+make: No se hace nada para 'all'.
+12:54:29 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+12:54:31 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+make: No se hace nada para 'all'.
+12:56:08 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:05:08 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+../src/claseSabadoArchivos.c: In function ‘main’:
+../src/claseSabadoArchivos.c:45:22: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
+   45 |   fscanf(pArchivo, "%d-%d- %f\n",aux.id , aux.numero , aux.sueldo );
+      |                     ~^           ~~~~~~
+      |                      |              |
+      |                      int *          int
+../src/claseSabadoArchivos.c:45:25: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Wformat=]
+   45 |   fscanf(pArchivo, "%d-%d- %f\n",aux.id , aux.numero , aux.sueldo );
+      |                        ~^                 ~~~~~~~~~~
+      |                         |                    |
+      |                         int *                int
+../src/claseSabadoArchivos.c:45:29: warning: format ‘%f’ expects argument of type ‘float *’, but argument 5 has type ‘double’ [-Wformat=]
+   45 |   fscanf(pArchivo, "%d-%d- %f\n",aux.id , aux.numero , aux.sueldo );
+      |                            ~^                          ~~~~~~~~~~
+      |                             |                             |
+      |                             float *                       double
+../src/claseSabadoArchivos.c:45:59: warning: ‘aux.sueldo’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   45 |   fscanf(pArchivo, "%d-%d- %f\n",aux.id , aux.numero , aux.sueldo );
+      |                                                        ~~~^~~~~~~
+../src/claseSabadoArchivos.c:45:3: warning: ‘aux.numero’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   45 |   fscanf(pArchivo, "%d-%d- %f\n",aux.id , aux.numero , aux.sueldo );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/claseSabadoArchivos.c:45:3: warning: ‘aux.id’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/claseSabadoArchivos.c:46:79: warning: ‘aux.sueldo’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   46 |   printf("\nID : %d || NUMERO : %d || SUELDO : %.2f",aux.id , aux.numero , aux.sueldo );
+      |                                                                            ~~~^~~~~~~
+../src/claseSabadoArchivos.c:46:3: warning: ‘aux.numero’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   46 |   printf("\nID : %d || NUMERO : %d || SUELDO : %.2f",aux.id , aux.numero , aux.sueldo );
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/claseSabadoArchivos.c:46:3: warning: ‘aux.id’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:05:43 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+../src/claseSabadoArchivos.c: In function ‘main’:
+../src/claseSabadoArchivos.c:46:19: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   46 |   printf("\nID : %d || NUMERO : %d || SUELDO : %.2f",&aux.id , &aux.numero , &aux.sueldo );
+      |                  ~^                                  ~~~~~~~
+      |                   |                                  |
+      |                   int                                int *
+      |                  %ls
+../src/claseSabadoArchivos.c:46:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int *’ [-Wformat=]
+   46 |   printf("\nID : %d || NUMERO : %d || SUELDO : %.2f",&aux.id , &aux.numero , &aux.sueldo );
+      |                                 ~^                             ~~~~~~~~~~~
+      |                                  |                             |
+      |                                  int                           int *
+      |                                 %ls
+../src/claseSabadoArchivos.c:46:51: warning: format ‘%f’ expects argument of type ‘double’, but argument 4 has type ‘float *’ [-Wformat=]
+   46 |   printf("\nID : %d || NUMERO : %d || SUELDO : %.2f",&aux.id , &aux.numero , &aux.sueldo );
+      |                                                ~~~^                          ~~~~~~~~~~~
+      |                                                   |                          |
+      |                                                   double                     float *
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:06:22 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:06:31 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+make: No se hace nada para 'all'.
+13:15:51 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:15:58 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:21:10 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:23:07 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:23:27 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+13:28:12 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+make: No se hace nada para 'all'.
