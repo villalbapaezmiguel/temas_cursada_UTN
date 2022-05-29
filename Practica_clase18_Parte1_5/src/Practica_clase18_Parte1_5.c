@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : Practica_clase18.c
+ Name        : Practica_clase18_Parte1_5.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice

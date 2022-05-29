@@ -1055,3 +1055,713 @@ Finished building target: claseSabadoArchivos
 13:28:12 **** Incremental Build of configuration Debug for project claseSabadoArchivos ****
 make all 
 make: No se hace nada para 'all'.
+20:20:23 **** Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:20:30 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:20:36 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:29:39 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:30:15 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:30:37 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:30:42 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:38:05 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alumno_calcularAlumnoMasAltoArrayMigue’:
+../src/Alumno.c:383:8: warning: unused variable ‘acumuladorAlturas’ [-Wunused-variable]
+  383 |  float acumuladorAlturas = 0;
+      |        ^~~~~~~~~~~~~~~~~
+../src/Alumno.c:382:6: warning: unused variable ‘cantidadAlumnos’ [-Wunused-variable]
+  382 |  int cantidadAlumnos = 0;
+      |      ^~~~~~~~~~~~~~~
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:109:5: error: duplicate case value
+  109 |     case 6://alumno mas alto
+      |     ^~~~
+../src/Practica_clase18.c:105:5: note: previously used here
+  105 |     case 6://PROMEDIO alturas
+      |     ^~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:38:25 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:109:5: error: duplicate case value
+  109 |     case 6://alumno mas alto
+      |     ^~~~
+../src/Practica_clase18.c:105:5: note: previously used here
+  105 |     case 6://PROMEDIO alturas
+      |     ^~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:38:40 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:41:15 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:111:79: warning: passing argument 3 of ‘alumno_calcularAlumnoMasAltoArrayMigue’ from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |      alumno_calcularAlumnoMasAltoArrayMigue(arrayPunterosAlumno, QTY_ALUMNOS, &auxAlturaMayor);
+      |                                                                               ^~~~~~~~~~~~~~~
+      |                                                                               |
+      |                                                                               float *
+In file included from ../src/Practica_clase18.c:15:
+../src/Alumno.h:45:87: note: expected ‘int *’ but argument is of type ‘float *’
+   45 | int alumno_calcularAlumnoMasAltoArrayMigue(eAlumno* arrayPunteros[], int limite, int* alturaMayor  );
+      |                                                                                  ~~~~~^~~~~~~~~~~
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:42:43 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:111:79: error: incompatible type for argument 3 of ‘alumno_calcularAlumnoMasAltoArrayMigue’
+  111 |      alumno_calcularAlumnoMasAltoArrayMigue(arrayPunterosAlumno, QTY_ALUMNOS, auxAlturaMayor);
+      |                                                                               ^~~~~~~~~~~~~~
+      |                                                                               |
+      |                                                                               float
+In file included from ../src/Practica_clase18.c:15:
+../src/Alumno.h:45:87: note: expected ‘int *’ but argument is of type ‘float’
+   45 | int alumno_calcularAlumnoMasAltoArrayMigue(eAlumno* arrayPunteros[], int limite, int* alturaMayor  );
+      |                                                                                  ~~~~~^~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:42:48 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:111:79: warning: passing argument 3 of ‘alumno_calcularAlumnoMasAltoArrayMigue’ from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |      alumno_calcularAlumnoMasAltoArrayMigue(arrayPunterosAlumno, QTY_ALUMNOS, &auxAlturaMayor);
+      |                                                                               ^~~~~~~~~~~~~~~
+      |                                                                               |
+      |                                                                               float *
+In file included from ../src/Practica_clase18.c:15:
+../src/Alumno.h:45:87: note: expected ‘int *’ but argument is of type ‘float *’
+   45 | int alumno_calcularAlumnoMasAltoArrayMigue(eAlumno* arrayPunteros[], int limite, int* alturaMayor  );
+      |                                                                                  ~~~~~^~~~~~~~~~~
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:43:26 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:43:29 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:45:29 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:45:32 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:47:00 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:47:03 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:48:19 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:48:20 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:49:33 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:49:36 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:50:15 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:50:18 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:52:20 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alumno_calcularAlumnoMasAltoArrayMigue’:
+../src/Alumno.c:391:22: error: invalid type argument of unary ‘*’ (have ‘float’)
+  391 |     auxalturaMayor = *arrayPunteros[i]->altura;
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:52:27 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:53:04 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:53:14 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:54:09 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:54:13 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:55:37 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:56:42 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:56:46 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+20:57:34 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:59:45 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+20:59:48 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:03:04 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+21:03:08 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:10:46 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+21:14:49 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:122:42: error: array subscript is not an integer
+  122 |      alumno_getNombre(arrayPunterosAlumno[bufferIndiceProfe], bufferNombre);
+      |                                          ^
+../src/Practica_clase18.c:123:6: warning: implicit declaration of function ‘alumno_getaAltura’; did you mean ‘alumno_getAltura’? [-Wimplicit-function-declaration]
+  123 |      alumno_getaAltura(arrayPunterosAlumno[bufferIndiceProfe], &bufferAltura);
+      |      ^~~~~~~~~~~~~~~~~
+      |      alumno_getAltura
+../src/Practica_clase18.c:123:43: error: array subscript is not an integer
+  123 |      alumno_getaAltura(arrayPunterosAlumno[bufferIndiceProfe], &bufferAltura);
+      |                                           ^
+../src/Practica_clase18.c:37:8: warning: unused variable ‘auxAlturaMayor’ [-Wunused-variable]
+   37 |  float auxAlturaMayor;
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:15:49 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:122:42: error: array subscript is not an integer
+  122 |      alumno_getNombre(arrayPunterosAlumno[bufferIndiceProfe], bufferNombre);
+      |                                          ^
+../src/Practica_clase18.c:123:42: error: array subscript is not an integer
+  123 |      alumno_getAltura(arrayPunterosAlumno[bufferIndiceProfe], &bufferAltura);
+      |                                          ^
+../src/Practica_clase18.c:37:8: warning: unused variable ‘auxAlturaMayor’ [-Wunused-variable]
+   37 |  float auxAlturaMayor;
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:18:57 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:122:42: error: array subscript is not an integer
+  122 |      alumno_getNombre(arrayPunterosAlumno[bufferIndiceProfe], bufferNombre);
+      |                                          ^
+../src/Practica_clase18.c:37:8: warning: unused variable ‘auxAlturaMayor’ [-Wunused-variable]
+   37 |  float auxAlturaMayor;
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:22:48 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:122:42: error: array subscript is not an integer
+  122 |      alumno_setNombre(arrayPunterosAlumno[bufferIndiceProfe], bufferNombre);
+      |                                          ^
+../src/Practica_clase18.c:37:8: warning: unused variable ‘auxAlturaMayor’ [-Wunused-variable]
+   37 |  float auxAlturaMayor;
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:24:19 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:123:23: warning: passing argument 1 of ‘alumno_getNombre’ from incompatible pointer type [-Wincompatible-pointer-types]
+  123 |      alumno_getNombre(arrayPunterosAlumno, bufferNombre);
+      |                       ^~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       eAlumno ** {aka struct <anonymous> **}
+In file included from ../src/Practica_clase18.c:15:
+../src/Alumno.h:27:31: note: expected ‘eAlumno *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eAlumno **’ {aka ‘struct <anonymous> **’}
+   27 | int alumno_getNombre(eAlumno* this, char* nombre);
+      |                      ~~~~~~~~~^~~~
+../src/Practica_clase18.c:37:8: warning: unused variable ‘auxAlturaMayor’ [-Wunused-variable]
+   37 |  float auxAlturaMayor;
+      |        ^~~~~~~~~~~~~~
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+21:25:09 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c:411:5: error: conflicting types for ‘alumno_calcularAlturaMaximaArray’
+  411 | int alumno_calcularAlturaMaximaArray(eAlumno* arrayPunteros[], int limite, int* indice )
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/Alumno.c:7:
+../src/Alumno.h:46:5: note: previous declaration of ‘alumno_calcularAlturaMaximaArray’ was here
+   46 | int alumno_calcularAlturaMaximaArray(eAlumno* arrayPunteros[], int limite, float* indice );
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Alumno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:25:17 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:121:73: warning: passing argument 3 of ‘alumno_calcularAlturaMaximaArray’ from incompatible pointer type [-Wincompatible-pointer-types]
+  121 |      alumno_calcularAlturaMaximaArray(arrayPunterosAlumno, QTY_ALUMNOS, &bufferIndiceProfe);
+      |                                                                         ^~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         float *
+In file included from ../src/Practica_clase18.c:15:
+../src/Alumno.h:46:81: note: expected ‘int *’ but argument is of type ‘float *’
+   46 | int alumno_calcularAlturaMaximaArray(eAlumno* arrayPunteros[], int limite, int* indice );
+      |                                                                            ~~~~~^~~~~~
+../src/Practica_clase18.c:123:43: error: array subscript is not an integer
+  123 |      alumno_getNombre(*arrayPunterosAlumno[bufferIndiceProfe], bufferNombre);
+      |                                           ^
+../src/Practica_clase18.c:37:8: warning: unused variable ‘auxAlturaMayor’ [-Wunused-variable]
+   37 |  float auxAlturaMayor;
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:25:39 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:123:23: error: incompatible type for argument 1 of ‘alumno_getNombre’
+  123 |      alumno_getNombre(*arrayPunterosAlumno[bufferIndiceProfe], bufferNombre);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |
+      |                       eAlumno {aka struct <anonymous>}
+In file included from ../src/Practica_clase18.c:15:
+../src/Alumno.h:27:31: note: expected ‘eAlumno *’ {aka ‘struct <anonymous> *’} but argument is of type ‘eAlumno’ {aka ‘struct <anonymous>’}
+   27 | int alumno_getNombre(eAlumno* this, char* nombre);
+      |                      ~~~~~~~~~^~~~
+../src/Practica_clase18.c:37:8: warning: unused variable ‘auxAlturaMayor’ [-Wunused-variable]
+   37 |  float auxAlturaMayor;
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:25:50 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:37:8: warning: unused variable ‘auxAlturaMayor’ [-Wunused-variable]
+   37 |  float auxAlturaMayor;
+      |        ^~~~~~~~~~~~~~
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+21:26:07 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+21:26:38 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+../src/Practica_clase18.c: In function ‘main’:
+../src/Practica_clase18.c:123:63: error: incompatible type for argument 2 of ‘alumno_getAltura’
+  123 |      alumno_getAltura(arrayPunterosAlumno[bufferIndiceProfe], bufferAltura);
+      |                                                               ^~~~~~~~~~~~
+      |                                                               |
+      |                                                               float
+In file included from ../src/Practica_clase18.c:15:
+../src/Alumno.h:32:43: note: expected ‘float *’ but argument is of type ‘float’
+   32 | int alumno_getAltura(eAlumno* this,float* altura);
+      |                                    ~~~~~~~^~~~~~
+make: *** [src/subdir.mk:26: src/Practica_clase18.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:26:48 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+21:26:54 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:29:14 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:29:49 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:29:51 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:33:16 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:34:58 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+21:37:06 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+21:38:26 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:41:29 **** Incremental Build of configuration Debug for project Practica_clase18 ****
+make all 
+make: No se hace nada para 'all'.
+21:41:29 **** Build of configuration Debug for project Practica_clase18_Parte1_5 ****
+make all 
+Building file: ../src/Practica_clase18_Parte1_5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18_Parte1_5.d" -MT"src/Practica_clase18_Parte1_5.o" -o "src/Practica_clase18_Parte1_5.o" "../src/Practica_clase18_Parte1_5.c"
+Finished building: ../src/Practica_clase18_Parte1_5.c
+ 
+Building target: Practica_clase18_Parte1_5
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18_Parte1_5"  ./src/Practica_clase18_Parte1_5.o   
+Finished building target: Practica_clase18_Parte1_5
+ 
+21:41:45 **** Incremental Build of configuration Debug for project Practica_clase18_Parte1_5 ****
+make all 
+make: No se hace nada para 'all'.
+21:41:50 **** Incremental Build of configuration Debug for project Practica_clase18_Parte1_5 ****
+make all 
+make: No se hace nada para 'all'.
+21:41:54 **** Incremental Build of configuration Debug for project Practica_clase18_Parte1_5 ****
+make all 
+make: No se hace nada para 'all'.
+21:42:51 **** Incremental Build of configuration Debug for project Practica_clase18_Parte1_5 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18_Parte1_5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18_Parte1_5.d" -MT"src/Practica_clase18_Parte1_5.o" -o "src/Practica_clase18_Parte1_5.o" "../src/Practica_clase18_Parte1_5.c"
+Finished building: ../src/Practica_clase18_Parte1_5.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
+  108 | static int esNumericaVideo(char* cadena , int limite)
+      |            ^~~~~~~~~~~~~~~
+Finished building: ../src/UTN.c
+ 
+Building target: Practica_clase18_Parte1_5
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18_Parte1_5"  ./src/Alumno.o ./src/Practica_clase18_Parte1_5.o ./src/UTN.o   
+Finished building target: Practica_clase18_Parte1_5
+ 
+21:44:40 **** Incremental Build of configuration Debug for project Practica_clase18_Parte1_5 ****
+make all 
+make: No se hace nada para 'all'.
