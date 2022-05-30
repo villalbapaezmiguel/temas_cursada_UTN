@@ -11063,3 +11063,13 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-05-28 21:41:30.480
 !MESSAGE Indexed 'Practica_clase18_Parte1_5' (1 sources, 55 headers) in 0,217 sec: 973 declarations; 1.807 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!SESSION 2022-05-29 21:13:48.932 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-29 22:07:53.197
+!MESSAGE Indexed 'practica_clase18_funcionesArchivos' (1 sources, 0 headers) in 0,012 sec: 2 declarations; 1 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (25 %)

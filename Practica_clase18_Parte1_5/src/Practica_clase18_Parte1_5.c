@@ -20,6 +20,7 @@ int main(void) {
 
 //tiene un error con los flotantes
 	eAlumno* arrayPunterosAlumno [QTY_ALUMNOS];
+
 /*para que esto deje de ser un array de alumnos , y comienze a ser un array de punteros a alumnos pornemos * */
 /*van a ser 100 punteros a alumnos*/
 //	int indiceLibre;

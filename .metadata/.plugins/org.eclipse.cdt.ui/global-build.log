@@ -1765,3 +1765,131 @@ Finished building target: Practica_clase18_Parte1_5
 21:44:40 **** Incremental Build of configuration Debug for project Practica_clase18_Parte1_5 ****
 make all 
 make: No se hace nada para 'all'.
+21:14:15 **** Incremental Build of configuration Debug for project Practica_clase18_Parte1_5 ****
+make all 
+make: No se hace nada para 'all'.
+22:07:54 **** Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:07:57 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+22:21:12 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
+../src/practica_clase18_funcionesArchivos.c:23:23: error: expected expression before ‘)’ token
+   23 |  fopen("archivo.txt", );
+      |                       ^
+make: *** [src/subdir.mk:20: src/practica_clase18_funcionesArchivos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:23:33 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:25:04 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:25:57 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:27:19 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:27:38 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+22:27:40 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+22:32:16 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:32:41 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+22:32:53 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+22:36:05 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
+  108 | static int esNumericaVideo(char* cadena , int limite)
+      |            ^~~~~~~~~~~~~~~
+Finished building: ../src/UTN.c
+ 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
+../src/practica_clase18_funcionesArchivos.c:28:2: warning: implicit declaration of function ‘utn_getNumero’ [-Wimplicit-function-declaration]
+   28 |  utn_getNumero(&var1, "\nIngrese un numero : ", "\nerro ", 0, 999, 2);
+      |  ^~~~~~~~~~~~~
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:37:05 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
