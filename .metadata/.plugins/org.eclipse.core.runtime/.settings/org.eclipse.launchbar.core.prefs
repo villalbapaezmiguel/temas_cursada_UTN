@@ -43,3 +43,5 @@ org.eclipse.launchbar.core.descriptorType.default\:arrays_Paralelos/activeLaunch
 org.eclipse.launchbar.core.descriptorType.default\:claseSabadoArchivos/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:laboratorio\ I/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:laboratorio\ I/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:practica_clase18_funcionesArchivos/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:practica_clase18_funcionesArchivos/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
