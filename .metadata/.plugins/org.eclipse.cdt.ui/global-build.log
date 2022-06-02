@@ -1,119 +1,4 @@
-15:51:11 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-Finished building: ../src/practica_clase18_funcionesArchivos.c
- 
-Building target: practica_clase18_funcionesArchivos
-Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
- 
-16:42:17 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
-../src/practica_clase18_funcionesArchivos.c:32:9: warning: unused variable ‘a’ [-Wunused-variable]
-   32 |  Alumno a = {"migue", 20, 00};
-      |         ^
-Finished building: ../src/practica_clase18_funcionesArchivos.c
- 
-Building target: practica_clase18_funcionesArchivos
-Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
- 
-16:42:46 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
-../src/practica_clase18_funcionesArchivos.c:49:11: error: incompatible type for argument 1 of ‘fwrite’
-   49 |    fwrite(a, sizeof(Alumno), 1,fp);
-      |           ^
-      |           |
-      |           Alumno {aka struct <anonymous>}
-In file included from ../src/practica_clase18_funcionesArchivos.c:11:
-/usr/include/stdio.h:652:46: note: expected ‘const void * restrict’ but argument is of type ‘Alumno’ {aka ‘struct <anonymous>’}
-  652 | extern size_t fwrite (const void *__restrict __ptr, size_t __size,
-      |                       ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
-../src/practica_clase18_funcionesArchivos.c:34:6: warning: unused variable ‘var1’ [-Wunused-variable]
-   34 |  int var1 = 1234567;
-      |      ^~~~
-make: *** [src/subdir.mk:23: src/practica_clase18_funcionesArchivos.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-16:42:54 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
-../src/practica_clase18_funcionesArchivos.c:34:6: warning: unused variable ‘var1’ [-Wunused-variable]
-   34 |  int var1 = 1234567;
-      |      ^~~~
-Finished building: ../src/practica_clase18_funcionesArchivos.c
- 
-Building target: practica_clase18_funcionesArchivos
-Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
- 
-16:42:59 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
-16:43:00 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
-16:43:36 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
-../src/practica_clase18_funcionesArchivos.c:34:6: warning: unused variable ‘var1’ [-Wunused-variable]
-   34 |  int var1 = 1234567;
-      |      ^~~~
-Finished building: ../src/practica_clase18_funcionesArchivos.c
- 
-Building target: practica_clase18_funcionesArchivos
-Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
- 
-16:45:01 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
-  108 | static int esNumericaVideo(char* cadena , int limite)
-      |            ^~~~~~~~~~~~~~~
-Finished building: ../src/UTN.c
- 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
-../src/practica_clase18_funcionesArchivos.c:36:6: warning: unused variable ‘var1’ [-Wunused-variable]
-   36 |  int var1 = 1234567;
-      |      ^~~~
-Finished building: ../src/practica_clase18_funcionesArchivos.c
- 
-Building target: practica_clase18_funcionesArchivos
-Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
- 
-16:47:06 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+20:19:37 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
 make all 
 Building file: ../src/practica_clase18_funcionesArchivos.c
 Invoking: GCC C Compiler
@@ -125,10 +10,10 @@ Invoking: GCC C Linker
 gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
 Finished building target: practica_clase18_funcionesArchivos
  
-16:47:12 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+20:19:44 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
 make all 
 make: No se hace nada para 'all'.
-16:51:47 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+20:25:29 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
 make all 
 Building file: ../src/practica_clase18_funcionesArchivos.c
 Invoking: GCC C Compiler
@@ -140,7 +25,10 @@ Invoking: GCC C Linker
 gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
 Finished building target: practica_clase18_funcionesArchivos
  
-16:52:16 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+20:25:33 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+20:26:25 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
 make all 
 Building file: ../src/practica_clase18_funcionesArchivos.c
 Invoking: GCC C Compiler
@@ -152,10 +40,26 @@ Invoking: GCC C Linker
 gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
 Finished building target: practica_clase18_funcionesArchivos
  
-18:31:03 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+20:26:27 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
 make all 
 make: No se hace nada para 'all'.
-21:50:31 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+22:01:43 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
+../src/practica_clase18_funcionesArchivos.c:46:8: warning: unused variable ‘i’ [-Wunused-variable]
+   46 |    int i ;
+      |        ^
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:01:57 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
 make all 
 Building file: ../src/practica_clase18_funcionesArchivos.c
 Invoking: GCC C Compiler
@@ -167,6 +71,3 @@ Invoking: GCC C Linker
 gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
 Finished building target: practica_clase18_funcionesArchivos
  
-21:50:35 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
