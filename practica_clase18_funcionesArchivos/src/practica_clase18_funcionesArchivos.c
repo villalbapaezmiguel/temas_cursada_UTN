@@ -25,7 +25,6 @@ int main(void) {
 	if(fp != NULL)
 	{
 
-
 	}
 
 
