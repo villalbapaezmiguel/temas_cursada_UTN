@@ -1,73 +1,150 @@
-20:19:37 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-Finished building: ../src/practica_clase18_funcionesArchivos.c
- 
-Building target: practica_clase18_funcionesArchivos
-Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
- 
-20:19:44 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+22:37:26 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
 make all 
 make: No se hace nada para 'all'.
-20:25:29 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+22:40:37 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
 make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
+Building file: ../src/Tema_18_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-Finished building: ../src/practica_clase18_funcionesArchivos.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
+../src/Tema_18_Archivos.c: In function ‘main’:
+../src/Tema_18_Archivos.c:23:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   23 |  strcpy(nombre_apellido, "miguel Villalba ");
+      |  ^~~~~~
+../src/Tema_18_Archivos.c:23:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+   12 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   13 | 
+Finished building: ../src/Tema_18_Archivos.c
  
-Building target: practica_clase18_funcionesArchivos
+Building target: Tema_18_Archivos
 Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
+gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_Archivos
  
-20:25:33 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+22:40:37 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
 make all 
 make: No se hace nada para 'all'.
-20:26:25 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+22:41:01 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
 make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
+Building file: ../src/Tema_18_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-Finished building: ../src/practica_clase18_funcionesArchivos.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
+../src/Tema_18_Archivos.c: In function ‘main’:
+../src/Tema_18_Archivos.c:23:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   23 |  strcpy(nombre_apellido, "miguel Villalba ");
+      |  ^~~~~~
+../src/Tema_18_Archivos.c:23:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+   12 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   13 | 
+Finished building: ../src/Tema_18_Archivos.c
  
-Building target: practica_clase18_funcionesArchivos
+Building target: Tema_18_Archivos
 Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
+gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_Archivos
  
-20:26:27 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+22:41:01 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
 make all 
 make: No se hace nada para 'all'.
-22:01:43 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+22:41:18 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
 make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-../src/practica_clase18_funcionesArchivos.c: In function ‘main’:
-../src/practica_clase18_funcionesArchivos.c:46:8: warning: unused variable ‘i’ [-Wunused-variable]
-   46 |    int i ;
-      |        ^
-Finished building: ../src/practica_clase18_funcionesArchivos.c
- 
-Building target: practica_clase18_funcionesArchivos
-Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
- 
-22:01:57 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make: No se hace nada para 'all'.
+22:41:31 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
 make all 
-Building file: ../src/practica_clase18_funcionesArchivos.c
+make: No se hace nada para 'all'.
+22:41:36 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+22:42:08 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+22:44:47 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+Building file: ../src/Tema_18_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-Finished building: ../src/practica_clase18_funcionesArchivos.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
+../src/Tema_18_Archivos.c: In function ‘main’:
+../src/Tema_18_Archivos.c:24:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   24 |  strcpy(nombre_apellido, "miguel Villalba ");
+      |  ^~~~~~
+../src/Tema_18_Archivos.c:24:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+   12 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   13 | 
+Finished building: ../src/Tema_18_Archivos.c
  
-Building target: practica_clase18_funcionesArchivos
+Building target: Tema_18_Archivos
 Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
+gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_Archivos
  
+22:44:47 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+22:45:01 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+22:45:18 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+Building file: ../src/Tema_18_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
+../src/Tema_18_Archivos.c: In function ‘main’:
+../src/Tema_18_Archivos.c:24:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   24 |  strcpy(nombre_apellido, "miguel Villalba ");
+      |  ^~~~~~
+../src/Tema_18_Archivos.c:24:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+   12 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   13 | 
+Finished building: ../src/Tema_18_Archivos.c
+ 
+Building target: Tema_18_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_Archivos
+ 
+22:45:19 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+22:45:23 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+22:46:58 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+Building file: ../src/Tema_18_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
+../src/Tema_18_Archivos.c: In function ‘main’:
+../src/Tema_18_Archivos.c:24:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   24 |  strcpy(nombre_apellido, "miguel Villalba ");
+      |  ^~~~~~
+../src/Tema_18_Archivos.c:24:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+   12 | #include <stdlib.h>
+  +++ |+#include <string.h>
+   13 | 
+Finished building: ../src/Tema_18_Archivos.c
+ 
+Building target: Tema_18_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_Archivos
+ 
+22:46:58 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.
+22:46:59 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+22:47:33 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+22:47:34 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+make: No se hace nada para 'all'.

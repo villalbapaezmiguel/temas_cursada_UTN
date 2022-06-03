@@ -11373,3 +11373,19 @@ org.eclipse.core.runtime.CoreException: attempt to set description for a project
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
 !SUBENTRY 1 org.eclipse.cdt.core 4 -1 2022-05-30 16:44:53.846
 !MESSAGE attempt to set description for a project which does not exist or not open
+!SESSION 2022-06-02 19:30:39.460 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-02 19:34:45.736
+!MESSAGE Indexed 'VideoTutorial_archivos' (1 sources, 55 headers) in 0,414 sec: 973 declarations; 1.807 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.launch 4 104 2022-06-02 19:34:46.539
+!MESSAGE Program file does not exist
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-02 22:16:36.117
+!MESSAGE Indexed 'Tema_18_Archivos' (1 sources, 55 headers) in 0,135 sec: 973 declarations; 1.807 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
