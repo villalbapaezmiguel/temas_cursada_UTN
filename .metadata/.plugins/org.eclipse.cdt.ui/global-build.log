@@ -1,473 +1,605 @@
-22:37:26 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:14:11 **** Clean-only build of configuration Debug for project Tema_18_Archivos ****
+make clean 
+rm -rf ./src/Tema_18_Archivos.d ./src/Tema_18_Archivos.o ./src/UTN.d ./src/UTN.o
+rm -rf Tema_18_Archivos
+ 
+20:17:23 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
-make: No se hace nada para 'all'.
-22:40:37 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
+Building file: ../src/Tema_18_1_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:23:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-   23 |  strcpy(nombre_apellido, "miguel Villalba ");
-      |  ^~~~~~
-../src/Tema_18_Archivos.c:23:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
-../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-   12 | #include <stdlib.h>
-  +++ |+#include <string.h>
-   13 | 
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-22:40:37 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
-22:41:01 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:23:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-   23 |  strcpy(nombre_apellido, "miguel Villalba ");
-      |  ^~~~~~
-../src/Tema_18_Archivos.c:23:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
-../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-   12 | #include <stdlib.h>
-  +++ |+#include <string.h>
-   13 | 
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-22:41:01 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
-22:41:18 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:41:31 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:41:36 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:42:08 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:44:47 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:24:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-   24 |  strcpy(nombre_apellido, "miguel Villalba ");
-      |  ^~~~~~
-../src/Tema_18_Archivos.c:24:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
-../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-   12 | #include <stdlib.h>
-  +++ |+#include <string.h>
-   13 | 
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-22:44:47 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
-22:45:01 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:45:18 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:24:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-   24 |  strcpy(nombre_apellido, "miguel Villalba ");
-      |  ^~~~~~
-../src/Tema_18_Archivos.c:24:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
-../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-   12 | #include <stdlib.h>
-  +++ |+#include <string.h>
-   13 | 
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-22:45:19 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
-22:45:23 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:46:58 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:24:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-   24 |  strcpy(nombre_apellido, "miguel Villalba ");
-      |  ^~~~~~
-../src/Tema_18_Archivos.c:24:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
-../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-   12 | #include <stdlib.h>
-  +++ |+#include <string.h>
-   13 | 
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-22:46:58 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
-22:46:59 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:47:33 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:47:34 **** Incremental Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-make: No se hace nada para 'all'.
-20:20:05 **** Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:24:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-   24 |  strcpy(nombre_apellido, "miguel Villalba ");
-      |  ^~~~~~
-../src/Tema_18_Archivos.c:24:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
-../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-   12 | #include <stdlib.h>
-  +++ |+#include <string.h>
-   13 | 
-../src/Tema_18_Archivos.c:22:7: warning: unused variable ‘aux’ [-Wunused-variable]
-   22 |  char aux [51];
-      |       ^~~
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:21:02 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:24:2: warning: implicit declaration of function ‘strncpy’ [-Wimplicit-function-declaration]
-   24 |  strncpy(nombre_apellido, "miguel Villalba", sizeof(nombre_apellido));
-      |  ^~~~~~~
-../src/Tema_18_Archivos.c:24:2: warning: incompatible implicit declaration of built-in function ‘strncpy’
-../src/Tema_18_Archivos.c:13:1: note: include ‘<string.h>’ or provide a declaration of ‘strncpy’
-   12 | #include <stdlib.h>
-  +++ |+#include <string.h>
-   13 | 
-../src/Tema_18_Archivos.c:22:7: warning: unused variable ‘aux’ [-Wunused-variable]
-   22 |  char aux [51];
-      |       ^~~
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:21:54 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:25:2: error: too few arguments to function ‘strncpy’
-   25 |  strncpy(nombre_apellido, "miguel Villalba");
-      |  ^~~~~~~
-In file included from ../src/Tema_18_Archivos.c:13:
-/usr/include/string.h:125:14: note: declared here
-  125 | extern char *strncpy (char *__restrict __dest,
-      |              ^~~~~~~
-../src/Tema_18_Archivos.c:23:7: warning: unused variable ‘aux’ [-Wunused-variable]
-   23 |  char aux [51];
-      |       ^~~
-make: *** [src/subdir.mk:23: src/Tema_18_Archivos.o] Error 1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:27:4: error: excess elements in char array initializer
+   27 |    "Oscar",
+      |    ^~~~~~~
+../src/Tema_18_1_Archivos.c:27:4: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:28:4: error: excess elements in char array initializer
+   28 |    "Abel",
+      |    ^~~~~~
+../src/Tema_18_1_Archivos.c:28:4: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:29:4: error: excess elements in char array initializer
+   29 |    "Gustavo",
+      |    ^~~~~~~~~
+../src/Tema_18_1_Archivos.c:29:4: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:30:4: error: excess elements in char array initializer
+   30 |    "Alexis"
+      |    ^~~~~~~~
+../src/Tema_18_1_Archivos.c:30:4: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [] = {
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+make: *** [src/subdir.mk:23: src/Tema_18_1_Archivos.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-20:22:01 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:17:40 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
-Building file: ../src/Tema_18_Archivos.c
+Building file: ../src/Tema_18_1_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:23:7: warning: unused variable ‘aux’ [-Wunused-variable]
-   23 |  char aux [51];
-      |       ^~~
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:22:09 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:22:11 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:22:41 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:22:52 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:23:18 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:23:20 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:25:14 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:25:16 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:25:30 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:25:37 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:25:39 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:25:59 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:26:00 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:26:19 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:26:22 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:33:12 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:33:18 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:33:19 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:35:33 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:35:35 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:37:44 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:37:47 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:38:31 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:70:9: error: incompatible type for argument 1 of ‘fread’
-   70 |   fread(Epersona , sizeof(Epersona),1, pArchivo);
-      |         ^~~~~~~~
-      |         |
-      |         Persona {aka struct <anonymous>}
-In file included from ../src/Tema_18_Archivos.c:11:
-/usr/include/stdio.h:646:39: note: expected ‘void * restrict’ but argument is of type ‘Persona’ {aka ‘struct <anonymous>’}
-  646 | extern size_t fread (void *__restrict __ptr, size_t __size,
-      |                      ~~~~~~~~~~~~~~~~~^~~~~
-make: *** [src/subdir.mk:23: src/Tema_18_Archivos.o] Error 1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:26:11: error: expected ‘}’ before ‘;’ token
+   26 |    "Migue";
+      |           ^
+../src/Tema_18_1_Archivos.c:25:20: note: to match this ‘{’
+   25 |  char nombres [] = {
+      |                    ^
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [] = {
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+make: *** [src/subdir.mk:23: src/Tema_18_1_Archivos.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-20:38:35 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:17:56 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
-Building file: ../src/Tema_18_Archivos.c
+Building file: ../src/Tema_18_1_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-20:39:15 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:27:4: error: excess elements in char array initializer
+   27 |    "Oscar",
+      |    ^~~~~~~
+../src/Tema_18_1_Archivos.c:27:4: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:28:4: error: excess elements in char array initializer
+   28 |    "Abel",
+      |    ^~~~~~
+../src/Tema_18_1_Archivos.c:28:4: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:29:4: error: excess elements in char array initializer
+   29 |    "Gustavo",
+      |    ^~~~~~~~~
+../src/Tema_18_1_Archivos.c:29:4: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:30:4: error: excess elements in char array initializer
+   30 |    "Alexis"
+      |    ^~~~~~~~
+../src/Tema_18_1_Archivos.c:30:4: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [] = {
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+make: *** [src/subdir.mk:23: src/Tema_18_1_Archivos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:18:18 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
-Building file: ../src/Tema_18_Archivos.c
+Building file: ../src/Tema_18_1_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-Finished building: ../src/Tema_18_Archivos.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [5][51] = {
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+Finished building: ../src/Tema_18_1_Archivos.c
  
-Building target: Tema_18_Archivos
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema_18_1_Archivos
 Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
  
-20:39:16 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:18:54 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:19:05 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:25:59: warning: excess elements in array initializer
+   25 |  char nombres [4][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
+      |                                                           ^~~~~~~~
+../src/Tema_18_1_Archivos.c:25:59: note: (near initialization for ‘nombres’)
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [4][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:19:15 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+   35 | }
+      | ^
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:24:19 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:40:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                      ~^                   ~~~~~~~~~~
+      |                       |                          |
+      |                       char *                     int
+      |                      %d
+../src/Tema_18_1_Archivos.c:40:27: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                          ~^                           ~~~~~~~~~~
+      |                           |                                  |
+      |                           char *                             int
+      |                          %d
+../src/Tema_18_1_Archivos.c:40:31: warning: format ‘%s’ expects argument of type ‘char *’, but argument 5 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                              ~^                                   ~~~~~~~~~~
+      |                               |                                          |
+      |                               char *                                     int
+      |                              %d
+../src/Tema_18_1_Archivos.c:40:35: warning: format ‘%s’ expects argument of type ‘char *’, but argument 6 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                                  ~^                                           ~~~~~~~~~~
+      |                                   |                                                  |
+      |                                   char *                                             int
+      |                                  %d
+../src/Tema_18_1_Archivos.c:40:39: warning: format ‘%s’ expects argument of type ‘char *’, but argument 7 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                                      ~^                                                   ~~~~~~~~~~
+      |                                       |                                                          |
+      |                                       char *                                                     int
+      |                                      %d
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:24:43 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:40:53: error: subscripted value is neither array nor pointer nor vector
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
+      |                                                     ^
+../src/Tema_18_1_Archivos.c:40:68: error: subscripted value is neither array nor pointer nor vector
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
+      |                                                                    ^
+../src/Tema_18_1_Archivos.c:40:83: error: subscripted value is neither array nor pointer nor vector
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
+      |                                                                                   ^
+../src/Tema_18_1_Archivos.c:40:98: error: subscripted value is neither array nor pointer nor vector
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
+      |                                                                                                  ^
+../src/Tema_18_1_Archivos.c:40:113: error: subscripted value is neither array nor pointer nor vector
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
+      |                                                                                                                 ^
+make: *** [src/subdir.mk:23: src/Tema_18_1_Archivos.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:24:52 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
+      |       ^~~~~~~
+../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
+../src/Tema_18_1_Archivos.c:40:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                      ~^                   ~~~~~~~~~~
+      |                       |                          |
+      |                       char *                     int
+      |                      %d
+../src/Tema_18_1_Archivos.c:40:27: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                          ~^                           ~~~~~~~~~~
+      |                           |                                  |
+      |                           char *                             int
+      |                          %d
+../src/Tema_18_1_Archivos.c:40:31: warning: format ‘%s’ expects argument of type ‘char *’, but argument 5 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                              ~^                                   ~~~~~~~~~~
+      |                               |                                          |
+      |                               char *                                     int
+      |                              %d
+../src/Tema_18_1_Archivos.c:40:35: warning: format ‘%s’ expects argument of type ‘char *’, but argument 6 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                                  ~^                                           ~~~~~~~~~~
+      |                                   |                                                  |
+      |                                   char *                                             int
+      |                                  %d
+../src/Tema_18_1_Archivos.c:40:39: warning: format ‘%s’ expects argument of type ‘char *’, but argument 7 has type ‘int’ [-Wformat=]
+   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
+      |                                      ~^                                                   ~~~~~~~~~~
+      |                                       |                                                          |
+      |                                       char *                                                     int
+      |                                      %d
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:26:53 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
+   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
+      |       ^~~~~~~
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:27:38 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:28:21: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |  EscribirNombresTXT(nombres, "archivo.txt");
+      |                     ^~~~~~~
+      |                     |
+      |                     char (*)[51]
+../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[51]’
+   15 | int EscribirNombresTXT(char* nombres, char* path);
+      |                        ~~~~~~^~~~~~~
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:28:23 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:28:24: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |  if(EscribirNombresTXT(nombres, "archivo.txt") == 1)
+      |                        ^~~~~~~
+      |                        |
+      |                        char (*)[51]
+../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[51]’
+   15 | int EscribirNombresTXT(char* nombres, char* path);
+      |                        ~~~~~~^~~~~~~
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:28:43 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:28:24: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |  if(EscribirNombresTXT(&nombres, "archivo.txt") == 1)
+      |                        ^~~~~~~~
+      |                        |
+      |                        char (*)[5][51]
+../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[5][51]’
+   15 | int EscribirNombresTXT(char* nombres, char* path);
+      |                        ~~~~~~^~~~~~~
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:28:58 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:28:24: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |  if(EscribirNombresTXT(nombres, "archivo.txt") == 1)
+      |                        ^~~~~~~
+      |                        |
+      |                        char (*)[51]
+../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[51]’
+   15 | int EscribirNombresTXT(char* nombres, char* path);
+      |                        ~~~~~~^~~~~~~
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:29:09 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:29:13 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
 make: No se hace nada para 'all'.
-20:39:28 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:31:55 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:31:57 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
 make: No se hace nada para 'all'.
-20:41:23 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:34:56 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
-Building file: ../src/Tema_18_Archivos.c
+Building file: ../src/Tema_18_1_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:31:8: warning: unused variable ‘pArchivo’ [-Wunused-variable]
-   31 |  FILE* pArchivo ;
-      |        ^~~~~~~~
-Finished building: ../src/Tema_18_Archivos.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+../src/Tema_18_1_Archivos.c: In function ‘main’:
+../src/Tema_18_1_Archivos.c:28:24: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
+   28 |  if(EscribirNombresTXT(nombres, "archivo.txt") == 1)
+      |                        ^~~~~~~
+      |                        |
+      |                        char (*)[51]
+../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[51]’
+   15 | int EscribirNombresTXT(char* nombres, char* path);
+      |                        ~~~~~~^~~~~~~
+Finished building: ../src/Tema_18_1_Archivos.c
  
-Building target: Tema_18_Archivos
+Building target: Tema_18_1_Archivos
 Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
  
-20:41:27 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:35:04 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
 make: No se hace nada para 'all'.
-20:42:13 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:35:05 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
-Building file: ../src/Tema_18_Archivos.c
+make: No se hace nada para 'all'.
+20:36:42 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:31:8: warning: unused variable ‘pArchivo’ [-Wunused-variable]
-   31 |  FILE* pArchivo ;
-      |        ^~~~~~~~
-Finished building: ../src/Tema_18_Archivos.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
  
-Building target: Tema_18_Archivos
+Building target: Tema_18_1_Archivos
 Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
  
-20:42:15 **** Incremental Build of configuration Debug for project Tema_18_Archivos ****
+20:36:46 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:37:03 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:37:05 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:37:36 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:37:37 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:37:50 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:37:51 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:37:59 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:38:10 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:38:11 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:38:29 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:38:40 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:38:41 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:45:42 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:45:48 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:48:37 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:48:42 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+make: No se hace nada para 'all'.
+20:49:06 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+20:49:08 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
 make: No se hace nada para 'all'.
