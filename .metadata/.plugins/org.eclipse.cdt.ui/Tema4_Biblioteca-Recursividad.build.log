@@ -1,7 +1,15 @@
-18:50:18 **** Clean-only build of configuration Debug for project Tema4_Biblioteca-Recursividad ****
-make clean 
-rm -rf  ./src/Tema4_Biblioteca-Recursividad.o  ./src/Tema4_Biblioteca-Recursividad.d  Tema4_Biblioteca-Recursividad
+22:34:31 **** Build of configuration Debug for project Tema4_Biblioteca-Recursividad ****
+make all 
+Building file: ../src/Tema4_Biblioteca-Recursividad.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema4_Biblioteca-Recursividad.d" -MT"src/Tema4_Biblioteca-Recursividad.o" -o "src/Tema4_Biblioteca-Recursividad.o" "../src/Tema4_Biblioteca-Recursividad.c"
+Finished building: ../src/Tema4_Biblioteca-Recursividad.c
+ 
+Building target: Tema4_Biblioteca-Recursividad
+Invoking: GCC C Linker
+gcc  -o "Tema4_Biblioteca-Recursividad"  ./src/Tema4_Biblioteca-Recursividad.o   
+Finished building target: Tema4_Biblioteca-Recursividad
  
 
-18:50:18 Build Finished. 0 errors, 0 warnings. (took 611ms)
+22:34:31 Build Finished. 0 errors, 0 warnings. (took 467ms)
 

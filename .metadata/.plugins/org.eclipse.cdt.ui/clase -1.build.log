@@ -1,15 +1,6 @@
-20:02:01 **** Build of configuration Debug for project clase -1 ****
+22:34:37 **** Build of configuration Debug for project clase -1 ****
 make all 
-Building file: ../src/clase -1.c
-Invoking: Cross GCC Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/clase -1.d" -MT"src/clase -1.o" -o "src/clase -1.o" "../src/clase -1.c"
-Finished building: ../src/clase -1.c
- 
-Building target: clase -1
-Invoking: Cross GCC Linker
-gcc  -o "clase -1"  ./src/clase\ -1.o   
-Finished building target: clase -1
- 
+make: No se hace nada para 'all'.
 
-20:02:02 Build Finished. 0 errors, 0 warnings. (took 525ms)
+22:34:37 Build Finished. 0 errors, 0 warnings. (took 463ms)
 

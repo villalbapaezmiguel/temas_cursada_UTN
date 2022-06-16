@@ -1,6 +1,6 @@
-19:54:05 **** Incremental Build of configuration Debug for project laboratorio I ****
+22:34:38 **** Build of configuration Debug for project laboratorio I ****
 make all 
 make: No se hace nada para 'all'.
 
-19:54:06 Build Finished. 0 errors, 0 warnings. (took 462ms)
+22:34:38 Build Finished. 0 errors, 0 warnings. (took 417ms)
 

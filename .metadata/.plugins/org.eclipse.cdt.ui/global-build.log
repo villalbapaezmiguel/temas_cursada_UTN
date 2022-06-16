@@ -603,3 +603,522 @@ Finished building target: Tema_18_1_Archivos
 20:49:08 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
 make all 
 make: No se hace nada para 'all'.
+22:34:21 **** Build of configuration Debug for project Anexo_Tema_Vectores ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: Anexo_Tema_Vectores
+Invoking: GCC C Linker
+gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
+Finished building target: Anexo_Tema_Vectores
+ 
+22:34:21 **** Build of configuration Debug for project CrearUnMenu ****
+make all 
+make: No se hace nada para 'all'.
+22:34:22 **** Build of configuration Debug for project MemoriaDinamica_Video ****
+make all 
+Building file: ../src/MemoriaDinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
+Finished building: ../src/MemoriaDinamica_Video.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: MemoriaDinamica_Video
+Invoking: GCC C Linker
+gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
+Finished building target: MemoriaDinamica_Video
+ 
+22:34:22 **** Build of configuration Debug for project Memoria_Dinamica_Video ****
+make all 
+Building file: ../src/Memoria_Dinamica_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Memoria_Dinamica_Video.d" -MT"src/Memoria_Dinamica_Video.o" -o "src/Memoria_Dinamica_Video.o" "../src/Memoria_Dinamica_Video.c"
+Finished building: ../src/Memoria_Dinamica_Video.c
+ 
+Building target: Memoria_Dinamica_Video
+Invoking: GCC C Linker
+gcc  -o "Memoria_Dinamica_Video"  ./src/Memoria_Dinamica_Video.o   
+Finished building target: Memoria_Dinamica_Video
+ 
+22:34:23 **** Build of configuration Debug for project Practica_clase18 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
+Finished building: ../src/Practica_clase18.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
+  108 | static int esNumericaVideo(char* cadena , int limite)
+      |            ^~~~~~~~~~~~~~~
+Finished building: ../src/UTN.c
+ 
+Building target: Practica_clase18
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
+Finished building target: Practica_clase18
+ 
+22:34:24 **** Build of configuration Debug for project Practica_clase18_Parte1_5 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Practica_clase18_Parte1_5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18_Parte1_5.d" -MT"src/Practica_clase18_Parte1_5.o" -o "src/Practica_clase18_Parte1_5.o" "../src/Practica_clase18_Parte1_5.c"
+Finished building: ../src/Practica_clase18_Parte1_5.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
+  108 | static int esNumericaVideo(char* cadena , int limite)
+      |            ^~~~~~~~~~~~~~~
+Finished building: ../src/UTN.c
+ 
+Building target: Practica_clase18_Parte1_5
+Invoking: GCC C Linker
+gcc  -o "Practica_clase18_Parte1_5"  ./src/Alumno.o ./src/Practica_clase18_Parte1_5.o ./src/UTN.o   
+Finished building target: Practica_clase18_Parte1_5
+ 
+22:34:24 **** Build of configuration Debug for project Programacion_GDB ****
+make all 
+Building file: ../src/Programacion_GDB.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Programacion_GDB.d" -MT"src/Programacion_GDB.o" -o "src/Programacion_GDB.o" "../src/Programacion_GDB.c"
+../src/Programacion_GDB.c: In function ‘main’:
+../src/Programacion_GDB.c:31:6: warning: unused variable ‘cantidadCodigo’ [-Wunused-variable]
+   31 |  int cantidadCodigo = 0;
+      |      ^~~~~~~~~~~~~~
+Finished building: ../src/Programacion_GDB.c
+ 
+Building file: ../src/Ticket.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ticket.d" -MT"src/Ticket.o" -o "src/Ticket.o" "../src/Ticket.c"
+Finished building: ../src/Ticket.c
+ 
+Building target: Programacion_GDB
+Invoking: GCC C Linker
+gcc  -o "Programacion_GDB"  ./src/Programacion_GDB.o ./src/Ticket.o   
+Finished building target: Programacion_GDB
+ 
+22:34:25 **** Build of configuration Debug for project PunteroFuncion_Video ****
+make all 
+Building file: ../src/PunteroFuncion_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
+Finished building: ../src/PunteroFuncion_Video.c
+ 
+Building target: PunteroFuncion_Video
+Invoking: GCC C Linker
+gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
+Finished building target: PunteroFuncion_Video
+ 
+22:34:25 **** Build of configuration Debug for project Punteros ****
+make all 
+Building file: ../src/Punteros.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros.d" -MT"src/Punteros.o" -o "src/Punteros.o" "../src/Punteros.c"
+../src/Punteros.c: In function ‘main’:
+../src/Punteros.c:43:10: warning: unused variable ‘pFecha’ [-Wunused-variable]
+   43 |  eFecha* pFecha = NULL ;
+      |          ^~~~~~
+Finished building: ../src/Punteros.c
+ 
+Building target: Punteros
+Invoking: GCC C Linker
+gcc  -o "Punteros"  ./src/Punteros.o   
+Finished building target: Punteros
+ 
+22:34:26 **** Build of configuration Debug for project Punteros_Video ****
+make all 
+Building file: ../src/Punteros_Video.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
+Finished building: ../src/Punteros_Video.c
+ 
+Building target: Punteros_Video
+Invoking: GCC C Linker
+gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
+Finished building target: Punteros_Video
+ 
+22:34:26 **** Build of configuration Debug for project TP3_Clases ****
+make all 
+Building file: ../src/Controller.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Controller.d" -MT"src/Controller.o" -o "src/Controller.o" "../src/Controller.c"
+Finished building: ../src/Controller.c
+ 
+Building file: ../src/Passenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passenger.d" -MT"src/Passenger.o" -o "src/Passenger.o" "../src/Passenger.c"
+../src/Passenger.c: In function ‘Passenger_newParametros’:
+../src/Passenger.c:20:28: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+   20 |  unPasajero = (Passenger*) malloc(sizeof(Passenger));//lo agregamos a memoria
+      |                            ^~~~~~
+../src/Passenger.c:20:28: warning: incompatible implicit declaration of built-in function ‘malloc’
+../src/Passenger.c:9:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    8 | #include "Passenger.h"
+  +++ |+#include <stdlib.h>
+    9 | 
+../src/Passenger.c:22:19: warning: implicit declaration of function ‘atoi’ [-Wimplicit-function-declaration]
+   22 |  unPasajero->id = atoi(idStr);
+      |                   ^~~~
+../src/Passenger.c:23:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   23 |  strcpy(unPasajero->nombre , nombreStr);
+      |  ^~~~~~
+../src/Passenger.c:23:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+../src/Passenger.c:9:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+    8 | #include "Passenger.h"
+  +++ |+#include <string.h>
+    9 | 
+../src/Passenger.c:24:36: error: ‘tipoPasajeroStrr’ undeclared (first use in this function); did you mean ‘tipoPasajeroStr’?
+   24 |  strcpy(unPasajero->tipoPasajero , tipoPasajeroStrr);
+      |                                    ^~~~~~~~~~~~~~~~
+      |                                    tipoPasajeroStr
+../src/Passenger.c:24:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/Passenger.c:24:19: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [-Wint-conversion]
+   24 |  strcpy(unPasajero->tipoPasajero , tipoPasajeroStrr);
+      |         ~~~~~~~~~~^~~~~~~~~~~~~~
+      |                   |
+      |                   int
+../src/Passenger.c:24:19: note: expected ‘char *’ but argument is of type ‘int’
+make: *** [src/subdir.mk:32: src/Passenger.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:34:27 **** Build of configuration Debug for project Tema10_10-1 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Tema10_10-1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
+Finished building: ../src/Tema10_10-1.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema10_10-1
+Invoking: GCC C Linker
+gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
+Finished building target: Tema10_10-1
+ 
+22:34:28 **** Build of configuration Debug for project Tema17_17-2_Remove ****
+make all 
+Building file: ../src/Tema17_17-2_Remove.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
+Finished building: ../src/Tema17_17-2_Remove.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema17_17-2_Remove
+Invoking: GCC C Linker
+gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
+Finished building target: Tema17_17-2_Remove
+ 
+22:34:28 **** Build of configuration Debug for project Tema2 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:29 **** Build of configuration Debug for project Tema3 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:29 **** Build of configuration Debug for project Tema3_Funciones_ 3-3 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:29 **** Build of configuration Debug for project Tema3_Funciones_3-2 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:30 **** Build of configuration Debug for project Tema3_Funciones_3-4 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:30 **** Build of configuration Debug for project Tema3_Funciones_3-5 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:31 **** Build of configuration Debug for project Tema4_Biblioteca-Recursividad ****
+make all 
+Building file: ../src/Tema4_Biblioteca-Recursividad.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema4_Biblioteca-Recursividad.d" -MT"src/Tema4_Biblioteca-Recursividad.o" -o "src/Tema4_Biblioteca-Recursividad.o" "../src/Tema4_Biblioteca-Recursividad.c"
+Finished building: ../src/Tema4_Biblioteca-Recursividad.c
+ 
+Building target: Tema4_Biblioteca-Recursividad
+Invoking: GCC C Linker
+gcc  -o "Tema4_Biblioteca-Recursividad"  ./src/Tema4_Biblioteca-Recursividad.o   
+Finished building target: Tema4_Biblioteca-Recursividad
+ 
+22:34:31 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:32 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:32 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
+make all 
+Building file: ../src/Tema5_VectoresYFunciones_5-3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
+Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
+ 
+Building target: Tema5_VectoresYFunciones_5-3
+Invoking: GCC C Linker
+gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
+Finished building target: Tema5_VectoresYFunciones_5-3
+ 
+22:34:33 **** Build of configuration Debug for project Tema7_Arrays_Paralelos ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘Menu’:
+../src/Menu.c:15:6: warning: unused variable ‘auxidPosicionBaja’ [-Wunused-variable]
+   15 |  int auxidPosicionBaja ;
+      |      ^~~~~~~~~~~~~~~~~
+../src/Menu.c:14:6: warning: unused variable ‘auxIdBaja’ [-Wunused-variable]
+   14 |  int auxIdBaja ;
+      |      ^~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/Productos_Apple.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
+Finished building: ../src/Productos_Apple.c
+ 
+Building file: ../src/Tema7_Arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
+../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
+../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
+   32 |  Menu( productos , CANTINDAD);
+      |  ^~~~
+Finished building: ../src/Tema7_Arrays_Paralelos.c
+ 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Tema7_Arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
+Finished building target: Tema7_Arrays_Paralelos
+ 
+22:34:33 **** Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
+make all 
+Building file: ../src/Tema_17_memoria_Dinamica.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
+../src/Tema_17_memoria_Dinamica.c: In function ‘main’:
+../src/Tema_17_memoria_Dinamica.c:82:6: warning: unused variable ‘vector’ [-Wunused-variable]
+   82 |  int vector[5];
+      |      ^~~~~~
+Finished building: ../src/Tema_17_memoria_Dinamica.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema_17_memoria_ Dinamica
+Invoking: GCC C Linker
+gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o ./src/UTN.o   
+Finished building target: Tema_17_memoria_ Dinamica
+ 
+22:34:34 **** Build of configuration Debug for project Tema_18_1_Archivos ****
+make all 
+Building file: ../src/Tema_18_1_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
+Finished building: ../src/Tema_18_1_Archivos.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema_18_1_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_1_Archivos
+ 
+22:34:35 **** Build of configuration Debug for project Tema_18_Archivos ****
+make all 
+Building file: ../src/Tema_18_Archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
+../src/Tema_18_Archivos.c: In function ‘main’:
+../src/Tema_18_Archivos.c:31:8: warning: unused variable ‘pArchivo’ [-Wunused-variable]
+   31 |  FILE* pArchivo ;
+      |        ^~~~~~~~
+Finished building: ../src/Tema_18_Archivos.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: Tema_18_Archivos
+Invoking: GCC C Linker
+gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
+Finished building target: Tema_18_Archivos
+ 
+22:34:35 **** Build of configuration Debug for project VideoTutorial_archivos ****
+make all 
+Building file: ../src/VideoTutorial_archivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VideoTutorial_archivos.d" -MT"src/VideoTutorial_archivos.o" -o "src/VideoTutorial_archivos.o" "../src/VideoTutorial_archivos.c"
+../src/VideoTutorial_archivos.c: In function ‘main’:
+../src/VideoTutorial_archivos.c:47:6: warning: unused variable ‘caracter’ [-Wunused-variable]
+   47 |  int caracter ;
+      |      ^~~~~~~~
+../src/VideoTutorial_archivos.c:46:7: warning: unused variable ‘posicion’ [-Wunused-variable]
+   46 |  long posicion ;
+      |       ^~~~~~~~
+Finished building: ../src/VideoTutorial_archivos.c
+ 
+Building target: VideoTutorial_archivos
+Invoking: GCC C Linker
+gcc  -o "VideoTutorial_archivos"  ./src/VideoTutorial_archivos.o   
+Finished building target: VideoTutorial_archivos
+ 
+22:34:36 **** Build of configuration Debug for project archivo_clase ****
+make all 
+Building file: ../src/archivo_clase.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
+../src/archivo_clase.c: In function ‘main’:
+../src/archivo_clase.c:17:7: warning: unused variable ‘saludo’ [-Wunused-variable]
+   17 |  char saludo [20];
+      |       ^~~~~~
+Finished building: ../src/archivo_clase.c
+ 
+Building target: archivo_clase
+Invoking: GCC C Linker
+gcc  -o "archivo_clase"  ./src/archivo_clase.o   
+Finished building target: archivo_clase
+ 
+22:34:36 **** Build of configuration Debug for project arrays_Paralelos ****
+make all 
+Building file: ../src/arrays_Paralelos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
+Finished building: ../src/arrays_Paralelos.c
+ 
+Building target: arrays_Paralelos
+Invoking: GCC C Linker
+gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
+Finished building target: arrays_Paralelos
+ 
+22:34:37 **** Build of configuration Debug for project clase -1 ****
+make all 
+make: No se hace nada para 'all'.
+22:34:37 **** Build of configuration Debug for project claseSabadoArchivos ****
+make all 
+Building file: ../src/claseSabadoArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
+Finished building: ../src/claseSabadoArchivos.c
+ 
+Building target: claseSabadoArchivos
+Invoking: GCC C Linker
+gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
+Finished building target: claseSabadoArchivos
+ 
+22:34:38 **** Build of configuration Debug for project laboratorio I ****
+make all 
+make: No se hace nada para 'all'.
+22:34:38 **** Build of configuration Debug for project practica_clase18_funcionesArchivos ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
+  108 | static int esNumericaVideo(char* cadena , int limite)
+      |            ^~~~~~~~~~~~~~~
+Finished building: ../src/UTN.c
+ 
+Building file: ../src/practica_clase18_funcionesArchivos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
+Finished building: ../src/practica_clase18_funcionesArchivos.c
+ 
+Building target: practica_clase18_funcionesArchivos
+Invoking: GCC C Linker
+gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
+Finished building target: practica_clase18_funcionesArchivos
+ 
+22:34:39 **** Build of configuration Debug for project prueba ****
+make all 
+Building file: ../src/prueba.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prueba.d" -MT"src/prueba.o" -o "src/prueba.o" "../src/prueba.c"
+../src/prueba.c: In function ‘main’:
+../src/prueba.c:24:13: error: expected expression before ‘+=’ token
+   24 |  *pEntero = += b;
+      |             ^~
+../src/prueba.c:26:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
+   26 |  printf("%d", pEntero);
+      |          ~^   ~~~~~~~
+      |           |   |
+      |           int int *
+      |          %ls
+make: *** [src/subdir.mk:20: src/prueba.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:37:07 **** Clean-only build of configuration Debug for project Clase19 ****
+make clean 
+rm -rf  ./src/Alumno.o ./src/Clase19.o ./src/utn.o  ./src/Alumno.d ./src/Clase19.d ./src/utn.d  Clase19_copia
+ 
+22:37:08 **** Build of configuration Debug for project Clase19 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
+../src/Alumno.c:539:6: warning: unused variable ‘i’ [-Wunused-variable]
+  539 |  int i;
+      |      ^
+Finished building: ../src/Alumno.c
+ 
+Building file: ../src/Clase19.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
+Finished building: ../src/Clase19.c
+ 
+Building file: ../src/utn.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
+Finished building: ../src/utn.c
+ 
+Building target: Clase19
+Invoking: GCC C Linker
+gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
+Finished building target: Clase19
+ 

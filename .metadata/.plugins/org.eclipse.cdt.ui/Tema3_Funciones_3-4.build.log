@@ -1,6 +1,6 @@
-20:56:47 **** Incremental Build of configuration Debug for project Tema3_Funciones_3-4 ****
+22:34:30 **** Build of configuration Debug for project Tema3_Funciones_3-4 ****
 make all 
 make: No se hace nada para 'all'.
 
-20:56:48 Build Finished. 0 errors, 0 warnings. (took 466ms)
+22:34:30 Build Finished. 0 errors, 0 warnings. (took 419ms)
 
