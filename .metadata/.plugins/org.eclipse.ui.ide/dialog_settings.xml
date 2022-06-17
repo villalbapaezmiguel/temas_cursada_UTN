@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/miguel/Escritorio/holaa/TP4 (1)/likedList_Eclipse_v9/likedList"/>
 			<item value="/home/miguel/Escritorio/practicaArchivos/Clase19_copia"/>
 			<item value="/home/miguel/Escritorio/Cursada_UTN2022/temas_cursada_UTN"/>
 			<item value="/home/miguel/Escritorio/Cursada_2022/temas_cursada_UTN"/>

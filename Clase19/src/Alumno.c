@@ -382,6 +382,22 @@ int alumno_agregarAlumnoArray(Alumno* arrayPunteros[],int limite, char* nombre, 
 	return retorno;
 }
 
+int alumno_agregarAlumnoArrayTxt(Alumno* arrayPunteros[],int limite, char* nombre, char* altura, char* id)
+{
+	int retorno=-1;
+	int indiceLibre;
+	if(arrayPunteros != NULL && limite > 0 && nombre != NULL && id != NULL && altura != NULL)
+	{
+		indiceLibre = alumno_buscarLibreArray(arrayPunteros,limite);
+		if(indiceLibre >= 0)
+		{
+			arrayPunteros[indiceLibre] = alumno_newParametros(nombre,altura,id);
+			retorno = indiceLibre;
+		}
+	}
+	return retorno;
+}
+
 
 int alumno_borrarPorIdArray(Alumno* arrayPunteros[],int limite, int id)
 {
@@ -536,8 +552,10 @@ int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArc
 {
 
 	int retorno=-1;
-	int i;
 	FILE* pArchivo ;
+	char auxId[510];
+	char auxNombre [510];
+	char auxAltura[510];
 
 	if(arrayPunteros != NULL && limite > 0 && pathArchivo != NULL)
 	{
@@ -545,13 +563,25 @@ int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArc
 		pArchivo = fopen(pathArchivo, "r");
 		if(pArchivo != NULL)
 		{
+			retorno = 0;
+			do {
+
+				if(fscanf(pArchivo, "%[^,], %[^,], %[^\n]\n", auxId, auxNombre, auxAltura) == 3)
+				{
+				//	printf("\n%s-%s-%s", auxId, auxNombre, auxAltura);
+
+					if(alumno_agregarAlumnoArrayTxt(arrayPunteros,limite,auxNombre,auxAltura,proximoId) >= 0)
+					{
+						printf("\nAlta OK");
+					}
+				}
 
 
+			} while (!feof(pArchivo));
+
+			fclose(pArchivo);
 
 		}
-
-
-
 	}
 
 
