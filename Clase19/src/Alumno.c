@@ -366,17 +366,26 @@ int alumno_buscarPorIdArray(Alumno* arrayPunteros[],int limite, int id)
 	return retorno;
 }
 
+
+/**/
 int alumno_agregarAlumnoArray(Alumno* arrayPunteros[],int limite, char* nombre, float altura, int id)
 {
 	int retorno=-1;
 	int indiceLibre;
+	Alumno* pAuxiliarAlumno ;
 	if(arrayPunteros != NULL && limite > 0 && nombre != NULL && id >= 0)
 	{
 		indiceLibre = alumno_buscarLibreArray(arrayPunteros,limite);
 		if(indiceLibre >= 0)
 		{
-			arrayPunteros[indiceLibre] = alumno_newParametros(nombre,altura,id);
-			retorno = indiceLibre;
+			pAuxiliarAlumno = alumno_newParametros(nombre,altura,id);
+			if(pAuxiliarAlumno != NULL)
+			{
+				arrayPunteros[indiceLibre] = pAuxiliarAlumno;
+				retorno = indiceLibre;
+
+			}
+
 		}
 	}
 	return retorno;
@@ -386,13 +395,22 @@ int alumno_agregarAlumnoArrayTxt(Alumno* arrayPunteros[],int limite, char* nombr
 {
 	int retorno=-1;
 	int indiceLibre;
+	Alumno* pAuxiliarAlumno ;
+
 	if(arrayPunteros != NULL && limite > 0 && nombre != NULL && id != NULL && altura != NULL)
 	{
 		indiceLibre = alumno_buscarLibreArray(arrayPunteros,limite);
 		if(indiceLibre >= 0)
 		{
-			arrayPunteros[indiceLibre] = alumno_newParametros(nombre,altura,id);
-			retorno = indiceLibre;
+
+			pAuxiliarAlumno = alumno_newParametrosChar(nombre, altura, id);
+			if(pAuxiliarAlumno != NULL)//tema a solucionar (no entra dentro de la condicional , parece que da que pAuxiliarAlumno es igual a NULL , rebisar el motivo)
+			{
+				printf("\n bien");
+				arrayPunteros[indiceLibre] = pAuxiliarAlumno;
+				retorno = indiceLibre;
+
+			}
 		}
 	}
 	return retorno;
@@ -548,7 +566,7 @@ int alumno_guardarArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* path
 }
 
 
-int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArchivo)
+int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArchivo , int* proximoId)
 {
 
 	int retorno=-1;
@@ -568,11 +586,17 @@ int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArc
 
 				if(fscanf(pArchivo, "%[^,], %[^,], %[^\n]\n", auxId, auxNombre, auxAltura) == 3)
 				{
-				//	printf("\n%s-%s-%s", auxId, auxNombre, auxAltura);
+					printf("\n%s-%s-%s", auxId, auxNombre, auxAltura);
 
-					if(alumno_agregarAlumnoArrayTxt(arrayPunteros,limite,auxNombre,auxAltura,proximoId) >= 0)
+					if(alumno_agregarAlumnoArrayTxt(arrayPunteros,limite,auxNombre,auxAltura,auxId) >= 0)
 					{
 						printf("\nAlta OK");
+
+						if(atoi(auxId ) > *proximoId)//si lo que acabo de encontrar es mas grande , en proximoId tengo qeu cargar auxId
+						{
+							*proximoId = atoi(auxId );
+						}
+
 					}
 				}
 

@@ -111,7 +111,7 @@ int main(void)
 					}
 					break;
 				case 9:
-					if(alumno_leerArrayEnArchivo(arrayPunterosAlumno,QTY_ALUMNOS, "data.csv") == 0)
+					if(alumno_leerArrayEnArchivo(arrayPunterosAlumno,QTY_ALUMNOS, "data.csv", &proximoId) == 0)
 					{
 
 						printf("\nArchivo cargado exitosamente !!");

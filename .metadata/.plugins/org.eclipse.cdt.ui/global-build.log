@@ -1,1110 +1,8 @@
-20:14:11 **** Clean-only build of configuration Debug for project Tema_18_Archivos ****
-make clean 
-rm -rf ./src/Tema_18_Archivos.d ./src/Tema_18_Archivos.o ./src/UTN.d ./src/UTN.o
-rm -rf Tema_18_Archivos
- 
-20:17:23 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:27:4: error: excess elements in char array initializer
-   27 |    "Oscar",
-      |    ^~~~~~~
-../src/Tema_18_1_Archivos.c:27:4: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:28:4: error: excess elements in char array initializer
-   28 |    "Abel",
-      |    ^~~~~~
-../src/Tema_18_1_Archivos.c:28:4: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:29:4: error: excess elements in char array initializer
-   29 |    "Gustavo",
-      |    ^~~~~~~~~
-../src/Tema_18_1_Archivos.c:29:4: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:30:4: error: excess elements in char array initializer
-   30 |    "Alexis"
-      |    ^~~~~~~~
-../src/Tema_18_1_Archivos.c:30:4: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [] = {
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
-   39 | }
-      | ^
-make: *** [src/subdir.mk:23: src/Tema_18_1_Archivos.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-20:17:40 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:26:11: error: expected ‘}’ before ‘;’ token
-   26 |    "Migue";
-      |           ^
-../src/Tema_18_1_Archivos.c:25:20: note: to match this ‘{’
-   25 |  char nombres [] = {
-      |                    ^
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [] = {
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
-   39 | }
-      | ^
-make: *** [src/subdir.mk:23: src/Tema_18_1_Archivos.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-20:17:56 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:27:4: error: excess elements in char array initializer
-   27 |    "Oscar",
-      |    ^~~~~~~
-../src/Tema_18_1_Archivos.c:27:4: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:28:4: error: excess elements in char array initializer
-   28 |    "Abel",
-      |    ^~~~~~
-../src/Tema_18_1_Archivos.c:28:4: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:29:4: error: excess elements in char array initializer
-   29 |    "Gustavo",
-      |    ^~~~~~~~~
-../src/Tema_18_1_Archivos.c:29:4: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:30:4: error: excess elements in char array initializer
-   30 |    "Alexis"
-      |    ^~~~~~~~
-../src/Tema_18_1_Archivos.c:30:4: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [] = {
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
-   39 | }
-      | ^
-make: *** [src/subdir.mk:23: src/Tema_18_1_Archivos.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-20:18:18 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [5][51] = {
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
-   39 | }
-      | ^
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-Finished building: ../src/UTN.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:18:54 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
-   35 | }
-      | ^
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:19:05 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:25:59: warning: excess elements in array initializer
-   25 |  char nombres [4][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
-      |                                                           ^~~~~~~~
-../src/Tema_18_1_Archivos.c:25:59: note: (near initialization for ‘nombres’)
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [4][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
-   35 | }
-      | ^
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:19:15 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
-   35 | }
-      | ^
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:24:19 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:40:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                      ~^                   ~~~~~~~~~~
-      |                       |                          |
-      |                       char *                     int
-      |                      %d
-../src/Tema_18_1_Archivos.c:40:27: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                          ~^                           ~~~~~~~~~~
-      |                           |                                  |
-      |                           char *                             int
-      |                          %d
-../src/Tema_18_1_Archivos.c:40:31: warning: format ‘%s’ expects argument of type ‘char *’, but argument 5 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                              ~^                                   ~~~~~~~~~~
-      |                               |                                          |
-      |                               char *                                     int
-      |                              %d
-../src/Tema_18_1_Archivos.c:40:35: warning: format ‘%s’ expects argument of type ‘char *’, but argument 6 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                                  ~^                                           ~~~~~~~~~~
-      |                                   |                                                  |
-      |                                   char *                                             int
-      |                                  %d
-../src/Tema_18_1_Archivos.c:40:39: warning: format ‘%s’ expects argument of type ‘char *’, but argument 7 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                                      ~^                                                   ~~~~~~~~~~
-      |                                       |                                                          |
-      |                                       char *                                                     int
-      |                                      %d
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:24:43 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:40:53: error: subscripted value is neither array nor pointer nor vector
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
-      |                                                     ^
-../src/Tema_18_1_Archivos.c:40:68: error: subscripted value is neither array nor pointer nor vector
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
-      |                                                                    ^
-../src/Tema_18_1_Archivos.c:40:83: error: subscripted value is neither array nor pointer nor vector
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
-      |                                                                                   ^
-../src/Tema_18_1_Archivos.c:40:98: error: subscripted value is neither array nor pointer nor vector
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
-      |                                                                                                  ^
-../src/Tema_18_1_Archivos.c:40:113: error: subscripted value is neither array nor pointer nor vector
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0][0], nombres[1][0], nombres[2][0], nombres[3][0], nombres[4][0]);
-      |                                                                                                                 ^
-make: *** [src/subdir.mk:23: src/Tema_18_1_Archivos.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-20:24:52 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
-      |       ^~~~~~~
-../src/Tema_18_1_Archivos.c: In function ‘EscribirNombresTXT’:
-../src/Tema_18_1_Archivos.c:40:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                      ~^                   ~~~~~~~~~~
-      |                       |                          |
-      |                       char *                     int
-      |                      %d
-../src/Tema_18_1_Archivos.c:40:27: warning: format ‘%s’ expects argument of type ‘char *’, but argument 4 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                          ~^                           ~~~~~~~~~~
-      |                           |                                  |
-      |                           char *                             int
-      |                          %d
-../src/Tema_18_1_Archivos.c:40:31: warning: format ‘%s’ expects argument of type ‘char *’, but argument 5 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                              ~^                                   ~~~~~~~~~~
-      |                               |                                          |
-      |                               char *                                     int
-      |                              %d
-../src/Tema_18_1_Archivos.c:40:35: warning: format ‘%s’ expects argument of type ‘char *’, but argument 6 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                                  ~^                                           ~~~~~~~~~~
-      |                                   |                                                  |
-      |                                   char *                                             int
-      |                                  %d
-../src/Tema_18_1_Archivos.c:40:39: warning: format ‘%s’ expects argument of type ‘char *’, but argument 7 has type ‘int’ [-Wformat=]
-   40 |   fprintf(pArchivo, "%s ,%s ,%s ,%s ,%s", nombres[0], nombres[1], nombres[2], nombres[3], nombres[4]);
-      |                                      ~^                                                   ~~~~~~~~~~
-      |                                       |                                                          |
-      |                                       char *                                                     int
-      |                                      %d
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:26:53 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:25:7: warning: unused variable ‘nombres’ [-Wunused-variable]
-   25 |  char nombres [5][51] = {"Migue","Oscar","Abel","Gustavo","Alexis"};
-      |       ^~~~~~~
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:27:38 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:28:21: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
-   28 |  EscribirNombresTXT(nombres, "archivo.txt");
-      |                     ^~~~~~~
-      |                     |
-      |                     char (*)[51]
-../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[51]’
-   15 | int EscribirNombresTXT(char* nombres, char* path);
-      |                        ~~~~~~^~~~~~~
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:28:23 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:28:24: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
-   28 |  if(EscribirNombresTXT(nombres, "archivo.txt") == 1)
-      |                        ^~~~~~~
-      |                        |
-      |                        char (*)[51]
-../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[51]’
-   15 | int EscribirNombresTXT(char* nombres, char* path);
-      |                        ~~~~~~^~~~~~~
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:28:43 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:28:24: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
-   28 |  if(EscribirNombresTXT(&nombres, "archivo.txt") == 1)
-      |                        ^~~~~~~~
-      |                        |
-      |                        char (*)[5][51]
-../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[5][51]’
-   15 | int EscribirNombresTXT(char* nombres, char* path);
-      |                        ~~~~~~^~~~~~~
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:28:58 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:28:24: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
-   28 |  if(EscribirNombresTXT(nombres, "archivo.txt") == 1)
-      |                        ^~~~~~~
-      |                        |
-      |                        char (*)[51]
-../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[51]’
-   15 | int EscribirNombresTXT(char* nombres, char* path);
-      |                        ~~~~~~^~~~~~~
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:29:09 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:29:13 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:31:55 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:31:57 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:34:56 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-../src/Tema_18_1_Archivos.c: In function ‘main’:
-../src/Tema_18_1_Archivos.c:28:24: warning: passing argument 1 of ‘EscribirNombresTXT’ from incompatible pointer type [-Wincompatible-pointer-types]
-   28 |  if(EscribirNombresTXT(nombres, "archivo.txt") == 1)
-      |                        ^~~~~~~
-      |                        |
-      |                        char (*)[51]
-../src/Tema_18_1_Archivos.c:15:30: note: expected ‘char *’ but argument is of type ‘char (*)[51]’
-   15 | int EscribirNombresTXT(char* nombres, char* path);
-      |                        ~~~~~~^~~~~~~
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:35:04 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:35:05 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:36:42 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:36:46 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:37:03 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:37:05 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:37:36 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:37:37 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:37:50 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:37:51 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:37:59 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:38:10 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:38:11 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:38:29 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:38:40 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:38:41 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:45:42 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:45:48 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:48:37 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:48:42 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-20:49:06 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-20:49:08 **** Incremental Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-make: No se hace nada para 'all'.
-22:34:21 **** Build of configuration Debug for project Anexo_Tema_Vectores ****
-make all 
-Building file: ../src/Menu.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
-Finished building: ../src/Menu.c
- 
-Building target: Anexo_Tema_Vectores
-Invoking: GCC C Linker
-gcc  -o "Anexo_Tema_Vectores"  ./src/Anexo_Tema_Vectores.o ./src/Menu.o   
-Finished building target: Anexo_Tema_Vectores
- 
-22:34:21 **** Build of configuration Debug for project CrearUnMenu ****
-make all 
-make: No se hace nada para 'all'.
-22:34:22 **** Build of configuration Debug for project MemoriaDinamica_Video ****
-make all 
-Building file: ../src/MemoriaDinamica_Video.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MemoriaDinamica_Video.d" -MT"src/MemoriaDinamica_Video.o" -o "src/MemoriaDinamica_Video.o" "../src/MemoriaDinamica_Video.c"
-Finished building: ../src/MemoriaDinamica_Video.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-Finished building: ../src/UTN.c
- 
-Building target: MemoriaDinamica_Video
-Invoking: GCC C Linker
-gcc  -o "MemoriaDinamica_Video"  ./src/MemoriaDinamica_Video.o ./src/UTN.o   
-Finished building target: MemoriaDinamica_Video
- 
-22:34:22 **** Build of configuration Debug for project Memoria_Dinamica_Video ****
-make all 
-Building file: ../src/Memoria_Dinamica_Video.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Memoria_Dinamica_Video.d" -MT"src/Memoria_Dinamica_Video.o" -o "src/Memoria_Dinamica_Video.o" "../src/Memoria_Dinamica_Video.c"
-Finished building: ../src/Memoria_Dinamica_Video.c
- 
-Building target: Memoria_Dinamica_Video
-Invoking: GCC C Linker
-gcc  -o "Memoria_Dinamica_Video"  ./src/Memoria_Dinamica_Video.o   
-Finished building target: Memoria_Dinamica_Video
- 
-22:34:23 **** Build of configuration Debug for project Practica_clase18 ****
+19:11:21 **** Build of configuration Debug for project Clase19 ****
 make all 
 Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building file: ../src/Practica_clase18.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18.d" -MT"src/Practica_clase18.o" -o "src/Practica_clase18.o" "../src/Practica_clase18.c"
-Finished building: ../src/Practica_clase18.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
-  108 | static int esNumericaVideo(char* cadena , int limite)
-      |            ^~~~~~~~~~~~~~~
-Finished building: ../src/UTN.c
- 
-Building target: Practica_clase18
-Invoking: GCC C Linker
-gcc  -o "Practica_clase18"  ./src/Alumno.o ./src/Practica_clase18.o ./src/UTN.o   
-Finished building target: Practica_clase18
- 
-22:34:24 **** Build of configuration Debug for project Practica_clase18_Parte1_5 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building file: ../src/Practica_clase18_Parte1_5.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Practica_clase18_Parte1_5.d" -MT"src/Practica_clase18_Parte1_5.o" -o "src/Practica_clase18_Parte1_5.o" "../src/Practica_clase18_Parte1_5.c"
-Finished building: ../src/Practica_clase18_Parte1_5.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
-  108 | static int esNumericaVideo(char* cadena , int limite)
-      |            ^~~~~~~~~~~~~~~
-Finished building: ../src/UTN.c
- 
-Building target: Practica_clase18_Parte1_5
-Invoking: GCC C Linker
-gcc  -o "Practica_clase18_Parte1_5"  ./src/Alumno.o ./src/Practica_clase18_Parte1_5.o ./src/UTN.o   
-Finished building target: Practica_clase18_Parte1_5
- 
-22:34:24 **** Build of configuration Debug for project Programacion_GDB ****
-make all 
-Building file: ../src/Programacion_GDB.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Programacion_GDB.d" -MT"src/Programacion_GDB.o" -o "src/Programacion_GDB.o" "../src/Programacion_GDB.c"
-../src/Programacion_GDB.c: In function ‘main’:
-../src/Programacion_GDB.c:31:6: warning: unused variable ‘cantidadCodigo’ [-Wunused-variable]
-   31 |  int cantidadCodigo = 0;
-      |      ^~~~~~~~~~~~~~
-Finished building: ../src/Programacion_GDB.c
- 
-Building file: ../src/Ticket.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ticket.d" -MT"src/Ticket.o" -o "src/Ticket.o" "../src/Ticket.c"
-Finished building: ../src/Ticket.c
- 
-Building target: Programacion_GDB
-Invoking: GCC C Linker
-gcc  -o "Programacion_GDB"  ./src/Programacion_GDB.o ./src/Ticket.o   
-Finished building target: Programacion_GDB
- 
-22:34:25 **** Build of configuration Debug for project PunteroFuncion_Video ****
-make all 
-Building file: ../src/PunteroFuncion_Video.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunteroFuncion_Video.d" -MT"src/PunteroFuncion_Video.o" -o "src/PunteroFuncion_Video.o" "../src/PunteroFuncion_Video.c"
-Finished building: ../src/PunteroFuncion_Video.c
- 
-Building target: PunteroFuncion_Video
-Invoking: GCC C Linker
-gcc  -o "PunteroFuncion_Video"  ./src/PunteroFuncion_Video.o   
-Finished building target: PunteroFuncion_Video
- 
-22:34:25 **** Build of configuration Debug for project Punteros ****
-make all 
-Building file: ../src/Punteros.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros.d" -MT"src/Punteros.o" -o "src/Punteros.o" "../src/Punteros.c"
-../src/Punteros.c: In function ‘main’:
-../src/Punteros.c:43:10: warning: unused variable ‘pFecha’ [-Wunused-variable]
-   43 |  eFecha* pFecha = NULL ;
-      |          ^~~~~~
-Finished building: ../src/Punteros.c
- 
-Building target: Punteros
-Invoking: GCC C Linker
-gcc  -o "Punteros"  ./src/Punteros.o   
-Finished building target: Punteros
- 
-22:34:26 **** Build of configuration Debug for project Punteros_Video ****
-make all 
-Building file: ../src/Punteros_Video.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Punteros_Video.d" -MT"src/Punteros_Video.o" -o "src/Punteros_Video.o" "../src/Punteros_Video.c"
-Finished building: ../src/Punteros_Video.c
- 
-Building target: Punteros_Video
-Invoking: GCC C Linker
-gcc  -o "Punteros_Video"  ./src/Punteros_Video.o   
-Finished building target: Punteros_Video
- 
-22:34:26 **** Build of configuration Debug for project TP3_Clases ****
-make all 
-Building file: ../src/Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Controller.d" -MT"src/Controller.o" -o "src/Controller.o" "../src/Controller.c"
-Finished building: ../src/Controller.c
- 
-Building file: ../src/Passenger.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passenger.d" -MT"src/Passenger.o" -o "src/Passenger.o" "../src/Passenger.c"
-../src/Passenger.c: In function ‘Passenger_newParametros’:
-../src/Passenger.c:20:28: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
-   20 |  unPasajero = (Passenger*) malloc(sizeof(Passenger));//lo agregamos a memoria
-      |                            ^~~~~~
-../src/Passenger.c:20:28: warning: incompatible implicit declaration of built-in function ‘malloc’
-../src/Passenger.c:9:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
-    8 | #include "Passenger.h"
-  +++ |+#include <stdlib.h>
-    9 | 
-../src/Passenger.c:22:19: warning: implicit declaration of function ‘atoi’ [-Wimplicit-function-declaration]
-   22 |  unPasajero->id = atoi(idStr);
-      |                   ^~~~
-../src/Passenger.c:23:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
-   23 |  strcpy(unPasajero->nombre , nombreStr);
-      |  ^~~~~~
-../src/Passenger.c:23:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
-../src/Passenger.c:9:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
-    8 | #include "Passenger.h"
-  +++ |+#include <string.h>
-    9 | 
-../src/Passenger.c:24:36: error: ‘tipoPasajeroStrr’ undeclared (first use in this function); did you mean ‘tipoPasajeroStr’?
-   24 |  strcpy(unPasajero->tipoPasajero , tipoPasajeroStrr);
-      |                                    ^~~~~~~~~~~~~~~~
-      |                                    tipoPasajeroStr
-../src/Passenger.c:24:36: note: each undeclared identifier is reported only once for each function it appears in
-../src/Passenger.c:24:19: warning: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [-Wint-conversion]
-   24 |  strcpy(unPasajero->tipoPasajero , tipoPasajeroStrr);
-      |         ~~~~~~~~~~^~~~~~~~~~~~~~
-      |                   |
-      |                   int
-../src/Passenger.c:24:19: note: expected ‘char *’ but argument is of type ‘int’
-make: *** [src/subdir.mk:32: src/Passenger.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-22:34:27 **** Build of configuration Debug for project Tema10_10-1 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building file: ../src/Tema10_10-1.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema10_10-1.d" -MT"src/Tema10_10-1.o" -o "src/Tema10_10-1.o" "../src/Tema10_10-1.c"
-Finished building: ../src/Tema10_10-1.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-Finished building: ../src/UTN.c
- 
-Building target: Tema10_10-1
-Invoking: GCC C Linker
-gcc  -o "Tema10_10-1"  ./src/Alumno.o ./src/Tema10_10-1.o ./src/UTN.o   
-Finished building target: Tema10_10-1
- 
-22:34:28 **** Build of configuration Debug for project Tema17_17-2_Remove ****
-make all 
-Building file: ../src/Tema17_17-2_Remove.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema17_17-2_Remove.d" -MT"src/Tema17_17-2_Remove.o" -o "src/Tema17_17-2_Remove.o" "../src/Tema17_17-2_Remove.c"
-Finished building: ../src/Tema17_17-2_Remove.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-Finished building: ../src/UTN.c
- 
-Building target: Tema17_17-2_Remove
-Invoking: GCC C Linker
-gcc  -o "Tema17_17-2_Remove"  ./src/Tema17_17-2_Remove.o ./src/UTN.o   
-Finished building target: Tema17_17-2_Remove
- 
-22:34:28 **** Build of configuration Debug for project Tema2 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:29 **** Build of configuration Debug for project Tema3 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:29 **** Build of configuration Debug for project Tema3_Funciones_ 3-3 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:29 **** Build of configuration Debug for project Tema3_Funciones_3-2 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:30 **** Build of configuration Debug for project Tema3_Funciones_3-4 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:30 **** Build of configuration Debug for project Tema3_Funciones_3-5 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:31 **** Build of configuration Debug for project Tema4_Biblioteca-Recursividad ****
-make all 
-Building file: ../src/Tema4_Biblioteca-Recursividad.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema4_Biblioteca-Recursividad.d" -MT"src/Tema4_Biblioteca-Recursividad.o" -o "src/Tema4_Biblioteca-Recursividad.o" "../src/Tema4_Biblioteca-Recursividad.c"
-Finished building: ../src/Tema4_Biblioteca-Recursividad.c
- 
-Building target: Tema4_Biblioteca-Recursividad
-Invoking: GCC C Linker
-gcc  -o "Tema4_Biblioteca-Recursividad"  ./src/Tema4_Biblioteca-Recursividad.o   
-Finished building target: Tema4_Biblioteca-Recursividad
- 
-22:34:31 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-1 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:32 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-2 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:32 **** Build of configuration Debug for project Tema5_VectoresYFunciones_5-3 ****
-make all 
-Building file: ../src/Tema5_VectoresYFunciones_5-3.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema5_VectoresYFunciones_5-3.d" -MT"src/Tema5_VectoresYFunciones_5-3.o" -o "src/Tema5_VectoresYFunciones_5-3.o" "../src/Tema5_VectoresYFunciones_5-3.c"
-Finished building: ../src/Tema5_VectoresYFunciones_5-3.c
- 
-Building target: Tema5_VectoresYFunciones_5-3
-Invoking: GCC C Linker
-gcc  -o "Tema5_VectoresYFunciones_5-3"  ./src/Tema5_VectoresYFunciones_5-3.o   
-Finished building target: Tema5_VectoresYFunciones_5-3
- 
-22:34:33 **** Build of configuration Debug for project Tema7_Arrays_Paralelos ****
-make all 
-Building file: ../src/Menu.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
-../src/Menu.c: In function ‘Menu’:
-../src/Menu.c:15:6: warning: unused variable ‘auxidPosicionBaja’ [-Wunused-variable]
-   15 |  int auxidPosicionBaja ;
-      |      ^~~~~~~~~~~~~~~~~
-../src/Menu.c:14:6: warning: unused variable ‘auxIdBaja’ [-Wunused-variable]
-   14 |  int auxIdBaja ;
-      |      ^~~~~~~~~
-Finished building: ../src/Menu.c
- 
-Building file: ../src/Productos_Apple.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Productos_Apple.d" -MT"src/Productos_Apple.o" -o "src/Productos_Apple.o" "../src/Productos_Apple.c"
-Finished building: ../src/Productos_Apple.c
- 
-Building file: ../src/Tema7_Arrays_Paralelos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema7_Arrays_Paralelos.d" -MT"src/Tema7_Arrays_Paralelos.o" -o "src/Tema7_Arrays_Paralelos.o" "../src/Tema7_Arrays_Paralelos.c"
-../src/Tema7_Arrays_Paralelos.c: In function ‘main’:
-../src/Tema7_Arrays_Paralelos.c:32:2: warning: implicit declaration of function ‘Menu’ [-Wimplicit-function-declaration]
-   32 |  Menu( productos , CANTINDAD);
-      |  ^~~~
-Finished building: ../src/Tema7_Arrays_Paralelos.c
- 
-Building file: ../src/utn.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utn.d" -MT"src/utn.o" -o "src/utn.o" "../src/utn.c"
-Finished building: ../src/utn.c
- 
-Building target: Tema7_Arrays_Paralelos
-Invoking: GCC C Linker
-gcc  -o "Tema7_Arrays_Paralelos"  ./src/Menu.o ./src/Productos_Apple.o ./src/Tema7_Arrays_Paralelos.o ./src/utn.o   
-Finished building target: Tema7_Arrays_Paralelos
- 
-22:34:33 **** Build of configuration Debug for project Tema_17_memoria_ Dinamica ****
-make all 
-Building file: ../src/Tema_17_memoria_Dinamica.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_17_memoria_Dinamica.d" -MT"src/Tema_17_memoria_Dinamica.o" -o "src/Tema_17_memoria_Dinamica.o" "../src/Tema_17_memoria_Dinamica.c"
-../src/Tema_17_memoria_Dinamica.c: In function ‘main’:
-../src/Tema_17_memoria_Dinamica.c:82:6: warning: unused variable ‘vector’ [-Wunused-variable]
-   82 |  int vector[5];
-      |      ^~~~~~
-Finished building: ../src/Tema_17_memoria_Dinamica.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-Finished building: ../src/UTN.c
- 
-Building target: Tema_17_memoria_ Dinamica
-Invoking: GCC C Linker
-gcc  -o "Tema_17_memoria_ Dinamica"  ./src/Tema_17_memoria_Dinamica.o ./src/UTN.o   
-Finished building target: Tema_17_memoria_ Dinamica
- 
-22:34:34 **** Build of configuration Debug for project Tema_18_1_Archivos ****
-make all 
-Building file: ../src/Tema_18_1_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_1_Archivos.d" -MT"src/Tema_18_1_Archivos.o" -o "src/Tema_18_1_Archivos.o" "../src/Tema_18_1_Archivos.c"
-Finished building: ../src/Tema_18_1_Archivos.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-Finished building: ../src/UTN.c
- 
-Building target: Tema_18_1_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_1_Archivos"  ./src/Tema_18_1_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_1_Archivos
- 
-22:34:35 **** Build of configuration Debug for project Tema_18_Archivos ****
-make all 
-Building file: ../src/Tema_18_Archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tema_18_Archivos.d" -MT"src/Tema_18_Archivos.o" -o "src/Tema_18_Archivos.o" "../src/Tema_18_Archivos.c"
-../src/Tema_18_Archivos.c: In function ‘main’:
-../src/Tema_18_Archivos.c:31:8: warning: unused variable ‘pArchivo’ [-Wunused-variable]
-   31 |  FILE* pArchivo ;
-      |        ^~~~~~~~
-Finished building: ../src/Tema_18_Archivos.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-Finished building: ../src/UTN.c
- 
-Building target: Tema_18_Archivos
-Invoking: GCC C Linker
-gcc  -o "Tema_18_Archivos"  ./src/Tema_18_Archivos.o ./src/UTN.o   
-Finished building target: Tema_18_Archivos
- 
-22:34:35 **** Build of configuration Debug for project VideoTutorial_archivos ****
-make all 
-Building file: ../src/VideoTutorial_archivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VideoTutorial_archivos.d" -MT"src/VideoTutorial_archivos.o" -o "src/VideoTutorial_archivos.o" "../src/VideoTutorial_archivos.c"
-../src/VideoTutorial_archivos.c: In function ‘main’:
-../src/VideoTutorial_archivos.c:47:6: warning: unused variable ‘caracter’ [-Wunused-variable]
-   47 |  int caracter ;
-      |      ^~~~~~~~
-../src/VideoTutorial_archivos.c:46:7: warning: unused variable ‘posicion’ [-Wunused-variable]
-   46 |  long posicion ;
-      |       ^~~~~~~~
-Finished building: ../src/VideoTutorial_archivos.c
- 
-Building target: VideoTutorial_archivos
-Invoking: GCC C Linker
-gcc  -o "VideoTutorial_archivos"  ./src/VideoTutorial_archivos.o   
-Finished building target: VideoTutorial_archivos
- 
-22:34:36 **** Build of configuration Debug for project archivo_clase ****
-make all 
-Building file: ../src/archivo_clase.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/archivo_clase.d" -MT"src/archivo_clase.o" -o "src/archivo_clase.o" "../src/archivo_clase.c"
-../src/archivo_clase.c: In function ‘main’:
-../src/archivo_clase.c:17:7: warning: unused variable ‘saludo’ [-Wunused-variable]
-   17 |  char saludo [20];
-      |       ^~~~~~
-Finished building: ../src/archivo_clase.c
- 
-Building target: archivo_clase
-Invoking: GCC C Linker
-gcc  -o "archivo_clase"  ./src/archivo_clase.o   
-Finished building target: archivo_clase
- 
-22:34:36 **** Build of configuration Debug for project arrays_Paralelos ****
-make all 
-Building file: ../src/arrays_Paralelos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays_Paralelos.d" -MT"src/arrays_Paralelos.o" -o "src/arrays_Paralelos.o" "../src/arrays_Paralelos.c"
-Finished building: ../src/arrays_Paralelos.c
- 
-Building target: arrays_Paralelos
-Invoking: GCC C Linker
-gcc  -o "arrays_Paralelos"  ./src/arrays_Paralelos.o   
-Finished building target: arrays_Paralelos
- 
-22:34:37 **** Build of configuration Debug for project clase -1 ****
-make all 
-make: No se hace nada para 'all'.
-22:34:37 **** Build of configuration Debug for project claseSabadoArchivos ****
-make all 
-Building file: ../src/claseSabadoArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/claseSabadoArchivos.d" -MT"src/claseSabadoArchivos.o" -o "src/claseSabadoArchivos.o" "../src/claseSabadoArchivos.c"
-Finished building: ../src/claseSabadoArchivos.c
- 
-Building target: claseSabadoArchivos
-Invoking: GCC C Linker
-gcc  -o "claseSabadoArchivos"  ./src/claseSabadoArchivos.o   
-Finished building target: claseSabadoArchivos
- 
-22:34:38 **** Build of configuration Debug for project laboratorio I ****
-make all 
-make: No se hace nada para 'all'.
-22:34:38 **** Build of configuration Debug for project practica_clase18_funcionesArchivos ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building file: ../src/UTN.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
-../src/UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
-  108 | static int esNumericaVideo(char* cadena , int limite)
-      |            ^~~~~~~~~~~~~~~
-Finished building: ../src/UTN.c
- 
-Building file: ../src/practica_clase18_funcionesArchivos.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/practica_clase18_funcionesArchivos.d" -MT"src/practica_clase18_funcionesArchivos.o" -o "src/practica_clase18_funcionesArchivos.o" "../src/practica_clase18_funcionesArchivos.c"
-Finished building: ../src/practica_clase18_funcionesArchivos.c
- 
-Building target: practica_clase18_funcionesArchivos
-Invoking: GCC C Linker
-gcc  -o "practica_clase18_funcionesArchivos"  ./src/Alumno.o ./src/UTN.o ./src/practica_clase18_funcionesArchivos.o   
-Finished building target: practica_clase18_funcionesArchivos
- 
-22:34:39 **** Build of configuration Debug for project prueba ****
-make all 
-Building file: ../src/prueba.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prueba.d" -MT"src/prueba.o" -o "src/prueba.o" "../src/prueba.c"
-../src/prueba.c: In function ‘main’:
-../src/prueba.c:24:13: error: expected expression before ‘+=’ token
-   24 |  *pEntero = += b;
-      |             ^~
-../src/prueba.c:26:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Wformat=]
-   26 |  printf("%d", pEntero);
-      |          ~^   ~~~~~~~
-      |           |   |
-      |           int int *
-      |          %ls
-make: *** [src/subdir.mk:20: src/prueba.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-22:37:07 **** Clean-only build of configuration Debug for project Clase19 ****
-make clean 
-rm -rf  ./src/Alumno.o ./src/Clase19.o ./src/utn.o  ./src/Alumno.d ./src/Clase19.d ./src/utn.d  Clase19_copia
- 
-22:37:08 **** Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
-../src/Alumno.c:539:6: warning: unused variable ‘i’ [-Wunused-variable]
-  539 |  int i;
-      |      ^
 Finished building: ../src/Alumno.c
  
 Building file: ../src/Clase19.c
@@ -1122,26 +20,16 @@ Invoking: GCC C Linker
 gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19
  
-20:07:10 **** Incremental Build of configuration Debug for project Clase19 ****
+19:11:25 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 make: No se hace nada para 'all'.
-20:09:59 **** Incremental Build of configuration Debug for project Clase19 ****
+19:16:36 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_leerArrayEnArchivo’:
-../src/Alumno.c:539:6: warning: unused variable ‘i’ [-Wunused-variable]
-  539 |  int i;
-      |      ^
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-20:10:09 **** Incremental Build of configuration Debug for project Clase19 ****
+make: No se hace nada para 'all'.
+19:16:39 **** Incremental Build of configuration Debug for project Clase19 ****
+make all 
+make: No se hace nada para 'all'.
+19:17:48 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
@@ -1153,16 +41,10 @@ Invoking: GCC C Linker
 gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19
  
-20:10:21 **** Incremental Build of configuration Debug for project Clase19 ****
+19:17:49 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 make: No se hace nada para 'all'.
-20:10:29 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-20:10:32 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-20:11:11 **** Incremental Build of configuration Debug for project Clase19 ****
+19:18:33 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
@@ -1174,7 +56,10 @@ Invoking: GCC C Linker
 gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19
  
-20:12:32 **** Incremental Build of configuration Debug for project Clase19 ****
+19:18:34 **** Incremental Build of configuration Debug for project Clase19 ****
+make all 
+make: No se hace nada para 'all'.
+19:19:09 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
@@ -1186,19 +71,10 @@ Invoking: GCC C Linker
 gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19
  
-20:12:35 **** Incremental Build of configuration Debug for project Clase19 ****
+19:19:12 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 make: No se hace nada para 'all'.
-20:13:50 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-20:13:52 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-20:15:51 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-20:16:40 **** Incremental Build of configuration Debug for project Clase19 ****
+19:19:29 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
@@ -1210,263 +86,100 @@ Invoking: GCC C Linker
 gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19
  
-20:16:42 **** Incremental Build of configuration Debug for project Clase19 ****
+19:19:30 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 make: No se hace nada para 'all'.
-20:29:14 **** Incremental Build of configuration Debug for project Clase19 ****
+19:19:47 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
 Finished building: ../src/Alumno.c
  
-Building file: ../src/Clase19.c
+Building target: Clase19
+Invoking: GCC C Linker
+gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
+Finished building target: Clase19
+ 
+19:19:49 **** Incremental Build of configuration Debug for project Clase19 ****
+make all 
+make: No se hace nada para 'all'.
+19:27:17 **** Incremental Build of configuration Debug for project Clase19 ****
+make all 
+Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase19.d" -MT"src/Clase19.o" -o "src/Clase19.o" "../src/Clase19.c"
-Finished building: ../src/Clase19.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
  
 Building target: Clase19
 Invoking: GCC C Linker
 gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19
  
-20:29:17 **** Incremental Build of configuration Debug for project Clase19 ****
+19:27:19 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 make: No se hace nada para 'all'.
-21:14:46 **** Build of configuration Debug for project likedList ****
+19:27:37 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
-Building file: ../testing/src/Employee.c
+Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/Employee.d" -MT"testing/src/Employee.o" -o "testing/src/Employee.o" "../testing/src/Employee.c"
-Finished building: ../testing/src/Employee.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
  
-Building file: ../testing/src/addNodeTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/addNodeTest.d" -MT"testing/src/addNodeTest.o" -o "testing/src/addNodeTest.o" "../testing/src/addNodeTest.c"
-In file included from ../testing/src/addNodeTest.c:19:
-../testing/src/addNodeTest.c: In function ‘addNodeTestCase03’:
-../testing/src/../../testing/utest.h:61:127: warning: ‘
-   ’ directive writing 2 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                               ^~~~~~~~
-../testing/src/../../testing/utest.h:27:62: note: in definition of macro ‘utest_print1’
-   27 | #define utest_print1(MSG,VAR1)   { sprintf(utest_printBuffer,MSG,VAR1); strcat(utest_printErrorBuffer,utest_printBuffer);}
-      |                                                              ^~~
-../testing/src/addNodeTest.c:91:9: note: in expansion of macro ‘utest_assertEqualsPointerMsg’
-   91 |         utest_assertEqualsPointerMsg(nodoAux->pElement,pAux[i],msg);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../testing/src/addNodeTest.c:19:
-../testing/src/../../testing/utest.h:61:130: note: format string is defined here
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                                  ^~~~
-In file included from ../testing/src/addNodeTest.c:19:
-../testing/src/../../testing/utest.h:27:36: note: ‘sprintf’ output between 3 and 258 bytes into a destination of size 256
-   27 | #define utest_print1(MSG,VAR1)   { sprintf(utest_printBuffer,MSG,VAR1); strcat(utest_printErrorBuffer,utest_printBuffer);}
-      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../testing/src/../../testing/utest.h:61:114: note: in expansion of macro ‘utest_print1’
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                  ^~~~~~~~~~~~
-../testing/src/addNodeTest.c:91:9: note: in expansion of macro ‘utest_assertEqualsPointerMsg’
-   91 |         utest_assertEqualsPointerMsg(nodoAux->pElement,pAux[i],msg);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../testing/src/addNodeTest.c: In function ‘addNodeTestCase05’:
-../testing/src/../../testing/utest.h:61:127: warning: ‘
-   ’ directive writing 2 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                               ^~~~~~~~
-../testing/src/../../testing/utest.h:27:62: note: in definition of macro ‘utest_print1’
-   27 | #define utest_print1(MSG,VAR1)   { sprintf(utest_printBuffer,MSG,VAR1); strcat(utest_printErrorBuffer,utest_printBuffer);}
-      |                                                              ^~~
-../testing/src/addNodeTest.c:132:9: note: in expansion of macro ‘utest_assertEqualsPointerMsg’
-  132 |         utest_assertEqualsPointerMsg(nodoAux->pElement,pAux[i],msg);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../testing/src/addNodeTest.c:19:
-../testing/src/../../testing/utest.h:61:130: note: format string is defined here
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                                  ^~~~
-In file included from ../testing/src/addNodeTest.c:19:
-../testing/src/../../testing/utest.h:27:36: note: ‘sprintf’ output between 3 and 258 bytes into a destination of size 256
-   27 | #define utest_print1(MSG,VAR1)   { sprintf(utest_printBuffer,MSG,VAR1); strcat(utest_printErrorBuffer,utest_printBuffer);}
-      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../testing/src/../../testing/utest.h:61:114: note: in expansion of macro ‘utest_print1’
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                  ^~~~~~~~~~~~
-../testing/src/addNodeTest.c:132:9: note: in expansion of macro ‘utest_assertEqualsPointerMsg’
-  132 |         utest_assertEqualsPointerMsg(nodoAux->pElement,pAux[i],msg);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../testing/src/addNodeTest.c
- 
-Building file: ../testing/src/addTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/addTest.d" -MT"testing/src/addTest.o" -o "testing/src/addTest.o" "../testing/src/addTest.c"
-In file included from ../testing/src/addTest.c:37:
-../testing/src/addTest.c: In function ‘addTestCase03’:
-../testing/src/../../testing/utest.h:61:127: warning: ‘
-   ’ directive writing 2 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                               ^~~~~~~~
-../testing/src/../../testing/utest.h:27:62: note: in definition of macro ‘utest_print1’
-   27 | #define utest_print1(MSG,VAR1)   { sprintf(utest_printBuffer,MSG,VAR1); strcat(utest_printErrorBuffer,utest_printBuffer);}
-      |                                                              ^~~
-../testing/src/addTest.c:108:9: note: in expansion of macro ‘utest_assertEqualsPointerMsg’
-  108 |         utest_assertEqualsPointerMsg(nodoAux->pElement,pAux[i],msg);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../testing/src/addTest.c:37:
-../testing/src/../../testing/utest.h:61:130: note: format string is defined here
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                                  ^~~~
-In file included from ../testing/src/addTest.c:37:
-../testing/src/../../testing/utest.h:27:36: note: ‘sprintf’ output between 3 and 258 bytes into a destination of size 256
-   27 | #define utest_print1(MSG,VAR1)   { sprintf(utest_printBuffer,MSG,VAR1); strcat(utest_printErrorBuffer,utest_printBuffer);}
-      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../testing/src/../../testing/utest.h:61:114: note: in expansion of macro ‘utest_print1’
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                  ^~~~~~~~~~~~
-../testing/src/addTest.c:108:9: note: in expansion of macro ‘utest_assertEqualsPointerMsg’
-  108 |         utest_assertEqualsPointerMsg(nodoAux->pElement,pAux[i],msg);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../testing/src/addTest.c
- 
-Building file: ../testing/src/clearTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/clearTest.d" -MT"testing/src/clearTest.o" -o "testing/src/clearTest.o" "../testing/src/clearTest.c"
-Finished building: ../testing/src/clearTest.c
- 
-Building file: ../testing/src/cloneTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/cloneTest.d" -MT"testing/src/cloneTest.o" -o "testing/src/cloneTest.o" "../testing/src/cloneTest.c"
-Finished building: ../testing/src/cloneTest.c
- 
-Building file: ../testing/src/containsAllTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/containsAllTest.d" -MT"testing/src/containsAllTest.o" -o "testing/src/containsAllTest.o" "../testing/src/containsAllTest.c"
-Finished building: ../testing/src/containsAllTest.c
- 
-Building file: ../testing/src/containsTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/containsTest.d" -MT"testing/src/containsTest.o" -o "testing/src/containsTest.o" "../testing/src/containsTest.c"
-Finished building: ../testing/src/containsTest.c
- 
-Building file: ../testing/src/deleteLinkedListTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/deleteLinkedListTest.d" -MT"testing/src/deleteLinkedListTest.o" -o "testing/src/deleteLinkedListTest.o" "../testing/src/deleteLinkedListTest.c"
-Finished building: ../testing/src/deleteLinkedListTest.c
- 
-Building file: ../testing/src/getNodeTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/getNodeTest.d" -MT"testing/src/getNodeTest.o" -o "testing/src/getNodeTest.o" "../testing/src/getNodeTest.c"
-Finished building: ../testing/src/getNodeTest.c
- 
-Building file: ../testing/src/getTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/getTest.d" -MT"testing/src/getTest.o" -o "testing/src/getTest.o" "../testing/src/getTest.c"
-Finished building: ../testing/src/getTest.c
- 
-Building file: ../testing/src/indexOfTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/indexOfTest.d" -MT"testing/src/indexOfTest.o" -o "testing/src/indexOfTest.o" "../testing/src/indexOfTest.c"
-Finished building: ../testing/src/indexOfTest.c
- 
-Building file: ../testing/src/isEmptyTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/isEmptyTest.d" -MT"testing/src/isEmptyTest.o" -o "testing/src/isEmptyTest.o" "../testing/src/isEmptyTest.c"
-Finished building: ../testing/src/isEmptyTest.c
- 
-Building file: ../testing/src/lenTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/lenTest.d" -MT"testing/src/lenTest.o" -o "testing/src/lenTest.o" "../testing/src/lenTest.c"
-Finished building: ../testing/src/lenTest.c
- 
-Building file: ../testing/src/main_test.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/main_test.d" -MT"testing/src/main_test.o" -o "testing/src/main_test.o" "../testing/src/main_test.c"
-Finished building: ../testing/src/main_test.c
- 
-Building file: ../testing/src/newTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/newTest.d" -MT"testing/src/newTest.o" -o "testing/src/newTest.o" "../testing/src/newTest.c"
-Finished building: ../testing/src/newTest.c
- 
-Building file: ../testing/src/popTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/popTest.d" -MT"testing/src/popTest.o" -o "testing/src/popTest.o" "../testing/src/popTest.c"
-Finished building: ../testing/src/popTest.c
- 
-Building file: ../testing/src/pushTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/pushTest.d" -MT"testing/src/pushTest.o" -o "testing/src/pushTest.o" "../testing/src/pushTest.c"
-In file included from ../testing/src/pushTest.c:19:
-../testing/src/pushTest.c: In function ‘pushTestCase03’:
-../testing/src/../../testing/utest.h:61:127: warning: ‘
-   ’ directive writing 2 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                               ^~~~~~~~
-../testing/src/../../testing/utest.h:27:62: note: in definition of macro ‘utest_print1’
-   27 | #define utest_print1(MSG,VAR1)   { sprintf(utest_printBuffer,MSG,VAR1); strcat(utest_printErrorBuffer,utest_printBuffer);}
-      |                                                              ^~~
-../testing/src/pushTest.c:91:9: note: in expansion of macro ‘utest_assertEqualsPointerMsg’
-   91 |         utest_assertEqualsPointerMsg(pElement,pAux[i],msg);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../testing/src/pushTest.c:19:
-../testing/src/../../testing/utest.h:61:130: note: format string is defined here
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                                  ^~~~
-In file included from ../testing/src/pushTest.c:19:
-../testing/src/../../testing/utest.h:27:36: note: ‘sprintf’ output between 3 and 258 bytes into a destination of size 256
-   27 | #define utest_print1(MSG,VAR1)   { sprintf(utest_printBuffer,MSG,VAR1); strcat(utest_printErrorBuffer,utest_printBuffer);}
-      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../testing/src/../../testing/utest.h:61:114: note: in expansion of macro ‘utest_print1’
-   61 | #define utest_assertEqualsPointerMsg(A,B,C){ if(A!=B){ utest_print2("assert equals failed '%p' != '%p'\r\n",A,B);utest_print1("%s\r\n",C); utest_flagTestError=1; utest_lineTestError = __LINE__;  utest_fileTestError = __FILENAME__;return; } }
-      |                                                                                                                  ^~~~~~~~~~~~
-../testing/src/pushTest.c:91:9: note: in expansion of macro ‘utest_assertEqualsPointerMsg’
-   91 |         utest_assertEqualsPointerMsg(pElement,pAux[i],msg);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../testing/src/pushTest.c
- 
-Building file: ../testing/src/removeTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/removeTest.d" -MT"testing/src/removeTest.o" -o "testing/src/removeTest.o" "../testing/src/removeTest.c"
-Finished building: ../testing/src/removeTest.c
- 
-Building file: ../testing/src/setTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/setTest.d" -MT"testing/src/setTest.o" -o "testing/src/setTest.o" "../testing/src/setTest.c"
-Finished building: ../testing/src/setTest.c
- 
-Building file: ../testing/src/sortTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/sortTest.d" -MT"testing/src/sortTest.o" -o "testing/src/sortTest.o" "../testing/src/sortTest.c"
-Finished building: ../testing/src/sortTest.c
- 
-Building file: ../testing/src/subListTest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/src/subListTest.d" -MT"testing/src/subListTest.o" -o "testing/src/subListTest.o" "../testing/src/subListTest.c"
-Finished building: ../testing/src/subListTest.c
- 
-Building file: ../testing/utest.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testing/utest.d" -MT"testing/utest.o" -o "testing/utest.o" "../testing/utest.c"
-../testing/utest.c: In function ‘utest_printStatistics’:
-../testing/utest.c:56:16: warning: format not a string literal and no format arguments [-Wformat-security]
-   56 |         printf(utest_printErrorBuffer);
-      |                ^~~~~~~~~~~~~~~~~~~~~~
-../testing/utest.c:75:12: warning: format not a string literal and no format arguments [-Wformat-security]
-   75 |     printf(utest_printErrorBuffer);
-      |            ^~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../testing/utest.c
- 
-Building file: ../src/LinkedList.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LinkedList.d" -MT"src/LinkedList.o" -o "src/LinkedList.o" "../src/LinkedList.c"
-Finished building: ../src/LinkedList.c
- 
-Building file: ../src/main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-Finished building: ../src/main.c
- 
-Building target: likedList
+Building target: Clase19
 Invoking: GCC C Linker
-gcc  -o "likedList"  ./testing/src/Employee.o ./testing/src/addNodeTest.o ./testing/src/addTest.o ./testing/src/clearTest.o ./testing/src/cloneTest.o ./testing/src/containsAllTest.o ./testing/src/containsTest.o ./testing/src/deleteLinkedListTest.o ./testing/src/getNodeTest.o ./testing/src/getTest.o ./testing/src/indexOfTest.o ./testing/src/isEmptyTest.o ./testing/src/lenTest.o ./testing/src/main_test.o ./testing/src/newTest.o ./testing/src/popTest.o ./testing/src/pushTest.o ./testing/src/removeTest.o ./testing/src/setTest.o ./testing/src/sortTest.o ./testing/src/subListTest.o  ./testing/utest.o  ./src/LinkedList.o ./src/main.o   
-Finished building target: likedList
+gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
+Finished building target: Clase19
+ 
+19:27:39 **** Incremental Build of configuration Debug for project Clase19 ****
+make all 
+make: No se hace nada para 'all'.
+19:29:47 **** Incremental Build of configuration Debug for project Clase19 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+../src/Alumno.c: In function ‘alumno_agregarAlumnoArrayTxt’:
+../src/Alumno.c:406:47: warning: passing argument 1 of ‘alumno_newParametrosChar’ makes pointer from integer without a cast [-Wint-conversion]
+  406 |    pAuxiliarAlumno = alumno_newParametrosChar(*nombre, *altura, *id);
+      |                                               ^~~~~~~
+      |                                               |
+      |                                               char
+../src/Alumno.c:45:40: note: expected ‘char *’ but argument is of type ‘char’
+   45 | Alumno* alumno_newParametrosChar(char* nombre,char* altura,char* id)
+      |                                  ~~~~~~^~~~~~
+../src/Alumno.c:406:56: warning: passing argument 2 of ‘alumno_newParametrosChar’ makes pointer from integer without a cast [-Wint-conversion]
+  406 |    pAuxiliarAlumno = alumno_newParametrosChar(*nombre, *altura, *id);
+      |                                                        ^~~~~~~
+      |                                                        |
+      |                                                        char
+../src/Alumno.c:45:53: note: expected ‘char *’ but argument is of type ‘char’
+   45 | Alumno* alumno_newParametrosChar(char* nombre,char* altura,char* id)
+      |                                               ~~~~~~^~~~~~
+../src/Alumno.c:406:65: warning: passing argument 3 of ‘alumno_newParametrosChar’ makes pointer from integer without a cast [-Wint-conversion]
+  406 |    pAuxiliarAlumno = alumno_newParametrosChar(*nombre, *altura, *id);
+      |                                                                 ^~~
+      |                                                                 |
+      |                                                                 char
+../src/Alumno.c:45:66: note: expected ‘char *’ but argument is of type ‘char’
+   45 | Alumno* alumno_newParametrosChar(char* nombre,char* altura,char* id)
+      |                                                            ~~~~~~^~
+Finished building: ../src/Alumno.c
+ 
+Building target: Clase19
+Invoking: GCC C Linker
+gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
+Finished building target: Clase19
+ 
+19:30:01 **** Incremental Build of configuration Debug for project Clase19 ****
+make all 
+Building file: ../src/Alumno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
+Finished building: ../src/Alumno.c
+ 
+Building target: Clase19
+Invoking: GCC C Linker
+gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
+Finished building target: Clase19
  
