@@ -159,7 +159,7 @@ int alumno_setAlturaTxt(Alumno* this,char* altura)
 
 	if(this != NULL && altura >= 0)
 	{
-		if(esFlotante(altura) == 1)
+		if(esFlotante(altura))
 		{
 			auxAltura = atof(altura);//lo tranfomarmos en un flotante
 
@@ -376,15 +376,11 @@ int alumno_agregarAlumnoArray(Alumno* arrayPunteros[],int limite, char* nombre, 
 	if(arrayPunteros != NULL && limite > 0 && nombre != NULL && id >= 0)
 	{
 		indiceLibre = alumno_buscarLibreArray(arrayPunteros,limite);
-		if(indiceLibre >= 0)
+		pAuxiliarAlumno = alumno_newParametros(nombre,altura,id);
+		if(pAuxiliarAlumno != NULL)
 		{
-			pAuxiliarAlumno = alumno_newParametros(nombre,altura,id);
-			if(pAuxiliarAlumno != NULL)
-			{
-				arrayPunteros[indiceLibre] = pAuxiliarAlumno;
-				retorno = indiceLibre;
-
-			}
+			arrayPunteros[indiceLibre] = pAuxiliarAlumno;
+			retorno = indiceLibre;
 
 		}
 	}
@@ -404,13 +400,15 @@ int alumno_agregarAlumnoArrayTxt(Alumno* arrayPunteros[],int limite, char* nombr
 		{
 
 			pAuxiliarAlumno = alumno_newParametrosChar(nombre, altura, id);
-			if(pAuxiliarAlumno != NULL)//tema a solucionar (no entra dentro de la condicional , parece que da que pAuxiliarAlumno es igual a NULL , rebisar el motivo)
-			{
-				printf("\n bien");
-				arrayPunteros[indiceLibre] = pAuxiliarAlumno;
-				retorno = indiceLibre;
-
-			}
+			arrayPunteros[indiceLibre] = pAuxiliarAlumno;
+			retorno = indiceLibre;
+//			if(pAuxiliarAlumno != NULL)//tema a solucionar (no entra dentro de la condicional , parece que da que pAuxiliarAlumno es igual a NULL , rebisar el motivo)
+//			{
+//				printf("\n bien");
+//				arrayPunteros[indiceLibre] = pAuxiliarAlumno;
+//				retorno = indiceLibre;
+//
+//			}
 		}
 	}
 	return retorno;
@@ -590,11 +588,11 @@ int alumno_leerArrayEnArchivo(Alumno* arrayPunteros[],int limite , char* pathArc
 
 					if(alumno_agregarAlumnoArrayTxt(arrayPunteros,limite,auxNombre,auxAltura,auxId) >= 0)
 					{
-						printf("\nAlta OK");
 
-						if(atoi(auxId ) > *proximoId)//si lo que acabo de encontrar es mas grande , en proximoId tengo qeu cargar auxId
+						printf("\nAlta OK");
+						if(atoi(auxId ) >= *proximoId)//si lo que acabo de encontrar es mas grande , en proximoId tengo qeu cargar auxId
 						{
-							*proximoId = atoi(auxId );
+							*proximoId = atoi(auxId )+1;
 						}
 
 					}

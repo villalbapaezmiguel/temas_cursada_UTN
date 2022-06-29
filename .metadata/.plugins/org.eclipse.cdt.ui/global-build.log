@@ -1,4 +1,4 @@
-19:11:21 **** Build of configuration Debug for project Clase19 ****
+20:52:13 **** Build of configuration Debug for project Clase19 ****
 make all 
 Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
@@ -20,16 +20,10 @@ Invoking: GCC C Linker
 gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19
  
-19:11:25 **** Incremental Build of configuration Debug for project Clase19 ****
+20:52:18 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 make: No se hace nada para 'all'.
-19:16:36 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:16:39 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:17:48 **** Incremental Build of configuration Debug for project Clase19 ****
+20:54:56 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 Building file: ../src/Alumno.c
 Invoking: GCC C Compiler
@@ -41,145 +35,6 @@ Invoking: GCC C Linker
 gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
 Finished building target: Clase19
  
-19:17:49 **** Incremental Build of configuration Debug for project Clase19 ****
+20:54:57 **** Incremental Build of configuration Debug for project Clase19 ****
 make all 
 make: No se hace nada para 'all'.
-19:18:33 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:18:34 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:19:09 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:19:12 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:19:29 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:19:30 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:19:47 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:19:49 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:27:17 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:27:19 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:27:37 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:27:39 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-make: No se hace nada para 'all'.
-19:29:47 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-../src/Alumno.c: In function ‘alumno_agregarAlumnoArrayTxt’:
-../src/Alumno.c:406:47: warning: passing argument 1 of ‘alumno_newParametrosChar’ makes pointer from integer without a cast [-Wint-conversion]
-  406 |    pAuxiliarAlumno = alumno_newParametrosChar(*nombre, *altura, *id);
-      |                                               ^~~~~~~
-      |                                               |
-      |                                               char
-../src/Alumno.c:45:40: note: expected ‘char *’ but argument is of type ‘char’
-   45 | Alumno* alumno_newParametrosChar(char* nombre,char* altura,char* id)
-      |                                  ~~~~~~^~~~~~
-../src/Alumno.c:406:56: warning: passing argument 2 of ‘alumno_newParametrosChar’ makes pointer from integer without a cast [-Wint-conversion]
-  406 |    pAuxiliarAlumno = alumno_newParametrosChar(*nombre, *altura, *id);
-      |                                                        ^~~~~~~
-      |                                                        |
-      |                                                        char
-../src/Alumno.c:45:53: note: expected ‘char *’ but argument is of type ‘char’
-   45 | Alumno* alumno_newParametrosChar(char* nombre,char* altura,char* id)
-      |                                               ~~~~~~^~~~~~
-../src/Alumno.c:406:65: warning: passing argument 3 of ‘alumno_newParametrosChar’ makes pointer from integer without a cast [-Wint-conversion]
-  406 |    pAuxiliarAlumno = alumno_newParametrosChar(*nombre, *altura, *id);
-      |                                                                 ^~~
-      |                                                                 |
-      |                                                                 char
-../src/Alumno.c:45:66: note: expected ‘char *’ but argument is of type ‘char’
-   45 | Alumno* alumno_newParametrosChar(char* nombre,char* altura,char* id)
-      |                                                            ~~~~~~^~
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 
-19:30:01 **** Incremental Build of configuration Debug for project Clase19 ****
-make all 
-Building file: ../src/Alumno.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alumno.d" -MT"src/Alumno.o" -o "src/Alumno.o" "../src/Alumno.c"
-Finished building: ../src/Alumno.c
- 
-Building target: Clase19
-Invoking: GCC C Linker
-gcc  -o "Clase19"  ./src/Alumno.o ./src/Clase19.o ./src/utn.o   
-Finished building target: Clase19
- 

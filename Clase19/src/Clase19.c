@@ -38,7 +38,7 @@ int main(void)
 //		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"BBBBBB",1,0);
 //		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"AAAAAA",2,1);
 //		alumno_agregarAlumnoArray(arrayPunterosAlumno,QTY_ALUMNOS,"CCCCCC",3,2);
-		proximoId = 3;
+	//	proximoId = 3;
 		// SOLO PARA TEST
 		do
 		{
